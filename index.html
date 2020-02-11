@@ -3,11 +3,10 @@ layout: default
 body_class: front-page
 ---
 
-<h2>About <abbr>MHA</abbr></h2>
+<h2>About</h2>
 
 <p>
   <strong>Militant History Archive</strong>
-  (<strong><abbr>MHA</abbr></strong>)
   reproduces historical documents (newspapers, pamphlets, books, and articles)
   from the Committee for a Workers’ International (<abbr>CWI</abbr>),
   from its foundation in 1974 to the formation of the
@@ -38,16 +37,18 @@ body_class: front-page
 <h2><cite>Labor Militant</cite></h2>
 
 <p>
-  <a href="{% link lm.md %}"><strong><cite>Labor Militant</cite></strong></a> (US)
+  <a href="{% link lm.md %}"><strong><cite>Labor Militant</cite></strong></a>
   was a semi-monthly newspaper which ran from 1986 to 1997.
   It shared a name with its publisher, Labor Militant,
   the organization that became
   <a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a> (US) in 1999.
 </p>
 
+<h3>Available issues</h3>
+
 {% include lm-listing.html %}
 
-<h2><abbr>MHA</abbr> news</h2>
+<h2>Blog</h2>
 
 <ul>
 {% for post in site.posts %}

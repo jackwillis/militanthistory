@@ -11,16 +11,26 @@ permalink: /lm/
 **<cite>Labor Militant</cite>**
 (<abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/labor-militant/oclc/15266902">0892-4902</a>)
 was a semi-monthly newspaper which ran from 1986 to 1997.
-It shared a name with its publisher, Labor Militant,
-the US section of the Committee for a Workers’ International (<abbr>CWI</abbr>).
+Its regular features included editorials, US, international, and labor news, interviews, historical perspectives, activist reports, book reviews, letters to the editor, congratulations, and condolences.
 
-Its regular features were editorials, US news, international news, labor news, interviews, historical perspectives, activist reports, book reviews, letters to the editor, congratulations, and condolences.
+<cite>Labor Militant</cite> was published by a US socialist group also called **Labor Militant** (**LM**).
+LM was founded in 1986 as a new section of the
+**Committee for a Workers’ International** (**<abbr>CWI</abbr>**),
+which was founded in 1974.
+The <abbr>CWI</abbr> is based in England;
+during the 1980s its British supporters were members of the Labour Party
+known as the **Militant tendency** due to the newspaper that they published, called **<cite>Militant</cite>**
+(<abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/militant/oclc/19365820">0144-9257</a>).
 
-In 1997, <cite>Labor Militant</cite> was renamed <cite>Justice</cite>.
-In 1999, Labor Militant changed its name to
-<a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a>,
-and in 2013, <cite>Justice</cite> was renamed <cite>Socialist Alternative</cite>.
-
+In 1997, LM renamed its newspaper **<cite>Justice</cite>**
+(<abbr>OCLC</abbr> <a rel="external" href="https://www.worldcat.org/title/justice/oclc/811779790">811779790</a>).
+In 1999, LM changed its name to
+**<a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a>** (**SA**).
+SA published <cite>Justice</cite> until 2013, when it renamed the newspaper **<cite>Socialist Alternative</cite>**
+(<abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/socialist-alternative/oclc/905231108">2638-3349</a>).
+In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new international association called the
+**<a rel="external" href="https://internationalsocialist.net/">International Socialist Alternative</a>**
+(**<abbr>ISA</abbr>**).
 
 ### Available issues
 
