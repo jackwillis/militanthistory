@@ -15,11 +15,11 @@ Its regular features included editorials, US, international, and labor news, int
 
 <cite>Labor Militant</cite> was published by a US socialist group also called **Labor Militant** (**LM**).
 LM was founded in 1986 as a new section of the
-**Committee for a Workers’ International** (**<abbr>CWI</abbr>**),
+Committee for a Workers’ International (<abbr>CWI</abbr>),
 which was founded in 1974.
 The <abbr>CWI</abbr> is based in England;
 during the 1980s its British supporters were members of the Labour Party
-known as the **Militant tendency** due to the newspaper that they published, called **<cite>Militant</cite>**
+known as the Militant tendency due to the newspaper that they published, called <cite>Militant</cite>
 (<abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/militant/oclc/19365820">0144-9257</a>).
 
 In 1997, LM renamed its newspaper **<cite>Justice</cite>**
@@ -29,8 +29,8 @@ In 1999, LM changed its name to
 SA published <cite>Justice</cite> until 2013, when it renamed the newspaper **<cite>Socialist Alternative</cite>**
 (<abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/socialist-alternative/oclc/905231108">2638-3349</a>).
 In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new international association called the
-**<a rel="external" href="https://internationalsocialist.net/">International Socialist Alternative</a>**
-(**<abbr>ISA</abbr>**).
+<a rel="external" href="https://internationalsocialist.net/">International Socialist Alternative</a>
+(<abbr>ISA</abbr>).
 
 ### Available issues
 
