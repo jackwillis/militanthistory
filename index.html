@@ -1,0 +1,56 @@
+---
+layout: default
+body_class: front-page
+---
+
+<h2>About <abbr>MHA</abbr></h2>
+
+<p>
+  <strong>Militant History Archive</strong>
+  (<strong><abbr>MHA</abbr></strong>)
+  reproduces historical documents (newspapers, pamphlets, books, and articles)
+  from the Committee for a Workers’ International (<abbr>CWI</abbr>),
+  from its foundation in 1974 to the formation of the
+  <a rel="external" href="https://internationalsocialist.net">International Socialist Alternative</a>
+  (<abbr>ISA</abbr>) in 2020.
+  Our goal is to digitize and re-publish literature which is unavailable online,
+  as well as to provide a convenient index for
+  <abbr>CWI</abbr> material.
+</p>
+
+<h2>Books and pamphlets</h2>
+
+<ul>
+  <li>
+    <a rel="external" href="https://archive.org/details/SpanishRevolutionGrantTaaffe/"><em>The Spanish Revolution 1931–37</em></a>
+    by <span class="author">Ted&nbsp;Grant</span>, <span class="author">Peter&nbsp;Taaffe</span> (May&nbsp;1985)
+  </li>
+
+{% for book in site.books %}
+  <li>
+    <a href="{{ book.url }}"><cite>{{ book.html_title | default: book.title }}</cite></a>
+    by <span class="author">{{ book.author | replace: " ", "&nbsp;" }}</span>
+    ({{ book.date | date_to_long_string | replace: " ", "&nbsp;" }})
+  </li>
+{% endfor %}
+</ul>
+
+<h2><cite>Labor Militant</cite></h2>
+
+<p>
+  <a href="{% link lm.md %}"><strong><cite>Labor Militant</cite></strong></a> (US)
+  was a semi-monthly newspaper which ran from 1986 to 1997.
+  It shared a name with its publisher, Labor Militant,
+  the organization that became
+  <a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a> (US) in 1999.
+</p>
+
+{% include lm-listing.html %}
+
+<h2><abbr>MHA</abbr> news</h2>
+
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_long_string | replace: " ", "&nbsp;" }})</li>
+{% endfor %}
+</ul>

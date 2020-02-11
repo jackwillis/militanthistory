@@ -1,0 +1,47 @@
+---
+layout: default
+title: "‘Labor Militant’, no. !!page.slug!!"
+---
+
+<article>
+  <header>
+    <h2>
+      <a href="{{ page.url }}">
+        <cite>Labor Militant</cite>, no.&nbsp;{{ page.lm_issue }}
+        {% if page.subtitle %}[{{ page.subtitle }}]{% endif %}
+      </a>
+    </h2>
+
+    {% assign proper_date = page.date | date_to_long_string %}
+    <p class="byline">
+      Published <span class="date">{{ page.reported_date | default: proper_date }}</span>.
+    </p>
+  </header>
+
+  {% include lm-article-nav.html %}
+
+  {% if page.cover %}
+    <figure>
+      <img alt="Cover" src="{{ page.cover | uri_escape }}"
+      {% if page.cover_width %} width="{{ page.cover_width }}" {% endif %}
+      {% if page.cover_height %} height="{{ page.cover_height }}" {% endif %}>
+    </figure>
+  {% endif %}
+
+  {% if page.pdf or page.djvu %}
+  <nav class="breadcrumb">
+    <ul>
+    {% if page.djvu %}
+      <li>↴ <a href="{{ page.djvu | uri_escape }}">Download DjVu</a></li>
+    {% endif %}
+    {% if page.pdf %}
+      <li>↴ <a href="{{ page.pdf | uri_escape }}">Download <abbr>PDF</abbr></a></li>
+    {% endif %}
+    </ul>
+  </nav>
+  {% endif %}
+
+  {{ content }}
+
+  {% include lm-article-nav.html %}
+</article>

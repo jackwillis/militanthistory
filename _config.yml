@@ -1,0 +1,24 @@
+title: Militant History Archive
+email: ""
+description: >-
+  Reproducing the history of the Committee for a Workers’ International.
+baseurl: ""
+url: ""
+exclude: []
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
+  books:
+    output: true
+    permalink: /books/:slug/
+  chapters:
+    output: true
+    permalink: /books/:path/
+  lm_issues:
+    output: true
+    permalink: /lm/:slug/
+  lm_articles:
+    output: true
+    permalink: /lm/:path/

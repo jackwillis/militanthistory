@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% assign issue = site.lm_issues | where_exp: "i", "i.lm_issue == page.lm_issue" | first %}
+{% assign proper_date = issue.date | date_to_long_string %}
+
+<article>
+  <header>
+    <h2><a href="{{ page.url }}">{{ page.html_title | default: page.title }}</a></h2>
+    <p class="byline">
+      By <span class="author">{{ page.author }}</span>.
+
+      In <a href="/lm/"><cite>Labor Militant</cite></a>,
+      <a href="{{ issue.url }}">no.&nbsp;{{ issue.lm_issue }}</a>
+      (<span class="date">{{ issue.reported_date | default: proper_date
+      }}</span>){% if page.location %}, {{ page.location }}{% endif %}.
+    </p>
+  </header>
+
+  {{ content }}
+
+  <nav class="breadcrumb breadcrumb-inline">
+    <ul>
+      <li>« <a href="/lm/"><cite>Labor Militant</cite></a></li>
+      <li>« <a href="{{ issue.url }}">Issue&nbsp;{{ issue.lm_issue }}</a></li>
+    </ul>
+  </nav>
+</article>

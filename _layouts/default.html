@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    {% assign page_title = layout.title | default: page.title| replace: '!!page.slug!!', page.slug %}
+    <title>{{ page_title }}{% if layout.bare_title != true and page.bare_title != true %}{% if page_title != empty %} | {% endif %}{{ site.title }}{% endif %}</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="/scripts/webfont.js"></script>
+    <script>
+      // <html> gains .wf-active class once small caps font loads
+      WebFont.load({ custom: { families: ['Alegreya Sans SC'] } });
+    </script>
+  </head>
+
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>{{ site.title }}. {{ site.description }}</p>
+    </footer>
+  </body>
+</html>
