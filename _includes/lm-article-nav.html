@@ -1,7 +1,21 @@
 <nav class="breadcrumb">
   <ul>
-    <li>← <a href="#">Issue 0</a> (Novcember 1984)</li>
+  {% if previous_issue %}
+    <li>
+      ← <a href="{{ previous_issue.url }}">Issue {{ previous_issue.lm_issue }}
+      {% assign proper_date = previous_issue.date | date_to_long_string %}
+      ({{ previous_issue.reported_date | default: proper_date }})</a>
+    </li>
+  {% endif %}
+
     <li>↥ <a href="/lm/">Index</a></li>
-    <li><a href="#">Issue 1.1</a> (Septober 1987) →</li>
+
+  {% if next_issue %}
+    <li>
+      <a href="{{ next_issue.url }}">Issue {{ next_issue.lm_issue }}
+      {% assign proper_date = next_issue.date | date_to_long_string %}
+      ({{ next_issue.reported_date | default: proper_date }})</a> →
+    </li>
+  {% endif %}
   </ul>
 </nav>
