@@ -38,10 +38,10 @@ title: "‘Labor Militant’, no. !!page.slug!!"
   <nav class="breadcrumb">
     <ul>
     {% if page.djvu %}
-      <li>↴ <a href="{{ page.djvu | uri_escape }}">Download DjVu</a></li>
+      <li>↴ <a rel="alternate" href="{{ page.djvu | uri_escape }}">Download DjVu</a></li>
     {% endif %}
     {% if page.pdf %}
-      <li>↴ <a href="{{ page.pdf | uri_escape }}">Download <abbr>PDF</abbr></a></li>
+      <li>↴ <a rel="alternate" href="{{ page.pdf | uri_escape }}">Download <abbr>PDF</abbr></a></li>
     {% endif %}
     </ul>
   </nav>
