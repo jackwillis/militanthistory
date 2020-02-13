@@ -1,20 +1,20 @@
 <nav class="breadcrumb">
   <ul>
-  {% if previous_issue %}
+  {% if include.previous_issue %}
     <li>
-      ← <a rel="prev" href="{{ previous_issue.url }}">Issue {{ previous_issue.lm_issue }}
-      {% assign proper_date = previous_issue.date | date_to_long_string %}
-      ({{ previous_issue.reported_date | default: proper_date }})</a>
+      ← <a rel="prev" href="{{ include.previous_issue.url }}">Issue {{ include.previous_issue.lm_issue }}
+      {% assign proper_date = include.previous_issue.date | date_to_long_string %}
+      ({{ include.previous_issue.reported_date | default: proper_date }})</a>
     </li>
   {% endif %}
 
     <li>↥ <a href="/lm/">Index</a></li>
 
-  {% if next_issue %}
+  {% if include.next_issue %}
     <li>
-      <a rel="next" href="{{ next_issue.url }}">Issue {{ next_issue.lm_issue }}
-      {% assign proper_date = next_issue.date | date_to_long_string %}
-      ({{ next_issue.reported_date | default: proper_date }})</a> →
+      <a rel="next" href="{{ include.next_issue.url }}">Issue {{ include.next_issue.lm_issue }}
+      {% assign proper_date = include.next_issue.date | date_to_long_string %}
+      ({{ include.next_issue.reported_date | default: proper_date }})</a> →
     </li>
   {% endif %}
   </ul>

@@ -18,7 +18,7 @@ footer {
   font-style: italic;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
@@ -42,7 +42,11 @@ body.front-page h1 {
 }
 
 h2 {
-  margin: 1.5em 0 0.75em;
+  margin: 1.5em 0 0.75em 0;
+}
+
+h4 {
+  margin: 0.5em 0 0.25em 0;
 }
 
 main p {
@@ -68,14 +72,19 @@ body.front-page h1 a {
   background: #ffb6c1;
 }
 
+h3:target {
+  animation: highlight 5s ease;  
+}
+
+@keyframes highlight {
+  0% { background: #ffb6c1; }
+  100% { background: rgba(0, 0, 0, 0); }
+}
+
 h2,
 h3 {
   color: #003454;
 }
-
-/*h3::before {
-  content: "-> ";
-}*/
 
 a:link {
   color: #295e89;
@@ -138,6 +147,10 @@ a[rel=external]::after {
   font-size: 50%;
 }
 
+a[rel=external]::after, a.footnote, a.reversefootnote {
+  line-height: 0;
+}
+
 .breadcrumb ul {
   list-style: none;
   padding: 0;
@@ -181,4 +194,8 @@ figure img {
 
 ul, ol {
   padding-left: 1em;
+}
+
+summary h2, summary h3, summary h4 {
+  display: inline-block;
 }
