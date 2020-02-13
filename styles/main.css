@@ -1,7 +1,13 @@
 body {
-  font: 20px/32px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  font: 18px/28px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
   margin: 2em 0.5em;
-  max-width: 36em;
+  max-width: 32em;
+}
+
+figcaption, small {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
 }
 
 html {
@@ -127,12 +133,12 @@ html.wf-inactive .date {
   font-variant-caps: all-small-caps;
 }
 
-html.wf-active abbr,
-html.wf-active .drop-cap {
+html.wf-active abbr {
   text-transform: lowercase;
 }
 
 .drop-cap__initial {
+  display:block;
   float: left;
   text-transform: initial;
   margin: 0.25em 0.125em;
@@ -173,12 +179,6 @@ a[rel=external]::after, a.footnote, a.reversefootnote {
 
 .breadcrumb-inline ul {
   justify-content: flex-start;
-}
-
-figcaption, small {
-  font-size: 15px;
-  line-height: 21px;
-  font-weight: 500;
 }
 
 figure, figure img, figcaption {

@@ -9,3 +9,4 @@ categories:
   - CWI
 book: science-marxism
 ---
+A contribution to a discussion on modern science and the Big Bang theory.

@@ -12,6 +12,8 @@ bare_title: true
     </p>
   </header>
 
+  {{ content | smartify }}
+
   <nav>
     <h3>Table of contents</h3>
     <ul>
@@ -21,6 +23,4 @@ bare_title: true
       {% endfor %}
     </ul>
   </nav>
-
-  {{ content }}
 </article>
