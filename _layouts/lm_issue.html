@@ -35,16 +35,17 @@ title: "‘Labor Militant’, no. !!page.slug!!"
   {% endif %}
 
   {% if page.pdf or page.djvu %}
-  <nav class="breadcrumb">
+  <details>
+    <summary><h3>Download full issue</h3></summary>
     <ul>
-    {% if page.djvu %}
-      <li>↴ <a rel="alternate" href="{{ page.djvu | uri_escape }}">Download DjVu</a></li>
-    {% endif %}
     {% if page.pdf %}
-      <li>↴ <a rel="alternate" href="{{ page.pdf | uri_escape }}">Download <abbr>PDF</abbr></a></li>
+      <li><a rel="alternate" type="application/pdf" href="{{ page.pdf | uri_escape }}"><abbr>PDF</abbr> scan</a></li>
+    {% endif %}
+    {% if page.djvu %}
+      <li><a rel="alternate" type="image/vnd.djvu" href="{{ page.djvu | uri_escape }}">DjVu scan</a></li>
     {% endif %}
     </ul>
-  </nav>
+  </details>
   {% endif %}
 
   {{ content }}

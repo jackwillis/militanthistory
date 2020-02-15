@@ -1,5 +1,5 @@
 body {
-  font: 18px/28px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  font: 18px/27px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
   margin: 2em 0.5em;
   max-width: 32em;
 }
@@ -24,8 +24,9 @@ footer {
   font-style: italic;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .byline {
   line-height: 1.2;
+}
 }
 
 h1, h3, .author-info {
@@ -102,9 +103,13 @@ small {
 }
 
 .byline {
-  /*border-left: 4px solid #ffb6c1;
-  padding: 0 0.5em;*/
-  margin: -1em 0 1em 0;
+  color: #555555;
+  margin: -0.5em 0 1em 0;
+}
+
+.lead {
+  font-size: 110%;
+  line-height: 1.5;
 }
 
 a:visited {
@@ -182,7 +187,7 @@ a[rel=external]::after, a.footnote, a.reversefootnote {
 }
 
 figure, figure img, figcaption {
-  margin: 1em 0.5em;
+  margin: 1em 0;
 }
 
 figure img {
@@ -198,4 +203,5 @@ ul, ol {
 
 summary h2, summary h3, summary h4 {
   display: inline-block;
+  margin-bottom: 0;
 }

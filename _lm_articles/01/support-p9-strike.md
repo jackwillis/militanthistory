@@ -8,13 +8,12 @@ location: "p. 12"
 
 <figure>
   <img alt="Hormel workers face the National Guard" src="hormel-workers-face-the-national-guard.jpg" width="959" height="800">
-  <figcaption>
-    Meatpackers at the George Hormel Company plant in Austin, Minnesota have been on strike since August 17, 1985. Their struggle against the most profitable U.S. pork processor, and against the policies of their union’s national leadership, continues in spite of a number of serious setbacks.
-  </figcaption>
 </figure>
 
+{:.lead}
+Meatpackers at the George Hormel Company plant in Austin, Minnesota have been on strike since August 17, 1985. Their struggle against the most profitable U.S. pork processor, and against the policies of their union’s national leadership, continues in spite of a number of serious setbacks.
 
-<span class="drop-cap"><span class="drop-cap__initial">H</span>ormel has won</span>
+{% include drop-cap.html text="Hormel has won" %}
 concessions from its Austin workers since 1978 by playing on workers’ fears of plant closures and increasing international competition in a declining market. In spite of Hormel’s rising profits, local unions at Hormel plants signed new concessionary agreements in 1984. But Local P-9 in Austin, with a newly-elected, militant leadership, refused. In retaliation, the company cut wages and benefits of the Austin workers by 23% – a level well below the other Hormel plants.
 
 The union tried to win back the workers’ full pay through arbitration and negotiation, but the government ruled against the union. The company refused to restore full wages and insisted on maintaining unsafe working conditions, weakening grievance procedures, and reducing seniority rights. Leaders of the <abbr>UFCW</abbr> urged the local to accept the company’s demands anyway, telling workers they were fighting a lost cause. But the 1,500 workers voted overwhelmingly to strike Hormel and to launch an appeal to the rank and file of the labor movement to help them put an end to concessions.
