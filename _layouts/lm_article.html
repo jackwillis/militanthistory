@@ -9,7 +9,7 @@ layout: default
   <header>
     <h2><a href="{{ page.url }}">{{ page.html_title | default: page.title }}</a></h2>
     <p class="byline">
-      By <span class="author">{{ page.author }}</span>.
+      {% if page.author %}By <span class="author">{{ page.author }}</span>.{% endif %}
 
       In <a href="/lm/"><cite>Labor Militant</cite></a>,
       <a href="{{ issue.url }}">no.&nbsp;{{ issue.lm_issue }}</a>
