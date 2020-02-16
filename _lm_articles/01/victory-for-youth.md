@@ -64,7 +64,7 @@ school students against organized attacks by big business on
 young workers.
 
 <figure>
-  <img alt="YDC meeting 2 of 3" src="ydc-in-action-2.jpg" width="" height="">
+  <img alt="YDC meeting 2 of 3" src="ydc-in-action-2.jpg" width="682" height="489">
 </figure>
 
 ### International
@@ -152,7 +152,7 @@ Many more union locals approached
 us offering endorsements and donations.
 
 <figure>
-  <img alt="YDC meeting 3 of 3" src="ydc-in-action-3.jpg" width="" height="">
+  <img alt="YDC meeting 3 of 3" src="ydc-in-action-3.jpg" width="680" height="424">
 </figure>
 
 ### Victorious
