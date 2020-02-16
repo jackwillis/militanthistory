@@ -181,7 +181,11 @@ html.wf-active abbr {
   justify-content: flex-start;
 }
 
-figure, figure img, figcaption {
+figure {
+  margin: 2em 0;
+}
+
+header + figure, figure img, figcaption {
   margin: 1em 0;
 }
 

@@ -207,5 +207,4 @@ can then play their most vital
 role in the working class movement. We can provide the
 energy, the enthusiasm and the
 spirit to go on the attack to defend our rights and fight for a
-Portland), if we continue to fight for a socialist U.S.A. and socialist
-world.&nbsp;❧
+socialist U.S.A. and socialist world.&nbsp;❧
