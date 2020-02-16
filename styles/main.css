@@ -4,10 +4,19 @@ body {
   max-width: 32em;
 }
 
-figcaption, small {
+figcaption, small, blockquote {
   font-size: 15px;
   line-height: 21px;
   font-weight: 500;
+}
+
+blockquote {
+  font-size: 90%;
+}
+
+blockquote.lead {
+  font-size: 100%;
+  font-weight: normal;
 }
 
 html {

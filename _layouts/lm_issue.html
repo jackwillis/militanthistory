@@ -44,6 +44,9 @@ title: "‘Labor Militant’, no. !!page.slug!!"
     {% if page.djvu %}
       <li><a rel="alternate" type="image/vnd.djvu" href="{{ page.djvu | uri_escape }}">DjVu scan</a></li>
     {% endif %}
+    {% if page.txt %}
+      <li><a rel="alternate" type="text/plain" href="{{ page.txt | uri_escape }}">Plain text from <abbr>OCR</abbr></a></li>
+    {% endif %}
     </ul>
   </details>
   {% endif %}
