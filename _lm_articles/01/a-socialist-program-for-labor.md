@@ -6,6 +6,11 @@ lm_issue: 1
 location: "pp. 2–3" 
 ---
 
+<figure>
+  <img alt="Strikers" src="iue-ge-strike.jpg" width="827" height="552">
+  <figcaption><p>8,500 <abbr>IUE</abbr> members struck GE for three weeks and defeated attempts to bust the union.</p></figcaption>
+</figure>
+
 {:.lead}
 The demands by employers for concessions are facing increasing opposition.
 In the first five months of 1985, there were 18 strikes by more than 1,000 workers.
