@@ -114,7 +114,7 @@ and establishing workers'
 democracies. Reagan in his major
 foreign policy speech on
 March 14 quoted Gorbachev as
-saying "...the Soviet Union required
+saying "the Soviet Union required
 international calm to deal
 with its internal problems."
 
@@ -133,8 +133,8 @@ imperialism.
 
 ### Terror groups
 
-As well as using the "threat of
-Soviet expansionism" the
+As well as using the threat of
+"Soviet expansionism," the
 Reagan administration has
 taken every opportunity to exploit
 to the full the lunatic actions of the individual terror
@@ -150,7 +150,7 @@ The strategy of U.S. big
 business to more aggressively defend its interests abroad was
 moved up into higher gear in the
 last days of March. The U.S. Navy assembled its largest force
-since World War II and sailed into the Gulf of Sidra which is
+since World War <abbr>II</abbr> and sailed into the Gulf of Sidra which is
 claimed as Libyan waters by Libyan
 leader Gaddafi. Given the
 past activities of Gaddafi, and
@@ -289,14 +289,14 @@ stated, "I cannot promise you an
 American won't be shot." And
 the <cite>Wall Street Journal</cite> stated,
 "One of the dangers here is that
-in such an incursion (the Sandinistas pursuing the contras)
+in such an incursion [the Sandinistas pursuing the Contras]
 some American troops might get killed and this could be the event
 that triggers a direct U.S. military involvement."
 
 If U.S. troops do become involved
 in a war in Central America,
 they will become bogged down in
-a drawn out conflict in the area
+a drawn-out conflict in the area
 as a whole. They will be used to
 fight and kill workers and
 peasants in the area and to defend
@@ -304,7 +304,7 @@ the capitalists and landlords.
 
 ### U.S. labor
 
-U.S labor must mobilize its
+U.S. labor must mobilize its
 forces against all acts of U.S. big
 business's aggression and to stop
 a war developing in Central
@@ -314,10 +314,10 @@ peasants of Latin America along
 with the working class and youth
 of the United States itself.
 
-**Instead, U.S. labor must
+**Instead, U.S. labor must link
 the struggles of the working
-class, youth, and especially
-oppressed minorities in the
+class, youth, and especially-oppressed
+minorities in the
 U.S. with the workers and
 peasants of Central America
 and Latin America as a
