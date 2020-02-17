@@ -164,6 +164,12 @@ html.wf-active .author-info abbr {
   font-size: 300%;
 }
 
+.breadcrumb li, summary {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
 .breadcrumb ul {
   list-style: none;
   padding: 0;
@@ -172,9 +178,6 @@ html.wf-active .author-info abbr {
 }
 
 .breadcrumb li {
-  border: 1px solid black;
-  border-radius: 8px;
-  padding: 0.5em;
   margin: 0 0.125em;
 
   flex-grow: 1;
@@ -187,6 +190,16 @@ html.wf-active .author-info abbr {
 
 .breadcrumb-inline ul {
   justify-content: flex-start;
+}
+
+summary {
+  margin: 0;
+  font-weight: bold;
+}
+
+summary h2, summary h3, summary h4 {
+  display: inline-block;
+  margin: 0.25em 0;
 }
 
 figure {
@@ -220,11 +233,6 @@ figcaption {
 
 ul, ol {
   padding-left: 1em;
-}
-
-summary h2, summary h3, summary h4 {
-  display: inline-block;
-  margin-bottom: 0;
 }
 
 a[rel=external]::after, a.footnote {

@@ -13,8 +13,8 @@ title: "‘Labor Militant’, no. !!page.slug!!"
   <header>
     <h2>
       <a href="{{ page.url }}">
-        <cite>Labor Militant</cite>, no.&nbsp;{{ page.lm_issue }}
-        {% if page.subtitle %}[{{ page.subtitle }}]{% endif %}
+        <cite>Labor Militant</cite>, no.&nbsp;{{ page.lm_issue }}<br>
+        {% if page.subtitle %}“{{ page.subtitle }}”{% endif %}
       </a>
     </h2>
 
@@ -34,7 +34,7 @@ title: "‘Labor Militant’, no. !!page.slug!!"
     </figure>
   {% endif %}
 
-  {% if page.pdf or page.djvu %}
+  {% if page.pdf or page.djvu or page.txt %}
   <details>
     <summary><h3>Download full issue</h3></summary>
     <ul>

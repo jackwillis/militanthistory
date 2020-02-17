@@ -11,7 +11,7 @@ layout: default
     <p class="byline">
       {% if page.author %}By <span class="author">{{ page.author | replace: ' ', '&nbsp;' }}</span>.{% endif %}
 
-      In <a href="/lm/#issues"><cite>Labor Militant</cite></a>,
+      In <a href="/lm/#available-issues"><cite>Labor Militant</cite></a>,
       <a href="{{ issue.url }}#articles">no.&nbsp;{{ issue.lm_issue }}</a>
       (<span class="date">{{ issue.reported_date | default: proper_date | replace: ' ', '&nbsp;'
       }}</span>){% if page.location %}, {{ page.location | replace: ' ', '&nbsp;' }}{% endif %}.
@@ -22,7 +22,7 @@ layout: default
 
   <nav class="breadcrumb breadcrumb-inline">
     <ul>
-      <li>« <a href="/lm/#the-newspaper"><cite>Labor Militant</cite></a></li>
+      <li>« <a href="/lm/#available-issues"><cite>Labor Militant</cite></a></li>
       <li>« <a href="{{ issue.url }}#articles">Issue&nbsp;{{ issue.lm_issue }}</a></li>
     </ul>
   </nav>

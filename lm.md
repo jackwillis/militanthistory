@@ -17,10 +17,7 @@ interviews, historical perspectives, activist reports, book reviews,
 letters to the editor, congratulations, and condolences.
 Issues were twelve pages long in the 11″×17″ format of British tabloids.
 
-<details open>
-  <summary><h4 id="available-issues">Available issues ({{ site.lm_issues | size }} of 51)</h4></summary>
-  {% include lm-listing.html %}
-</details>
+{% include lm-listing.html %}
 
 <cite>Labor Militant</cite> no. 1 was published from Oakland, CA 94610;
 nos. 2–39 unknown; nos. 40–45 from Chicago, IL 60639;

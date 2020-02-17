@@ -1,11 +1,14 @@
-<ul>
-{% for issue in site.lm_issues %}
-{% assign proper_date = issue.date | date_to_long_string %}
-<li>
-  <a href="{{ issue.url }}"><cite>Labor Militant</cite>,
-  no.&nbsp;{{ issue.lm_issue }}</a>
-  ({{ issue.reported_date | default: proper_date | replace: " ", "&nbsp;" }})
-  {% if issue.subtitle %}[{{ issue.subtitle }}]{% endif %}
-</li>
-{% endfor %}
-</ul>
+<details open>
+  <summary id="available-issues">Available issues ({{ site.lm_issues | size }} of 51)</summary>
+
+  <ul>
+    {% for issue in site.lm_issues %}
+    {% assign proper_date = issue.date | date_to_long_string %}
+      <li>
+        <a href="{{ issue.url }}"><cite>Labor Militant</cite>, no.&nbsp;{{ issue.lm_issue }}</a>{%
+        if issue.subtitle %}: “{{ issue.subtitle }}”{% endif %}
+        ({{ issue.reported_date | default: proper_date | replace: " ", "&nbsp;" }})
+      </li>
+    {% endfor %}
+  </ul>
+</details>
