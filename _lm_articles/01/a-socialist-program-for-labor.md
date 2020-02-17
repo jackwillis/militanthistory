@@ -298,3 +298,8 @@ bad housing and poverty
 could be ended, and the idea of the
 "American Dream" could become a
 reality.&nbsp;❧
+
+{:.author-info}
+Tom Williams is a member of District Council (DC) 37 of the
+American Federation of State, County and Municipal Employees (<abbr>AFSCME</abbr>)
+in New York City.

@@ -7,6 +7,9 @@ body {
 figcaption, small, blockquote {
   font-size: 15px;
   line-height: 21px;
+}
+
+figcaption {
   font-weight: 500;
 }
 
@@ -25,7 +28,7 @@ html {
 }
 
 header, footer, main {
-  margin: 2em 0 1em 0;
+  margin: 2em 0 2em 0;
 }
 
 
@@ -43,7 +46,7 @@ h1, h3, .author-info {
 
 .author-info {
   font-weight: bold;
-  font-size: 95%;
+  font-size: 92%;
 }
 
 h1 {
@@ -87,7 +90,7 @@ body.front-page h1 a {
   background: #ffb6c1;
 }
 
-h3:target {
+*:target {
   animation: highlight 5s ease;  
 }
 
@@ -149,6 +152,10 @@ html.wf-active abbr {
   text-transform: lowercase;
 }
 
+html.wf-active .author-info abbr {
+  font-size: 112%;
+}
+
 .drop-cap__initial {
   display:block;
   float: left;
@@ -161,16 +168,17 @@ html.wf-active abbr {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.breadcrumb ul:nth-child(2) {
-  margin-top: -1em;
+  /*flex-wrap: wrap;*/
 }
 
 .breadcrumb li {
-  margin-right: 0.5em;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.5em;
+  margin: 0 0.125em;
+
+  flex-grow: 1;
+  min-width: 25%;
 }
 
 .breadcrumb-vertical ul {
@@ -219,12 +227,21 @@ summary h2, summary h3, summary h4 {
   margin-bottom: 0;
 }
 
+a[rel=external]::after, a.footnote {
+  text-decoration: none;
+}
 
 a[rel=external]::after {
   content: "[↗]";
   font-size: 50%;
   display: inline-block;
-  text-decoration: none;
+}
+
+a.footnote::before {
+  content: "[";
+}
+a.footnote::after {
+  content: "]";
 }
 
 sup, sub, a[rel=external]::after {
@@ -232,6 +249,7 @@ sup, sub, a[rel=external]::after {
   position: relative;
   top: -0.4em;
 }
+
 sub { 
   top: 0.4em; 
 }

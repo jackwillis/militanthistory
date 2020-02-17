@@ -2,19 +2,19 @@
   <ul>
   {% if include.previous_issue %}
     <li>
-      ← <a rel="prev" href="{{ include.previous_issue.url }}">Issue {{ include.previous_issue.lm_issue }}
+      ← <a rel="prev" href="{{ include.previous_issue.url }}">Issue&nbsp;{{ include.previous_issue.lm_issue }}
       {% assign proper_date = include.previous_issue.date | date_to_long_string %}
-      ({{ include.previous_issue.reported_date | default: proper_date }})</a>
+      ({{ include.previous_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }})</a>
     </li>
   {% endif %}
 
-    <li>↥ <a href="/lm/">Index</a></li>
+    <li>↥ <a href="/lm/#issues">Index</a></li>
 
   {% if include.next_issue %}
     <li>
-      <a rel="next" href="{{ include.next_issue.url }}">Issue {{ include.next_issue.lm_issue }}
+      <a rel="next" href="{{ include.next_issue.url }}">Issue&nbsp;{{ include.next_issue.lm_issue }}
       {% assign proper_date = include.next_issue.date | date_to_long_string %}
-      ({{ include.next_issue.reported_date | default: proper_date }})</a> →
+      ({{ include.next_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }})</a> →
     </li>
   {% endif %}
   </ul>

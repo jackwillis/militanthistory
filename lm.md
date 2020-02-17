@@ -17,8 +17,8 @@ interviews, historical perspectives, activist reports, book reviews,
 letters to the editor, congratulations, and condolences.
 Issues were twelve pages long in the 11″×17″ format of British tabloids.
 
-<details>
-  <summary><h4>Available issues ({{ site.lm_issues | size }} of 51)</h4></summary>
+<details open>
+  <summary><h4 id="available-issues">Available issues ({{ site.lm_issues | size }} of 51)</h4></summary>
   {% include lm-listing.html %}
 </details>
 
