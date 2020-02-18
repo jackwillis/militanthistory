@@ -6,18 +6,20 @@ WebFont.load({ custom: { families: ['Alegreya Sans SC'] } });
 // custom behavior
 document.addEventListener('DOMContentLoaded', function() {
 
-  // Allow users to click anywhere inside a `.breadcrumb li` / "crumb", not just within the `a`.
-  var crumbs = document.querySelectorAll('.breadcrumb li');
-  for (var i = 0; i < crumbs.length; i++) {
-    var crumb = crumbs[i];
-    var link = crumb.getElementsByTagName('a')[0];
-    crumb.addEventListener('click', link.click.bind(link));
+  // Treat elements with a [data-href] attribute like links.
+  var pseudoLinks = document.querySelectorAll('[data-href]');
+  for (var i = 0; i < pseudoLinks.length; i++) {
+    var pseudoLink = pseudoLinks[i];
+    pseudoLink.addEventListener('click', function() {
+      this.setAttribute('tabindex', -1); // allows the element to be focused
+      this.focus();
+      
+      window.location.assign(this.dataset.href);
+    });
   }
 
-  // JS-only styles
-  var breadcrumbRule = '.breadcrumb li:hover { cursor: pointer; }';
-
+  // Style pseudo-links like links on hover
   var style = document.createElement('style');
-  style.innerText = breadcrumbRule;
+  style.innerText = '[data-href]:hover { cursor: pointer; }';
   document.head.appendChild(style);
 });
