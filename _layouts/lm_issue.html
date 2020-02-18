@@ -12,10 +12,8 @@ title: "‘Labor Militant’, no. !!page.slug!!"
 <article>
   <header>
     <h2>
-      <a href="{{ page.url }}">
-        <cite>Labor Militant</cite>, no.&nbsp;{{ page.lm_issue }}<br>
-        {% if page.subtitle %}“{{ page.subtitle }}”{% endif %}
-      </a>
+      <cite>Labor Militant</cite>, no.&nbsp;{{ page.lm_issue }}<br>
+      {% if page.subtitle %}“{{ page.subtitle }}”{% endif %}
     </h2>
 
     {% assign proper_date = page.date | date_to_long_string %}

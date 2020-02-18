@@ -184,12 +184,8 @@ html.wf-active .author-info abbr {
   min-width: 25%;
 }
 
-.breadcrumb-vertical ul {
-  flex-direction: column;
-}
-
-.breadcrumb-inline ul {
-  justify-content: flex-start;
+.breadcrumb-article {
+  margin-top: 2em;
 }
 
 summary {

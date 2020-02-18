@@ -7,7 +7,7 @@ layout: default
 
 <article>
   <header>
-    <h2><a href="{{ page.url }}">{{ page.html_title | default: page.title }}</a></h2>
+    <h2>{{ page.html_title | default: page.title }}</h2>
     <p class="byline">
       {% if page.author %}By <span class="author">{{ page.author | replace: ' ', '&nbsp;' }}</span>.{% endif %}
 
@@ -20,10 +20,10 @@ layout: default
 
   {{ content }}
 
-  <nav class="breadcrumb breadcrumb-inline">
+  <nav class="breadcrumb breadcrumb-article">
     <ul>
-      <li>« <a href="/lm/#available-issues"><cite>Labor Militant</cite></a></li>
-      <li>« <a href="{{ issue.url }}#articles">Issue&nbsp;{{ issue.lm_issue }}</a></li>
+      <li data-href="/lm/#available-issues">« <a href="/lm/#available-issues"><cite>Labor Militant</cite></a></li>
+      <li data-href="{{ issue.url }}#articles">« <a href="{{ issue.url }}#articles">Issue&nbsp;{{ issue.lm_issue }}</a></li>
     </ul>
   </nav>
 </article>

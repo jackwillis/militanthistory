@@ -98,11 +98,11 @@ no affordable leisure
 facilities for Seattle’s youth.
 Added to this their henchmen in
 the City Council (Republican and
-Democrats) have outlawed under
-18 year olds from attending gigs,
+Democrats) have outlawed under-18-year-olds
+from attending gigs,
 and the State Legislature proposed
-a curfew for under 17 year
-olds. Such a curfew already exists
+a curfew for under-17-year-olds.
+Such a curfew already exists
 in neighboring Oregon.
 From the start the Y.D.C. explained
 that these attacks were

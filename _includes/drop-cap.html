@@ -1,1 +1,2 @@
-<span class="drop-cap"><span class="drop-cap__initial">{{ include.text | slice: 0 }}</span>{{ include.text | slice: 1, 99 }}</span>
+{% assign slice_at = include.slice_at | default: 1 %}
+<span class="drop-cap"><span class="drop-cap__initial">{{ include.text | slice: 0, slice_at }}</span>{{ include.text | slice: slice_at, 99 }}</span>
