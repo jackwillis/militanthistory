@@ -10,7 +10,7 @@ permalink: /lm/
 
 {% include subhead.html title="The newspaper" %}
 
-**<cite>Labor Militant</cite>**[^labor-militant]
+<b><cite>Labor Militant</cite></b>[^labor-militant]
 was a semi-monthly newspaper which ran from 1986 to 1997.
 Its regular features included editorials, US, international, and labor news,
 interviews, historical perspectives, activist reports, book reviews,
@@ -19,13 +19,9 @@ Issues were twelve pages long in the 11″×17″ format of British tabloids.
 
 {% include lm-listing.html %}
 
-<cite>Labor Militant</cite> no. 1 was published from Oakland, CA 94610;
-nos. 2–39 unknown; nos. 40–45 from Chicago, IL 60639;
-and nos. 46–51 from Long Island City, NY 11105.
-
 {% include subhead.html title="The group" %}
 
-<cite>Labor Militant</cite> was published by a US socialist group also called **Labor Militant** (**LM**).
+<cite>Labor Militant</cite> was published by a US socialist group also called <b>Labor Militant</b> (<b>LM</b>).
 LM was founded in 1986 as a new section of the
 Committee for a Workers’ International (<abbr>CWI</abbr>), which was founded in 1974.
 The <abbr>CWI</abbr> is based in England;
@@ -37,10 +33,10 @@ LM was involved in the creation of the defunct
 
 {% include subhead.html title="Legacy" %}
 
-In 1997, LM renamed its newspaper **<cite>Justice</cite>**.[^justice]
+In 1997, LM renamed its newspaper <b><cite>Justice</cite></b>.[^justice]
 In 1999, LM changed its name to
-**<a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a>** (**SA**).
-SA published <cite>Justice</cite> until 2013, when it renamed the newspaper **<cite>Socialist Alternative</cite>**.[^socialist-alternative]
+<b><a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a></b> (<b>SA</b>).
+SA published <cite>Justice</cite> until 2013, when it renamed the newspaper <b><cite>Socialist Alternative</cite></b>.[^socialist-alternative]
 In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new international association called the
 <a rel="external" href="https://internationalsocialist.net/">International Socialist Alternative</a>
 (<abbr>ISA</abbr>).
@@ -54,6 +50,10 @@ The original newspapers were received by <abbr>WHS</abbr> in two batches.
 The first batch, received in 1995, contains nos. 1 (April/May/June 1986) through 39 (November 1994); missing February 1991.
 The second batch, containing nos. 40 (January 1995) through 51 (July 1997), was scanned on August 21, 2001.
 <abbr>WHS</abbr> does not record who donates newspapers.
+
+<cite>Labor Militant</cite> no. 1 was published from Oakland, CA 94610;
+nos. 2–39 unknown; nos. 40–45 from Chicago, IL 60639;
+and nos. 46–51 from Long Island City, NY 11105.
 
 Check out snapshots of LM’s **[late ’90s website](/lm/wayback/)**, archived on the Wayback Machine.
 
