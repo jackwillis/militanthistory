@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /tags/
+title: "Tags"
+---
+
+<h2>Tags</h2>
+
+{% for tag in site.data.tags %}
+
+<h3 id="{{ tag.name }}">{{ tag.title }}</h3>
+
+{% endfor %}

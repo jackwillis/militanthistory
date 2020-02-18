@@ -3,7 +3,8 @@ layout: lm_article
 title: "End dictatorship of big business"
 author: "John Reimann"
 lm_issue: 1
-location: "p. 1" 
+location: "p. 1"
+tags: may-day
 ---
 
 <figure>
