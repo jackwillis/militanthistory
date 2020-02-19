@@ -4,7 +4,7 @@ title: "Labor must oppose Reagan’s foreign policy"
 author: "Robert O’Neill"
 lm_issue: 1
 location: "pp. 2–3"
-tags: labor reagan foreign-policy internationalism war revolution vietnam-war vietnam sandinistas nicaragua gorbachev soviet-union libya gaddafi middle-east latin-america imperialism
+tags: labor reagan foreign-policy internationalism war revolution vietnam-war vietnam sandinistas nicaragua gorbachev soviet-union libya gaddafi southwest-asia asia africa southeast-asia latin-america central-america imperialism
 ---
 
 <figure>
@@ -177,7 +177,7 @@ strenghten Gaddafi.
 Big business considered this a
 price worth paying as the real
 object of the operation was not in
-the Mediteranean but in Central
+the Mediterranean but in Central
 America. Simultaneously with
 his aggressive Libyan actions,
 Reagan pulled Nicaragua onto

@@ -1,6 +1,10 @@
 - name: 1930s
 - name: affirmative-action
   title: "affirmative action"
+- name: africa
+  title: Africa
+- name: asia
+  title: Asia
 - name: black-americans
   title: "black Americans"
 - name: black-liberation
@@ -12,11 +16,12 @@
     <a rel="external" href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations">Congress of Industrial Organizations</a>
     (1935–1955; merged with <abbr>AFL</abbr> into <abbr>AFL–CIO</abbr>)
 - name: campaign
+- name: central-america
+  title: "Central America"
 - name: civil-rights-movement
   title: "Civil Rights Movement"
 - name: concessions
 - name: crisis
-- name: drugs
 - name: economics
 - name: family
 - name: foreign-policy
@@ -50,8 +55,6 @@
   title: "Libya"
 - name: may-day
   title: "May Day"
-- name: middle-east
-  title: "Middle East"
 - name: nationalization
 - name: nicaragua
   title: "Nicaragua"
@@ -72,6 +75,10 @@
   title: "Sandinistas"
 - name: seattle
   title: "Seattle"
+- name: southeast-asia
+  title: "Southeast Asia"
+- name: southwest-asia
+  title: "Southwest Asia"
 - name: soviet-union
   title: "Soviet Union"
 - name: strategy
