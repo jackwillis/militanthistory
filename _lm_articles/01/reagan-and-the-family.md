@@ -3,7 +3,7 @@ layout: lm_article
 title: "Reagan and the family"
 lm_issue: 1
 location: "p. 4"
-tags: reagan family harlem interview housing children homelessness
+tags: reagan family harlem interview housing children homelessness poverty black-americans
 ---
 
 {:.lead}

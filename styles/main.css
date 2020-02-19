@@ -1,7 +1,7 @@
 body {
   font: 18px/27px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
   margin: 2em 0.5em;
-  max-width: 32em;
+  max-width: 32em /* 576 px */;
 }
 
 figcaption, small, blockquote, .caption {
@@ -168,6 +168,10 @@ html.wf-inactive .date {
 
 html.wf-active abbr {
   text-transform: lowercase;
+}
+
+html.wf-active h3 abbr {
+  font-size: 110%;
 }
 
 html.wf-active .author-info abbr {

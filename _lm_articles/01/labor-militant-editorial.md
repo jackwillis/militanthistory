@@ -4,7 +4,7 @@ title: "‘Labor Militant’, no. 1 - Editorial"
 html_title: "<cite>Labor Militant</cite> editorial"
 lm_issue: 1
 location: "p. 2"
-tags: fundraising
+tags: fundraising program working-class strategy
 ---
 
 <span class="drop-cap"><cite><span class="drop-cap__initial">L</span>abor Militant</cite> is</span>

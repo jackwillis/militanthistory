@@ -1,134 +1,107 @@
--
-  name: 1930s
--
-  name: children
--
-  name: cio
+- name: 1930s
+- name: affirmative-action
+  title: "affirmative action"
+- name: black-americans
+  title: "black Americans"
+- name: black-liberation
+  title: "black liberation"
+- name: children
+- name: cio
   title: "<abbr>CIO</abbr>"
   description: >
     <a rel="external" href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations">Congress of Industrial Organizations</a>
     (1935–1955; merged with <abbr>AFL</abbr> into <abbr>AFL–CIO</abbr>)
--
-  name: campaign
--
-  name: concessions
--
-  name: crisis
--
-  name: economics
--
-  name: family
--
-  name: foreign-policy
+- name: campaign
+- name: civil-rights-movement
+  title: "Civil Rights Movement"
+- name: concessions
+- name: crisis
+- name: drugs
+- name: economics
+- name: family
+- name: foreign-policy
   title: "foreign policy"
--
-  name: fundraising
--
-  name: gaddafi
+- name: fundraising
+- name: gaddafi
   title: "Gaddafi, Muammar"
--
-  name: gorbachev
+- name: gorbachev
   title: "Gorbachev, Mikhail"
--
-  name: harlem
+- name: harlem
   title: "Harlem"
--
-  name: homelessness
--
-  name: hormel
+- name: history
+- name: homelessness
+- name: hormel
   title: "Hormel P-9 strike"
--
-  name: housing
--
-  name: iffa
+- name: housing
+- name: iffa
   title: "<abbr>IFFA</abbr>"
   description: >
     International Federation of Flight Attendants
--
-  name: internationalism
--
-  name: interview
--
-  name: imperialism
--
-  name: labor
--
-  name: labor-party
+- name: internationalism
+- name: interview
+- name: imperialism
+- name: jobs
+- name: labor
+- name: labor-party
   title: "labor party"
--
-  name: latin-america
+- name: latin-america
   title: "Latin America"
--
-  name: libya
+- name: libya
   title: "Libya"
--
-  name: may-day
+- name: may-day
   title: "May Day"
--
-  name: middle-east
+- name: middle-east
   title: "Middle East"
--
-  name: nationalization
--
-  name: nicaragua
+- name: nationalization
+- name: nicaragua
   title: "Nicaragua"
--
-  name: police
--
-  name: portland
+- name: police
+- name: portland
   title: "Portland"
--
-  name: protest
--
-  name: reagan
+- name: poverty
+- name: public-works
+  title: "public works"
+- name: program
+- name: protest
+- name: racism
+- name: reagan
   title: "Reagan, Ronald"
--
-  name: revolution
--
-  name: riot
--
-  name: sandinistas
+- name: revolution
+- name: riot
+- name: sandinistas
   title: "Sandinistas"
--
-  name: seattle
+- name: seattle
   title: "Seattle"
--
-  name: soviet-union
+- name: soviet-union
   title: "Soviet Union"
--
-  name: strike
--
-  name: twa
+- name: strategy
+- name: strike
+- name: tactics
+- name: twa
   title: "<abbr>TWA</abbr>"
   description: >
     Trans World Airlines
--
-  name: ufcw
+- name: ufcw
   title: "<abbr>UFCW</abbr>"
   description: >
     United Food and Commercial Workers
--
-  name: unemployment
--
-  name: vancouver
+- name: unemployment
+- name: union-democracy
+  title: "union democracy"
+- name: vancouver
   title: "Vancouver"
--
-  name: vietnam
+- name: vietnam
   title: "Vietnam"
--
-  name: vietnam-war
+- name: vietnam-war
   title: "Vietnam War"
--
-  name: war
--
-  name: wages
--
-  name: working-class
+- name: war
+- name: wages
+- name: working-class
   title: "working class"
--
-  name: ydc
+- name: work-week
+  title: "work week"
+- name: ydc
   title: "<abbr>YDC</abbr>"
   description: >
     Youth Defense Campaign
--
-  name: youth
+- name: youth

@@ -4,7 +4,7 @@ title: "Victory for youth"
 author: "a Youth Defense Campaign member"
 lm_issue: 1
 location: "pp. 1, 11"
-tags: youth ydc labor seattle unemployment vancouver portland internationalism wages police riot campaign protest
+tags: youth ydc labor seattle unemployment vancouver portland internationalism wages police riot campaign protest poverty
 ---
 
 <figure>
