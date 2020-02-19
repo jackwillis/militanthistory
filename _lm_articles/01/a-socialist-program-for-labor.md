@@ -202,7 +202,7 @@ unable to buy the goods produced
 by workers for the home market
 and their jobs would also be lost.
 
-Not only would protectionismfail
+Not only would protectionism fail
 to solve the crisis, but it would
 makeit worse. This “solution” was
 tried before. **The Smoot--Hawley

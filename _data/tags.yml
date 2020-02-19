@@ -3,6 +3,7 @@
   title: "affirmative action"
 - name: africa
   title: Africa
+- name: apartheid
 - name: asia
   title: Asia
 - name: black-americans
@@ -23,16 +24,20 @@
 - name: concessions
 - name: crisis
 - name: economics
+- name: eviction
 - name: family
 - name: foreign-policy
   title: "foreign policy"
 - name: fundraising
 - name: gaddafi
   title: "Gaddafi, Muammar"
+- name: gentrification
 - name: gorbachev
   title: "Gorbachev, Mikhail"
 - name: harlem
   title: "Harlem"
+- name: harlem-reclamation-project
+  title: "Harlem Reclamation Project"
 - name: history
 - name: homelessness
 - name: hormel
@@ -46,6 +51,8 @@
 - name: interview
 - name: imperialism
 - name: jobs
+- name: koch-ed
+  title: "Koch, Ed"
 - name: labor
 - name: labor-party
   title: "labor party"
@@ -56,12 +63,16 @@
 - name: may-day
   title: "May Day"
 - name: nationalization
+- name: nyc
+  title: "New York City"
 - name: nicaragua
   title: "Nicaragua"
 - name: police
 - name: portland
   title: "Portland"
 - name: poverty
+- name: public-housing
+  title: "public housing"
 - name: public-works
   title: "public works"
 - name: program
@@ -81,6 +92,7 @@
   title: "Southwest Asia"
 - name: soviet-union
   title: "Soviet Union"
+- name: speculation
 - name: strategy
 - name: strike
 - name: tactics
