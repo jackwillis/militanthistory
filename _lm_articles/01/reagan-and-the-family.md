@@ -2,13 +2,14 @@
 layout: lm_article
 title: "Reagan and the family"
 lm_issue: 1
-location: "p. 4" 
+location: "p. 4"
+tags: reagan family harlem interview housing children homelessness
 ---
 
 {:.lead}
 Reagan has reduced
 federal aid for lower-income housing from $28 billion to $9 billion.
-The results have been fed by Deborah Williams, a black Harlem woman
+The results have been felt by Deborah Williams, a black Harlem woman
 and mother of four living in a "hotel" for homeless people
 one block south of 42nd St. which runs through Times Square.
 

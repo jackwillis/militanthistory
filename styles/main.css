@@ -4,12 +4,12 @@ body {
   max-width: 32em;
 }
 
-figcaption, small, blockquote {
+figcaption, small, blockquote, .caption {
   font-size: 15px;
   line-height: 21px;
 }
 
-figcaption {
+figcaption, .caption {
   font-weight: 500;
 }
 
@@ -110,7 +110,8 @@ a:link {
 
 figcaption,
 small,
-.author-info {
+.author-info,
+.caption {
   color: #980043;
 }
 
@@ -265,3 +266,9 @@ sub {
 .articles-list sup a {
   font-weight: normal;
 }
+
+/*body.tags-page {
+  width: 100%;
+  max-width: unset;
+  columns: 3;
+}*/

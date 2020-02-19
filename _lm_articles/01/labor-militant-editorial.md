@@ -3,7 +3,8 @@ layout: lm_article
 title: "‘Labor Militant’, no. 1 - Editorial"
 html_title: "<cite>Labor Militant</cite> editorial"
 lm_issue: 1
-location: "p. 2" 
+location: "p. 2"
+tags: fundraising
 ---
 
 <span class="drop-cap"><cite><span class="drop-cap__initial">L</span>abor Militant</cite> is</span>

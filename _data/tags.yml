@@ -1,3 +1,129 @@
 -
+  name: 1930s
+-
+  name: children
+-
+  name: cio
+  title: "<abbr>CIO</abbr>"
+  description: >
+    <a rel="external" href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations">Congress of Industrial Organizations</a>
+    (1935–1955; merged with <abbr>AFL</abbr> into <abbr>AFL–CIO</abbr>)
+-
+  name: campaign
+-
+  name: concessions
+-
+  name: crisis
+-
+  name: economics
+-
+  name: family
+-
+  name: fundraising
+-
+  name: gaddafi
+  title: "Gaddafi, Muammar"
+-
+  name: gorbachev
+  title: "Gorbachev, Mikhail"
+-
+  name: harlem
+  title: "Harlem, <abbr>NYC</abbr>"
+-
+  name: homelessness
+-
+  name: hormel
+  title: "Hormel P-9 strike"
+-
+  name: housing
+-
+  name: iffa
+  title: "<abbr>IFFA</abbr>"
+  description: >
+    International Federation of Flight Attendants
+-
+  name: internationalism
+-
+  name: interview
+-
+  name: imperialism
+-
+  name: labor
+-
+  name: labor-party
+  title: "labor party"
+-
+  name: latin-america
+  title: "Latin America"
+-
+  name: libya
+  title: "Libya"
+-
   name: may-day
   title: "May Day"
+-
+  name: middle-east
+  title: "Middle East"
+-
+  name: nationalization
+-
+  name: nicaragua
+  title: "Nicaragua"
+-
+  name: police
+-
+  name: portland
+  title: "Portland, OR"
+-
+  name: reagan
+  title: "Reagan, Ronald"
+-
+  name: revolution
+-
+  name: riot
+-
+  name: sandinistas
+  title: "Sandinistas"
+-
+  name: seattle
+  title: "Seattle, WA"
+-
+  name: soviet-union
+  title: "Soviet Union"
+-
+  name: strike
+-
+  name: twa
+  title: "<abbr>TWA</abbr>"
+  description: >
+    Trans World Airlines
+-
+  name: ufcw
+  title: "<abbr>UFCW</abbr>"
+  description: >
+    United Food and Commercial Workers
+-
+  name: unemployment
+-
+  name: vancouver
+  title: "Vancouver, BC"
+-
+  name: vietnam
+  title: "Vietnam"
+-
+  name: vietnam-war
+  title: "Vietnam War"
+-
+  name: war
+-
+  name: wages
+-
+  name: working-class
+  title: "working class"
+-
+  name: ydc
+  title: "<abbr>YDC</abbr>"
+  description: >
+    Youth Defense Campaign
+-
+  name: youth

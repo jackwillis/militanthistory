@@ -3,7 +3,8 @@ layout: lm_article
 title: "Support P-9 strike"
 author: "Bruce Hamilton"
 lm_issue: 1
-location: "p. 12" 
+location: "p. 12"
+tags: labor strike ufcw afl-cio nationalization hormel concessions
 ---
 
 <figure>

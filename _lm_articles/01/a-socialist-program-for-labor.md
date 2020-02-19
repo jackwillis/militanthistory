@@ -3,7 +3,8 @@ layout: lm_article
 title: "A socialist program for labor"
 author: "Tom Williams"
 lm_issue: 1
-location: "pp. 2–3" 
+location: "pp. 2–3"
+tags: labor concessions economics crisis 1930s nationalization labor-party cio hormel unemployment wages twa iffa
 ---
 
 <figure>

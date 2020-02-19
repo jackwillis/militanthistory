@@ -2,12 +2,30 @@
 layout: default
 permalink: /tags/
 title: "Tags"
+body_class: tags-page
 ---
 
 <h2>Tags</h2>
 
 {% for tag in site.data.tags %}
+  <h3 id="{{ tag.name }}">{{ tag.title | default: tag.name }}</h3>
 
-<h3 id="{{ tag.name }}">{{ tag.title }}</h3>
+  {% if tag.description %}
+    <p class="caption">{{ tag.description }}</p>
+  {% endif %}
 
+  <ul>
+  {% assign sorted_articles = site.lm_articles | sort: "date" %}
+  {% for article in sorted_articles %}
+    {% if article.tags contains tag.name %}
+      {% assign issue = site.lm_issues | where_exp: "i", "i.lm_issue == article.lm_issue" | first %}
+      {% assign proper_date = issue.date | date_to_long_string %}
+      <li>
+      	“<a href="{{ article.url }}">{{ article.html_title | default: article.title }}</a>”
+      	(<a href="{{ issue.url }}">no.&nbsp;{{ issue.lm_issue }}</a>,
+        {{ issue.reported_date | default: proper_date | replace: " ", "&nbsp;" }}).
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 {% endfor %}

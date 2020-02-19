@@ -3,7 +3,8 @@ layout: lm_article
 title: "Labor must oppose Reagan’s foreign policy"
 author: "Robert O’Neill"
 lm_issue: 1
-location: "pp. 2–3" 
+location: "pp. 2–3"
+tags: labor reagan foreign-policy internationalism war revolution vietnam-war vietnam sandinistas nicaragua gorbachev soviet-union libya gaddafi middle-east latin-america imperialism
 ---
 
 <figure>
