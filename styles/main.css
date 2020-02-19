@@ -31,7 +31,6 @@ header, footer, main {
   margin: 2em 0 2em 0;
 }
 
-
 footer {
   font-style: italic;
 }
@@ -115,9 +114,27 @@ small,
   color: #980043;
 }
 
-.byline {
+.byline, .tags {
   color: #555555;
   margin: -0.5em 0 1em 0;
+}
+
+.tags {
+  list-style: none;
+  padding: 0;
+  line-height: 0.6;
+}
+
+.tags li {
+  display: inline-block;
+}
+
+.tags li::after {
+  content: ", ";
+}
+
+.tags li:last-child::after {
+  content: none;
 }
 
 .lead {

@@ -19,6 +19,9 @@
 -
   name: family
 -
+  name: foreign-policy
+  title: "foreign policy"
+-
   name: fundraising
 -
   name: gaddafi
@@ -28,7 +31,7 @@
   title: "Gorbachev, Mikhail"
 -
   name: harlem
-  title: "Harlem, <abbr>NYC</abbr>"
+  title: "Harlem"
 -
   name: homelessness
 -
@@ -73,7 +76,9 @@
   name: police
 -
   name: portland
-  title: "Portland, OR"
+  title: "Portland"
+-
+  name: protest
 -
   name: reagan
   title: "Reagan, Ronald"
@@ -86,7 +91,7 @@
   title: "Sandinistas"
 -
   name: seattle
-  title: "Seattle, WA"
+  title: "Seattle"
 -
   name: soviet-union
   title: "Soviet Union"
@@ -106,7 +111,7 @@
   name: unemployment
 -
   name: vancouver
-  title: "Vancouver, BC"
+  title: "Vancouver"
 -
   name: vietnam
   title: "Vietnam"
