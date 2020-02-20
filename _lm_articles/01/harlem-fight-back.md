@@ -27,7 +27,7 @@ turning the buildings into $100,000-plus apartment units.
 ### Power political force
 
 The attack on Harlem's blacks is spearheaded by the city's ruling elite.
-"Spacial Deconcentration" is the term used.
+"Spatial Deconcentration" is the term used.
 What this means is that Harlem's blacks are a powerful force with traditions of revolutionary struggle.
 They have thrown up such giants as Malcolm X. New York's big business wants to drive this force out of Manhattan and disperse it.
 
@@ -48,5 +48,5 @@ One Harlem tenant said, "My view is, the place has got worse. One-half of my blo
 
 There is a new fight-back coming in Harlem and throughout all of black America.
 Nsia Akuffa Bea of the Harlem Reclamation Project explained,
-"More people are talking about South Aftica than ever before.
+"More people are talking about South Africa than ever before.
 They beat down the black movement but there is a new resurgence coming slowly."&nbsp;❧
