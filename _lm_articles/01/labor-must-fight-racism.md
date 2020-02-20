@@ -9,7 +9,7 @@ tags: labor racism black-americans poverty program internationalism cio reagan w
 
 <figure>
   <img alt="Black and white workers on a picket line" src="workers-unity.jpg" width="576" height="399">
-  <figcaption>Workers’ unity on the picket line in Boston</figcaption>
+  <figcaption><p>Workers’ unity on the picket line in Boston</p></figcaption>
 </figure>
 
 {:.lead}

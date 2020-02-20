@@ -8,7 +8,8 @@ tags: labor strike ufcw afl-cio nationalization hormel concessions union-democra
 ---
 
 <figure>
-  <img alt="Hormel workers face the National Guard" src="hormel-workers-face-the-national-guard.jpg" width="959" height="800">
+  <img alt="P-9 strikers" src="hormel-workers-face-the-national-guard.jpg" width="576" height="590">
+  <figcaption><p>Hormel workers face the National Guard.</p></figcaption>
 </figure>
 
 {:.lead}

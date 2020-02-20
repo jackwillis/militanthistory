@@ -9,7 +9,7 @@ tags: public-health labor immigration latinos latin-america internationalism cal
 
 <figure>
   <img alt="Delano grape strikers" src="grape-strikers.jpg" width="576" height="343">
-  <figcaption>El <abbr>UAW</abbr> y el sindicato de farm-workers tienen que unirse para luchar los salarios débiles pagando a los trabajadores latinos.</figcaption>
+  <figcaption><p>El <abbr>UAW</abbr> y el sindicato de farm-workers tienen que unirse para luchar los salarios débiles pagando a los trabajadores latinos.</p></figcaption>
 </figure>
 
 {:.lead}

@@ -139,8 +139,8 @@ small,
 }
 
 .lead {
-  font-size: 110%;
-  line-height: 1.5;
+  font-size: 115%;
+  line-height: 1.7;
 }
 
 a:visited {
@@ -222,7 +222,7 @@ summary h2, summary h3, summary h4 {
 }
 
 figure {
-  margin: 2em 0 1em 0;
+  margin: 2em 0 1.5em 0;
 }
 
 figure img, figcaption {
