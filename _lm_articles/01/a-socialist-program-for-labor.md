@@ -4,7 +4,7 @@ title: "A socialist program for labor"
 author: "Tom Williams"
 lm_issue: 1
 location: "pp. 2–3"
-tags: labor concessions economics crisis 1930s nationalization labor-party cio hormel unemployment wages twa iffa program history foreign-policy jobs public-works work-week strategy
+tags: labor concessions economics crisis 1930s nationalization labor-party cio hormel unemployment wages twa iffa program history foreign-policy jobs public-works work-week strategy strike
 ---
 
 <figure>

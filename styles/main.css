@@ -114,12 +114,13 @@ small,
   color: #980043;
 }
 
-.byline, .tags {
+.byline {
   color: #555555;
   margin: -0.5em 0 1em 0;
 }
 
-.tags {
+.tags ul {
+  color: #555555;
   list-style: none;
   padding: 0;
   line-height: 0.6;
@@ -221,11 +222,11 @@ summary h2, summary h3, summary h4 {
 }
 
 figure {
-  margin: 2em 0;
+  margin: 2em 0 1em 0;
 }
 
-header + figure, figure img, figcaption {
-  margin: 1em 0;
+figure img, figcaption {
+  margin: 1em 0 0.5em 0;
 }
 
 @media(max-width: 600px) {

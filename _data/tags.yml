@@ -1,6 +1,8 @@
 - name: 1930s
 - name: affirmative-action
   title: "affirmative action"
+- name: afl-cio
+  title: "<abbr>AFL–CIO</abbr>"
 - name: africa
   title: Africa
 - name: apartheid
@@ -16,6 +18,8 @@
   description: >
     <a rel="external" href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations">Congress of Industrial Organizations</a>
     (1935–1955; merged with <abbr>AFL</abbr> into <abbr>AFL–CIO</abbr>)
+- name: california
+  title: "California"
 - name: campaign
 - name: central-america
   title: "Central America"
@@ -26,6 +30,7 @@
 - name: economics
 - name: eviction
 - name: family
+- name: farming
 - name: foreign-policy
   title: "foreign policy"
 - name: fundraising
@@ -49,6 +54,7 @@
     International Federation of Flight Attendants
 - name: internationalism
 - name: interview
+- name: immigration
 - name: imperialism
 - name: jobs
 - name: koch-ed
@@ -58,10 +64,14 @@
   title: "labor party"
 - name: latin-america
   title: "Latin America"
+- name: latinos
+  title: "Latinos"
 - name: libya
   title: "Libya"
 - name: may-day
   title: "May Day"
+- name: migra
+  title: "la Migra"
 - name: nationalization
 - name: nyc
   title: "New York City"
@@ -71,6 +81,8 @@
 - name: portland
   title: "Portland"
 - name: poverty
+- name: public-health
+  title: "public health"
 - name: public-housing
   title: "public housing"
 - name: public-works
@@ -86,6 +98,8 @@
   title: "Sandinistas"
 - name: seattle
   title: "Seattle"
+- name: spanish
+  title: "Spanish"
 - name: southeast-asia
   title: "Southeast Asia"
 - name: southwest-asia
@@ -115,10 +129,12 @@
   title: "Vietnam War"
 - name: war
 - name: wages
-- name: working-class
-  title: "working class"
 - name: work-week
   title: "work week"
+- name: workers-rights
+  title: "workers’ rights"
+- name: working-class
+  title: "working class"
 - name: ydc
   title: "<abbr>YDC</abbr>"
   description: >

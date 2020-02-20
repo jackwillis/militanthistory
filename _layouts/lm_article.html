@@ -5,7 +5,7 @@ layout: default
 {% assign issue = site.lm_issues | where_exp: "i", "i.lm_issue == page.lm_issue" | first %}
 {% assign proper_date = issue.date | date_to_long_string %}
 
-<article>
+<article{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
   <header>
     <h2>{{ page.html_title | default: page.title }}</h2>
     <p class="byline">
@@ -18,13 +18,15 @@ layout: default
     </p>
 
     {% if page.tags %}
-      <ul class="tags">
+    <nav class="tags">
+      <ul>
         {% assign sorted_tags = page.tags | sort %}
         {% for tag_name in sorted_tags %}
           {% assign tag = site.data.tags | where: 'name', tag_name | first %}
           <li><a href="/tags/#{{ tag.name }}">{{ tag.title | default: tag.name }}</a></li>
         {% endfor %}
       </ul>
+    </nav>
     {% endif %}
   </header>
 
