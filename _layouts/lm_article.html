@@ -9,14 +9,14 @@ layout: default
   <header>
     <h2>{{ page.html_title | default: page.title }}</h2>
     <div class="byline">
-      {% if page.author %}<p>By <span class="author">{{ page.author }}</span>.</p>{% endif %}
+      {% if page.author %}<p>By <span class="caps">{{ page.author }}</span>.</p>{% endif %}
 
       <p>
         In <a href="/lm/#available-issues"><cite>Labor Militant</cite></a>,
         <a href="{{ issue.url }}#articles">no. {{ issue.lm_issue }}</a>{% if page.location %}, {{ page.location }}.{% endif %}
       </p>
 
-      <p>Published <span class="date">{{ issue.reported_date | default: proper_date }}</span>.</p>
+      <p>Published <span class="caps">{{ issue.reported_date | default: proper_date }}</span>.</p>
     </div>
   </header>
 

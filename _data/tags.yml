@@ -3,13 +3,19 @@
   title: "affirmative action"
 - name: afl-cio
   title: "<abbr>AFL–CIO</abbr>"
+- name: anti-union-laws
+  title: "anti-union laws"
 - name: apartheid
 - name: asia
   title: Asia
+- name: business-unionism
+  title: "business unionism"
 - name: black-americans
   title: "black Americans"
 - name: black-liberation
   title: "black liberation"
+- name: british-columbia
+  title: "British Columbia"
 - name: canada
   title: "Canada"
 - name: children
@@ -26,8 +32,6 @@
 - name: civil-rights-movement
   title: "Civil Rights Movement"
 - name: concessions
-- name: conservative-party-canada
-  title: "Conservative Party (Canada)"
 - name: crisis
 - name: economics
 - name: elections
@@ -84,6 +88,8 @@
 - name: ndp
   title: "<abbr>NDP</abbr>"
   description: "New Democratic Party (Canada)"
+- name: newfoundland
+  title: "Newfoundland"
 - name: nyc
   title: "New York City"
 - name: nicaragua
@@ -101,6 +107,8 @@
 - name: public-works
   title: "public works"
 - name: program
+- name: progressive-conservative-party
+  title: "Progressive Conservative Party"
 - name: protest
 - name: quebec
   title: "Québec"
@@ -115,6 +123,8 @@
   title: "Seattle"
 - name: spanish
   title: "Spanish"
+- name: social-credit-party
+  title: "Social Credit Party"
 - name: southeast-asia
   title: "Southeast Asia"
 - name: southwest-asia
@@ -124,6 +134,7 @@
 - name: speculation
 - name: strategy
 - name: strike
+- name: strikebreaking
 - name: tactics
 - name: twa
   title: "<abbr>TWA</abbr>"
@@ -136,6 +147,7 @@
 - name: unemployment
 - name: union-democracy
   title: "union democracy"
+- name: unorganized
 - name: vancouver
   title: "Vancouver"
 - name: vietnam

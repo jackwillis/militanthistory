@@ -3,7 +3,7 @@ layout: lm_article
 title: "Harlem fight-back"
 lm_issue: 1
 location: "p. 4"
-tags: harlem gentrification housing eviction public-housing interview harlem-reclamation-project black-americans internationalism apartheid poverty koch-ed campaign speculation nyc
+tags: harlem gentrification housing eviction public-housing interview harlem-reclamation-project black-americans internationalism apartheid poverty koch-ed campaign speculation nyc campaign
 ---
 
 {:.lead}

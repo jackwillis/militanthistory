@@ -69,6 +69,7 @@ h4 {
 
 p {
   hyphens: auto;
+  hyphenate-limit-last: always;
 }
 
 li {
@@ -158,21 +159,19 @@ a {
 
 abbr,
 .drop-cap,
-.author,
-.date {
+.caps {
   font-family: "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
 
 html.wf-inactive abbr,
 html.wf-inactive .drop-cap,
-html.wf-inactive .author,
-html.wf-inactive .date {
+html.wf-inactive .caps {
   letter-spacing: 1pt;
   margin-right: -0.5pt;
   font-variant-caps: all-small-caps;
 }
 
-html.wf-active abbr {
+html.wf-active abbr, .caps {
   text-transform: lowercase;
 }
 
@@ -311,4 +310,5 @@ hr {
 .final::after {
   margin-left: 0.25em;
   content: url(/images/m-icon.png);
+  white-space: nowrap;
 }

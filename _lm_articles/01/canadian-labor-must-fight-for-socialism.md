@@ -4,12 +4,12 @@ title: "Canadian labor must fight for socialism"
 author: "a Canadian correspondent"
 lm_issue: 1
 location: "p. 5"
-tags: canada labor program ndp ontario quebec internationalism crisis economics conservative-party-canada wages foreign-policy free-trade elections liberal-party-canada strike general-strike
+tags: canada labor program ndp ontario quebec internationalism crisis economics progressive-conservative-party wages foreign-policy free-trade elections liberal-party-canada strike general-strike
 ---
 
 {:.lead}
 10.6% of the Canadian workforce is at present
-unemployed. 19% of 19 to 24 year-olds are jobless. 1 in 6
+unemployed. 19% of 19-to-24-year-olds are jobless. 1 in 6
 Canadians live in poverty and 1 in 25 are officially
 classified as living in inadequate housing conditions.
 The economic upswing of the past 3 years has passed
@@ -131,7 +131,7 @@ lost in strikes.
 
 The partial general strike in
 British Columbia in December,
-1983, when 80,000 public sector
+1983, when 80,000 public-sector
 workers were on strike and about
 to be followed out by the transport
 workers, shows Canadian labor's
@@ -172,7 +172,7 @@ over all of North America and
 for it to be replaced by a Socialist
 United States of North America.**
 
-### <abbr>NDP</abbr>
+### New Democratic Party
 
 The strength of the working class
 is also shown by the base of the
@@ -205,7 +205,7 @@ beacon for US workers struggling
 to make a decent life for themselves
 and their families.
 
-{:.final}
+{:.final.caps}
 OPPOSE MULRONEY AND REAGAN.  
 UNITY BETWEEN CANADIAN AND US LABOR.  
 FOR A SOCIALIST UNITED STATES OF NORTH AMERICA.
