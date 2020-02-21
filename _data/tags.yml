@@ -10,6 +10,8 @@
   title: "black Americans"
 - name: black-liberation
   title: "black liberation"
+- name: canada
+  title: "Canada"
 - name: children
 - name: cio
   title: "<abbr>CIO</abbr>"
@@ -24,16 +26,23 @@
 - name: civil-rights-movement
   title: "Civil Rights Movement"
 - name: concessions
+- name: conservative-party-canada
+  title: "Conservative Party (Canada)"
 - name: crisis
 - name: economics
+- name: elections
 - name: eviction
 - name: family
 - name: farming
 - name: foreign-policy
   title: "foreign policy"
+- name: free-trade
+  title: "free trade"
 - name: fundraising
 - name: gaddafi
   title: "Gaddafi, Muammar"
+- name: general-strike
+  title: "general strike"
 - name: gentrification
 - name: gorbachev
   title: "Gorbachev, Mikhail"
@@ -63,6 +72,8 @@
 - name: latin-america
   title: "Latin America"
 - name: latinos
+- name: liberal-party-canada
+  title: "Liberal Party (Canada)"
 - name: libya
   title: "Libya"
 - name: may-day
@@ -70,10 +81,15 @@
 - name: migra
   title: "la Migra"
 - name: nationalization
+- name: ndp
+  title: "<abbr>NDP</abbr>"
+  description: "New Democratic Party (Canada)"
 - name: nyc
   title: "New York City"
 - name: nicaragua
   title: "Nicaragua"
+- name: ontario
+  title: "Ontario"
 - name: police
 - name: portland
   title: "Portland"
@@ -86,6 +102,8 @@
   title: "public works"
 - name: program
 - name: protest
+- name: quebec
+  title: "Québec"
 - name: racism
 - name: reagan
   title: "Reagan, Ronald"

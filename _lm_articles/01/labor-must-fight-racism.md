@@ -75,7 +75,7 @@ War. The "Black Revolution" looked
 toward and in turn inspired
 these events.
 
-### Congress of Industrial Unions (<abbr>CIO</abbr>, 1935--1955)
+### Congress of Industrial Unions
 
 This revolt came out of the struggles
 to build the <abbr>CIO</abbr> and the gains
