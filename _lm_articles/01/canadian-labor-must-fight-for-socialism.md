@@ -101,7 +101,7 @@ This has led to a split with the
 manufacturing capitalists mainly
 based in Ontario, **where 50% of all
 Canadian-manufactured products
-are produced, and Quebec, where
+are produced, and Québec, where
 25% are produced.** The Liberal Party
 recently won control of the Provincial
 Governments in Québec and
@@ -115,7 +115,7 @@ This "Progressive" Conservative
 Government was elected in 1984
 with 50% of the vote and 211 seats
 to 40 seats for the Liberals and 30
-for the NDP. It is now a government
+for the <abbr>NDP</abbr>. It is now a government
 off crisis staggering from one
 crisis and resignation to another.
 **The main reason for this is the
