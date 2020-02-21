@@ -8,29 +8,32 @@ layout: default
 <article{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
   <header>
     <h2>{{ page.html_title | default: page.title }}</h2>
-    <p class="byline">
-      {% if page.author %}By <span class="author">{{ page.author | replace: ' ', '&nbsp;' }}</span>.{% endif %}
+    <div class="byline">
+      {% if page.author %}<p>By <span class="author">{{ page.author }}</span>.</p>{% endif %}
 
-      In <a href="/lm/#available-issues"><cite>Labor Militant</cite></a>,
-      <a href="{{ issue.url }}#articles">no.&nbsp;{{ issue.lm_issue }}</a>
-      (<span class="date">{{ issue.reported_date | default: proper_date | replace: ' ', '&nbsp;'
-      }}</span>){% if page.location %}, {{ page.location | replace: ' ', '&nbsp;' }}{% endif %}.
-    </p>
+      <p>
+        In <a href="/lm/#available-issues"><cite>Labor Militant</cite></a>,
+        <a href="{{ issue.url }}#articles">no. {{ issue.lm_issue }}</a>{% if page.location %}, {{ page.location }}.{% endif %}
+      </p>
 
-    {% if page.tags %}
-    <nav class="tags">
-      <ul>
-        {% assign sorted_tags = page.tags | sort %}
-        {% for tag_name in sorted_tags %}
-          {% assign tag = site.data.tags | where: 'name', tag_name | first %}
-          <li><a href="/tags/#{{ tag.name }}">{{ tag.title | default: tag.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-    {% endif %}
+      <p>Published <span class="date">{{ issue.reported_date | default: proper_date }}</span>.</p>
+    </div>
   </header>
 
   {{ content }}
+
+  {% if page.tags %}
+  <nav class="tags">
+    Filed under:
+    <ul>
+      {% assign sorted_tags = page.tags | sort %}
+      {% for tag_name in sorted_tags %}
+        {% assign tag = site.data.tags | where: 'name', tag_name | first %}
+        <li><a href="/tags/#{{ tag.name }}">{{ tag.title | default: tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
 
   <nav class="breadcrumb breadcrumb-article">
     <ul>

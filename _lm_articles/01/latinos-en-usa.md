@@ -4,7 +4,7 @@ title: "Latinos en U.S.A."
 lm_issue: 1
 location: "p. 9"
 lang: es
-tags: public-health labor immigration latinos latin-america internationalism california workers-rights farming foreign-policy crisis spanish migra poverty strategy
+tags: public-health labor immigration latinos latin-america central-america internationalism california workers-rights farming foreign-policy crisis spanish migra poverty strategy 
 ---
 
 <figure>
@@ -88,12 +88,13 @@ Para los latinoamericanos la crisis económica que se desarolla,
 junto con el racismo de los capitalistas y sus agentes, han convertido este sueño
 en una pesadilla de opresión y pobreza.
 
+{:.final}
 El movimiento laboral debe luchar contra la opresión especial de los latinoamericanos
 y todas las minorías y deve conectar esto con la lucha contra la represión del movimiento laboral.
 Esto es la única manera de avanizar en los interés de los trabajadores latinoamericanos
 y de la clase obrera de los Estados Unidos.
 Por la unificación del movimiento laboral y los jóvenes -- en E.U. e internacionalmente --
-por la unidad de la clase obrera y el socialismo!&nbsp;❧
+por la unidad de la clase obrera y el socialismo!
 
 ### Notas
 

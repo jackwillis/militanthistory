@@ -28,7 +28,7 @@ html {
   justify-content: space-around;
 }
 
-header, footer, main {
+header, footer, main, nav {
   margin: 2em 0 1em 0;
 }
 
@@ -117,10 +117,14 @@ small,
 
 .byline {
   color: #555555;
-  margin: -0.5em 0 1em 0;
+}
+
+.byline p {
+  margin: 0.25em 0;
 }
 
 .tags ul {
+  display: inline;
   color: #555555;
   list-style: none;
   padding: 0;
@@ -189,7 +193,7 @@ html.wf-active .author-info abbr {
 }
 
 .breadcrumb li, summary {
-  border: 1px solid black;
+  border: 1px solid #555555;
   border-radius: 8px;
   padding: 0.5em;
 }

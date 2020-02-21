@@ -315,6 +315,7 @@ peasants of Latin America along
 with the working class and youth
 of the United States itself.
 
+{:.final}
 **Instead, U.S. labor must link
 the struggles of the working
 class, youth, and especially-oppressed
@@ -327,4 +328,4 @@ common struggle against the
 big corporations which constitute 
 a dictatorship over the
 U.S. and the entire continent
-of Latin America.**&nbsp;❧
+of Latin America.**

@@ -23,7 +23,7 @@ make up 12% of households
 yet own only 4% of
 the nation’s wealth.
 
-{% include drop-cap.html text="36% of blacks" slice_at=3 %}
+{% include drop-cap.html text="36% of blacks" %}
 and 47% of black
 children live in poverty. This is in
 the richest country in the world
@@ -216,8 +216,9 @@ In 1966, Martin Luther King stated, "There's something wrong with capitalism...
 maybe America must move toward a democratic socialism."
 In 1968, Fred Hampton said, "We say we’re not going to fight capitalism with black capitalism, but we’re going to fight it with socialism."**
 
+{:.final}
 As the economic crisis worsens, the nightmarish conditions for blacks and all especially-oppressed will also worsen.
-Racism, poverty, and unemployment can only be ended by a united labor movement fighting on a socialist program.&nbsp;❧
+Racism, poverty, and unemployment can only be ended by a united labor movement fighting on a socialist program.
 
 {:.author-info}
 Marcy Barnett is a member of District 65 of the United Automobile Workers (<abbr>UAW</abbr>) in New York City.

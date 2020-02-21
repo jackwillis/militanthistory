@@ -46,7 +46,8 @@ Two women have been killed by the police during these.
 As the meeting ended, there was a discussion on Harlem today compared to when Malcolm X was alive.
 One Harlem tenant said, "My view is, the place has got worse. One-half of my block is now vacant."
 
+{:.final}
 There is a new fight-back coming in Harlem and throughout all of black America.
 Nsia Akuffa Bea of the Harlem Reclamation Project explained,
 "More people are talking about South Africa than ever before.
-They beat down the black movement but there is a new resurgence coming slowly."&nbsp;❧
+They beat down the black movement but there is a new resurgence coming slowly."

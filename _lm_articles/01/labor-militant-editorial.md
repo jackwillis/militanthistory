@@ -58,6 +58,7 @@ Take out a regular subscription. <cite>Labor Militant</cite> will come out every
 and then with your help, every month.
 Order extra copies to sell at your workplace, school or college, or to your friends.
 
+{:.final}
 <cite>Labor Militant</cite> has no rich backers. This issue has only been possible due to the sacrifice of workers and youth
 over the past months. Send us a donation to help us continue the work of providing an alternative to big business by
-building a conscious socialist leadership for U.S. labor.&nbsp;❧
+building a conscious socialist leadership for U.S. labor.

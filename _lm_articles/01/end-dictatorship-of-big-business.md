@@ -102,8 +102,9 @@ of their own society, for socialism
 and workers’ democracy is our
 time.
 
+{:.final}
 **This was the struggle which was started 100 years ago on May Day 1886.
-This is still the struggle today. The time has come to complete this task.**&nbsp;❧
+This is still the struggle today. The time has come to complete this task.**
 
 {:.author-info}
 John Reimann is a member of Local 36, United Brotherhood of Carpenters (<abbr>UBC</abbr>). 

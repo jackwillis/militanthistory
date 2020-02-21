@@ -56,7 +56,7 @@ would have resulted in
 thousands of youth reduced from
 semi-slave to absolutely slave
 conditions. A campaign was
-organized by the Austrialian
+organized by the Australian
 Labor Party Youth and the
 Trade Union movement which
 forced back the proposed attacks.

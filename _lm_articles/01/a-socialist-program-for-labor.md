@@ -288,6 +288,7 @@ horrors of a crisis-ridden capitalism
 and the devastation of people's
 lives, hopes, and expectations.
 
+{:.final}
 The energy of the American people
 could then be channelled to
 building a society where the needs
@@ -298,7 +299,7 @@ low wages, fear of illness and accident,
 bad housing and poverty
 could be ended, and the idea of the
 "American Dream" could become a
-reality.&nbsp;❧
+reality.
 
 {:.author-info}
 Tom Williams is a member of District Council (DC) 37 of the
