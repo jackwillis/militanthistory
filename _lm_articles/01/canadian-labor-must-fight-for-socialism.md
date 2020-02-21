@@ -159,7 +159,7 @@ which labor can fight and solve its
 problems. Their main fight is
 against free trade. While it is correct
 to oppose any deal between US
-and Canadian capital,it is no alternative
+and Canadian capital, it is no alternative
 to argue for the status quo
 or more protectionism.
 
@@ -196,7 +196,7 @@ Fighting on a socialist program
 and for a majority <abbr>NDP</abbr> government,
 the support of the majority
 of Canadian voters can be won and
-unity forged. between French
+unity forged between French
 speaking and English speaking
 Canadian workers. This would not
 only offer a way out for Canadian
