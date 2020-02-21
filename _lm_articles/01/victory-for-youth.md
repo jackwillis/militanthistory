@@ -23,6 +23,8 @@ Mary Connors, a Youth Defense Campaign and Labor and Trade Union Group activist,
 At 21, Mary's been in and out of low-paid office and factory jobs.
 Her life and future is no different to the majority of American youth.
 
+* * *
+
 {% include drop-cap.html text="Teenage unemployment officially" %}
 rose to 19% last month, nearly 3 times higher than the adult rate.
 More than 55% of those youths who find work are made to suffer minimum wage.
@@ -197,6 +199,7 @@ help in union drives, particularly
 helping to unionize and raise
 the living standards of youth and fight racism.
 
+{:.final}
 If the Y.D.C. builds on its success,
 if other Y.D.C.s spring up
 in other cities (as they have
@@ -208,4 +211,4 @@ can then play their most vital
 role in the working class movement. We can provide the
 energy, the enthusiasm and the
 spirit to go on the attack to defend our rights and fight for a
-socialist U.S.A. and socialist world.&nbsp;❧
+socialist U.S.A. and socialist world.
