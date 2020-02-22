@@ -13,9 +13,9 @@ tags: newfoundland labor strike general-strike canada british-columbia progressi
 </figure>
 
 {:.lead}
-In November 1983, the workers of British Columbia in Western Canada drove back the attacks of
+In November 1983, the workers of British Columbia in western Canada drove back the attacks of
 the province's right-wing Social Credit government with a partial general strike.
-In the weeks of March and early April of this year, the Newfoundland workers in Eastern Canada
+In the weeks of March and early April of this year, the Newfoundland workers in eastern Canada
 inflicted a defeat on the right-wing Progressive Conservative government in their province.
 They also carried out a partial general strike.
 
@@ -52,7 +52,7 @@ be successfully defied.
 {:.final}
 In the coming period, the great
 industrial provinces of Ontario
-and Québec and the provinces of
+and Quebec and the provinces of
 central Canada will join the militant
 fighters of the coastal belts.
 When they do they will rock

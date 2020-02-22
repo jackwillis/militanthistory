@@ -99,6 +99,8 @@
 - name: police
 - name: portland
   title: "Portland"
+- name: post-war-boom
+  title: "post-war boom"
 - name: poverty
 - name: public-health
   title: "public health"
@@ -111,7 +113,7 @@
   title: "Progressive Conservative Party"
 - name: protest
 - name: quebec
-  title: "Québec"
+  title: "Quebec"
 - name: racism
 - name: reagan
   title: "Reagan, Ronald"

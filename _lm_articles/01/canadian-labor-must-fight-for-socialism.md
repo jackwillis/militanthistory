@@ -101,10 +101,10 @@ This has led to a split with the
 manufacturing capitalists mainly
 based in Ontario, **where 50% of all
 Canadian-manufactured products
-are produced, and Québec, where
+are produced, and Quebec, where
 25% are produced.** The Liberal Party
 recently won control of the Provincial
-Governments in Québec and
+Governments in Quebec and
 Ontario. The Conservative Government
 has shown increasing indecisiveness
 on the issue of free trade.
@@ -185,7 +185,7 @@ the last Federal elections. At present,
 it has a majority in the polls
 in all the Western Provinces except
 Alberta. And in an important new
-breakthrough, its support in the polls in Québec has reached 19% as the
+breakthrough, its support in the polls in Quebec has reached 19% as the
 <span lang="fr-CA">Parti Québécois</span> has split.
 
 The leaders of the <abbr>NDP</abbr> and organized labor must fight for an alternative to Canadian capitalism and its parties,
