@@ -24,7 +24,7 @@ and who have an income over over $100,000. On top of this, the speculators are m
 buying up vacant buildings and occupied buildings, forcing the tenants out and
 turning the buildings into $100,000-plus apartment units.
 
-### Power political force
+### Powerful political force
 
 The attack on Harlem's blacks is spearheaded by the city's ruling elite.
 "Spatial Deconcentration" is the term used.

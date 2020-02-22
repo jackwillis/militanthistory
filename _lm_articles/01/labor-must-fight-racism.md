@@ -23,8 +23,8 @@ make up 12% of households
 yet own only 4% of
 the nation’s wealth.
 
-{% include drop-cap.html text="36% of blacks" %}
-and 47% of black
+{% include drop-cap.html text="Thirty-six percent of" %}
+blacks and 47% of black
 children live in poverty. This is in
 the richest country in the world
 where the number of millionaires

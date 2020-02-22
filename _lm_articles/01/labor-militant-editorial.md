@@ -1,13 +1,13 @@
 ---
 layout: lm_article
-title: "‘Labor Militant’, no. 1 - Editorial"
+title: "‘Labor Militant’ editorial"
 html_title: "<cite>Labor Militant</cite> editorial"
 lm_issue: 1
 location: "p. 2"
 tags: fundraising program working-class strategy
 ---
 
-<span class="drop-cap"><cite><span class="drop-cap__initial">L</span>abor Militant</cite> is</span>
+<cite>Labor Militant</cite> is
 being produced to provide a conscious socialist alernative in the working class and the youth in the United States.
 American big business is in crisis and is attempting to offload this  crisis onto the backs of American workers,
 and workers and peasants internationally. All it offers is increased poverty, repression, wars,

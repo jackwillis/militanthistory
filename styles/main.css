@@ -116,7 +116,7 @@ small,
   color: #980043;
 }
 
-.byline {
+.byline, .tags {
   color: #555555;
 }
 
@@ -126,7 +126,6 @@ small,
 
 .tags ul {
   display: inline;
-  color: #555555;
   list-style: none;
   padding: 0;
   line-height: 0.6;
