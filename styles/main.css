@@ -40,13 +40,12 @@ h1, h2, h3, h4, .byline {
   line-height: 1.2;
 }
 
-h1, h3, .author-info {
+h1, h3 {
   font-family: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
 
 .author-info {
   font-weight: bold;
-  font-size: 92%;
 }
 
 h1 {
@@ -174,14 +173,6 @@ html.wf-active abbr, .caps {
   text-transform: lowercase;
 }
 
-html.wf-active h3 abbr {
-  font-size: 110%;
-}
-
-html.wf-active .author-info abbr {
-  font-size: 112%;
-}
-
 .drop-cap__initial {
   display:block;
   float: left;
@@ -291,12 +282,6 @@ sub {
 .articles-list sup a {
   font-weight: normal;
 }
-
-/*body.tags-page {
-  width: 100%;
-  max-width: unset;
-  columns: 3;
-}*/
 
 /* https://css-tricks.com/examples/hrs/ */ 
 hr {
