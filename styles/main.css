@@ -72,6 +72,7 @@ h3 {
 
 h1, h2 {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: normal;
 }
 
 .author-info {
@@ -93,8 +94,8 @@ body.front-page h1 {
   font-size: 200%;
 }
 
-h2 {
-  margin: 1em 0 0.5em 0;
+h2, h3 {
+  margin: 1.5em 0 0.5em 0;
 }
 
 h4 {
@@ -200,11 +201,19 @@ html.wf-inactive .drop-cap,
 html.wf-inactive .caps {
   letter-spacing: 1pt;
   margin-right: -0.5pt;
+}
+
+html.wf-inactive .drop-cap {
   font-variant-caps: small-caps;
 }
 
-html.wf-active abbr, html.wf-active .all-caps {
+html.wf-inactive abbr,
+html.wf-inactive .caps {
   font-variant-caps: all-small-caps;
+}
+
+html.wf-active abbr,
+html.wf-active .all-caps {
   text-transform: lowercase;
 }
 
@@ -229,7 +238,6 @@ html.wf-active abbr, html.wf-active .all-caps {
 
 summary {
   margin: 0;
-  font-weight: bold;
 }
 
 summary h2, summary h3, summary h4 {
