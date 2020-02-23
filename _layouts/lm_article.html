@@ -37,8 +37,12 @@ layout: default
 
   <nav class="breadcrumb breadcrumb-article">
     <ul>
-      <li data-href="/lm/#available-issues">« <a href="/lm/#available-issues"><cite>Labor Militant</cite></a></li>
-      <li data-href="{{ issue.url }}#articles">« <a href="{{ issue.url }}#articles">Issue&nbsp;{{ issue.lm_issue }}</a></li>
+      <li data-href="/lm/#available-issues">
+        <a class="pure-button" href="/lm/#available-issues">↥↥ <cite>Labor Militant</cite></a>
+      </li>
+      <li data-href="{{ issue.url }}#articles">
+        <a class="pure-button" href="{{ issue.url }}#articles">↥ Issue&nbsp;{{ issue.lm_issue }}</a>
+      </li>
     </ul>
   </nav>
 </article>

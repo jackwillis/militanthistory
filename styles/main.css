@@ -28,7 +28,7 @@ html {
   justify-content: space-around;
 }
 
-header, footer, main, nav {
+header, footer, main {
   margin: 2em 0 1em 0;
 }
 
@@ -53,6 +53,10 @@ h1 {
   margin: -1em 0;
 }
 
+.subtitle {
+  font-style: italic;
+}
+
 body.front-page h1 {
   margin: 1em 0;
   font-size: 200%;
@@ -69,6 +73,10 @@ h4 {
 p {
   hyphens: auto;
   hyphenate-limit-last: always;
+}
+
+header p, footer p {
+  hyphens: none;
 }
 
 li {
@@ -181,11 +189,11 @@ html.wf-active abbr, .caps {
   font-size: 300%;
 }
 
-.breadcrumb li, summary {
-  border: 1px solid #555555;
-  border-radius: 8px;
-  padding: 0.5em;
-}
+/*.breadcrumb li, summary {*/
+  /*border: 1px solid #555555;*/
+  /*border-radius: 8px;*/
+  /*padding: 0.5em;*/
+/*}*/
 
 .breadcrumb ul {
   list-style: none;
@@ -195,8 +203,6 @@ html.wf-active abbr, .caps {
 }
 
 .breadcrumb li {
-  margin: 0 0.125em;
-
   flex-grow: 1;
   min-width: 25%;
 }
@@ -296,3 +302,23 @@ hr {
   content: url(/images/m-icon.png);
   white-space: nowrap;
 }
+
+/*adapted from pure css*/
+.pure-button {
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: none;
+    background-color: #e6e6e6;
+    text-decoration: none;
+    border-radius: 2px;
+    line-height: 2;
+}
+.pure-button:focus, .pure-button:hover {
+    background-color: #c8c8c8;
+}
+
+.ta-c{text-align:center;}
+.ta-r{text-align:right;}

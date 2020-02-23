@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/fonts.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <script src="/scripts/webfont.js"></script>
-    <script src="/scripts/militanthistory.js"></script>
+    <script>
+      // <html> gains .wf-active class once small caps font loads
+      WebFont.load({ custom: { families: ['Alegreya Sans SC'] } });
+    </script>
   </head>
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>

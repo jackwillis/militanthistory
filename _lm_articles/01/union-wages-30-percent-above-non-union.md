@@ -118,14 +118,14 @@ labor leaders unprepared. But
 pressure is growing on them to
 organize the millions of workers
 outside organized labor. <abbr>SEIU</abbr>
-spent 30% of its budget on organiz-
-ing in 1985. At the 1985 <abbr>AFL--CIO</abbr>
+spent 30% of its budget on organizing
+in 1985. At the 1985 <abbr>AFL--CIO</abbr>
 convention Lane Kirkland, president
 of the <abbr>AFL--CIO</abbr>, said, "A new
 labor force has grown up around us
-and the trade union share ofit has
+and the trade union share of it has
 dropped. But the good news is that
-we havea hell of a lot more people
+we have a hell of a lot more people
 to organize, and we mean to
 organize them."
 

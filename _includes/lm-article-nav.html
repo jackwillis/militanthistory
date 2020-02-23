@@ -2,19 +2,23 @@
   <ul>
   {% if include.previous_issue %}
     <li data-href="{{ include.previous_issue.url }}">
-      ← <a rel="prev" href="{{ include.previous_issue.url }}">Issue&nbsp;{{ include.previous_issue.lm_issue }}
-      {% assign proper_date = include.previous_issue.date | date_to_long_string %}
-      ({{ include.previous_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }})</a>
+      <a rel="prev" class="pure-button" href="{{ include.previous_issue.url }}">
+        ← Issue&nbsp;{{ include.previous_issue.slug }}
+        {% assign proper_date = include.previous_issue.date | date_to_long_string %}
+        ({{ include.previous_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }})
+      </a>
     </li>
   {% endif %}
 
-    <li data-href="/lm/#available-issues">↥ <a href="/lm/#available-issues">Index</a></li>
+    <li class="ta-c" data-href="/lm/#available-issues"><a class="pure-button ta-c" href="/lm/#available-issues">↥ Index</a></li>
 
   {% if include.next_issue %}
-    <li data-href="{{ include.next_issue.url }}">
-      <a rel="next" href="{{ include.next_issue.url }}">Issue&nbsp;{{ include.next_issue.lm_issue }}
-      {% assign proper_date = include.next_issue.date | date_to_long_string %}
-      ({{ include.next_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }})</a> →
+    <li class="ta-r" data-href="{{ include.next_issue.url }}">
+      <a rel="next" class="pure-button" href="{{ include.next_issue.url }}">
+        Issue&nbsp;{{ include.next_issue.slug }}
+        {% assign proper_date = include.next_issue.date | date_to_long_string %}
+        ({{ include.next_issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }}) →
+      </a>
     </li>
   {% endif %}
   </ul>
