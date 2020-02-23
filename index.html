@@ -1,65 +1,48 @@
 ---
-layout: default
-body_class: front-page
 ---
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
 
-<h2>About</h2>
+  <body class="front-page">
+    <header>
+      <h1>Militant History</h1>
+    </header>
 
-<p>
-  <strong>Militant History</strong>
-  reproduces historical documents (newspapers, pamphlets, books, and articles)
-  from the Committee for a Workers’ International (<abbr>CWI</abbr>),
-  from its foundation in 1974 to the formation of the
-  <a rel="external" href="https://internationalsocialist.net">International Socialist Alternative</a>
-  (<abbr>ISA</abbr>) in 2020.
-  Our goal is to digitize and re-publish literature which is unavailable online,
-  as well as to provide a convenient index for
-  <abbr>CWI</abbr> material.
-</p>
+    <main>
+      <h2>About</h2>
+      <p>
+        <b>Militant History</b> will print historical documents &ndash;
+        newspapers, pamphlets, books, and articles &ndash;
+        from the Committee for a Workers’ International (<abbr>CWI</abbr>),
+        from its founding in 1974 to the formation of the
+        <a rel="external" href="https://internationalsocialist.net">International Socialist Alternative</a>
+        (<abbr>ISA</abbr>) in 2020.
+        Our goal is to digitize and re-publish literature which is unavailable online,
+        and to provide a convenient index for
+        <abbr>CWI</abbr> material.
+      </p>
 
-<!-- <h2>Books and pamphlets</h2>
+      <h2><cite>Labor Militant</cite></h2>
+      <p>
+        Have you read <b><cite><a href="/lm/#the-newspaper">Labor Militant</a></cite></b>?
+        This semi-monthly newspaper ran from 1986 to 1997.
+        It features US, international, and labor news and history;
+        interviews, activist dispatches, media reviews, socialist theory,
+        and letters to the editor.
+      </p>
+      <p>
+        Its publisher, the political organization also called
+        <b><a href="/lm/#the-group">Labor Militant</a></b>,
+        became <a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a> in 1999.
+      </p>
+      <p>
+        Read issues below or browse the <a href="/tags/">index</a>.
+      </p>
+      {% include lm-listing.html %}
 
-<ul>
-  <li>
-    <a rel="external" href="https://archive.org/details/SpanishRevolutionGrantTaaffe/"><em>The Spanish Revolution 1931–37</em></a>
-    by <span class="author">Ted&nbsp;Grant</span>, <span class="author">Peter&nbsp;Taaffe</span> (May&nbsp;1985)
-  </li>
+    </main>
 
-{% for book in site.books %}
-  <li>
-    <a href="{{ book.url }}"><cite>{{ book.html_title | default: book.title }}</cite></a>
-    by <span class="author">{{ book.author | replace: " ", "&nbsp;" }}</span>
-    ({{ book.date | date_to_long_string | replace: " ", "&nbsp;" }})
-  </li>
-{% endfor %}
-</ul> -->
-
-<h2><cite>Labor Militant</cite></h2>
-
-<p>
-  Have you read <b><cite><a href="/lm/#the-newspaper">Labor Militant</a></cite></b>?
-  This semi-monthly newspaper ran from 1986 to 1997.
-  It features US, international, and labor news and history;
-  interviews, activist dispatches, media reviews, socialist theory,
-  and letters to the editor.
-</p>
-
-<p>
-  Its publisher, the political organization also called
-  <b><a href="/lm/#the-group">Labor Militant</a></b>,
-  became <a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a> in 1999.
-</p>
-
-<p>
-  Read issues below or browse the <a href="/tags/">index</a>.
-</p>
-
-{% include lm-listing.html %}
-
-<!-- <h2>Blog</h2>
-
-<ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_long_string | replace: " ", "&nbsp;" }})</li>
-{% endfor %}
-</ul> -->
+    {% include footer.html %}
+  </body>
+</html>
