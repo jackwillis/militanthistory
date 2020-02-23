@@ -6,9 +6,10 @@ permalink: /lm/
 
 ## Labor Militant
 
-**Labor Militant** refers to the 1986 US socialist group as well as the newspaper it published.
+<b>Labor Militant</b> refers to the 1986 US socialist group as well as the newspaper it published.
 
-{% include subhead.html title="The newspaper" %}
+{:#the-newspaper}
+### The newspaper [#](#the-newspaper)
 
 <b><cite>Labor Militant</cite></b>[^labor-militant]
 was a semi-monthly newspaper which ran from 1986 to 1997.
@@ -17,7 +18,10 @@ interviews, historical perspectives, activist reports, book reviews,
 letters to the editor, congratulations, and condolences.
 Issues were twelve pages long in the 11″×17″ format of British tabloids.
 
-{% include lm-listing.html %}
+{:#available-issues}
+#### Available issues [#](#available-issues)
+
+{% include lm-table.html %}
 
 {% include subhead.html title="The group" %}
 

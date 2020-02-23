@@ -1,1 +1,4 @@
-<h3 id="{{ include.title | slugify }}">{{ include.title }} <a href="#{{ include.title | slugify }}">#</a></h3>
+{% assign level = include.level | default: 3 %}
+<h{{level}} id="{{ include.title | slugify }}">
+  {{ include.title }} <a href="#{{ include.title | slugify }}">#</a>
+</h{{level}}>
