@@ -17,4 +17,11 @@
       </tr>
     {% endfor %}
   </tbody>
+
+  <tfoot>
+    <p>
+      {{ site.lm_issues | size }} of 51 issues have been scanned,
+      and {{ site.lm_articles | size }} articles have been transcribed.
+    </p>
+  </tfoot>
 </table>
