@@ -1,7 +1,23 @@
 body {
   font: 18px/27px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
   margin: 2em 0.5em;
-  max-width: 32em /* 576 px */;
+  max-width: 32em;
+}
+
+@media(min-width: 600px) {
+  body {
+    font-size: 22px;
+    line-height: 33px;
+    max-width: 40em;
+  }
+}
+
+@media(min-width: 1025px) {
+  body {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 32em;
+  }
 }
 
 figcaption, small, blockquote, .caption {
