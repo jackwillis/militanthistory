@@ -10,10 +10,10 @@
     </li>
   {% endif %}
 
-    <li class="ta-c" data-href="/lm/#available-issues"><a class="pure-button ta-c" href="/lm/#available-issues">↥ Index</a></li>
+    <li data-href="/lm/#available-issues"><a class="pure-button ta-c" href="/lm/#available-issues">↥ Index</a></li>
 
   {% if include.next_issue %}
-    <li class="ta-r" data-href="{{ include.next_issue.url }}">
+    <li data-href="{{ include.next_issue.url }}">
       <a rel="next" class="pure-button" href="{{ include.next_issue.url }}">
         Issue&nbsp;{{ include.next_issue.slug }}
         {% assign proper_date = include.next_issue.date | date_to_long_string %}

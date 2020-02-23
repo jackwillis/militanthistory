@@ -205,7 +205,7 @@ beacon for US workers struggling
 to make a decent life for themselves
 and their families.
 
-{:.final.caps}
+{:.final.caps.all-caps}
 OPPOSE MULRONEY AND REAGAN.  
 UNITY BETWEEN CANADIAN AND US LABOR.  
 FOR A SOCIALIST UNITED STATES OF NORTH AMERICA.

@@ -18,7 +18,7 @@ body {
   }
 
   html {
-    background-color: #fce7e7;
+    background-color: #fff0f0;
   }
 }
 
@@ -200,10 +200,11 @@ html.wf-inactive .drop-cap,
 html.wf-inactive .caps {
   letter-spacing: 1pt;
   margin-right: -0.5pt;
-  font-variant-caps: all-small-caps;
+  font-variant-caps: small-caps;
 }
 
-html.wf-active abbr, .caps {
+html.wf-active abbr, html.wf-active .all-caps {
+  font-variant-caps: all-small-caps;
   text-transform: lowercase;
 }
 
@@ -215,26 +216,15 @@ html.wf-active abbr, .caps {
   font-size: 300%;
 }
 
-/*.breadcrumb li, summary {*/
-  /*border: 1px solid #555555;*/
-  /*border-radius: 8px;*/
-  /*padding: 0.5em;*/
-/*}*/
-
 .breadcrumb ul {
   list-style: none;
   padding: 0;
   display: flex;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 
 .breadcrumb li {
-  flex-grow: 1;
-  min-width: 25%;
-}
-
-.breadcrumb-article {
-  margin-top: 2em;
+  margin-right: 0.5em;
 }
 
 summary {
@@ -324,7 +314,7 @@ hr {
     padding: .5em 1em;
     color: #444;
     border: none;
-    background-color: #fce7e7;
+    background-color: #fff0f0;
     text-decoration: none;
     border-radius: 2px;
     line-height: 2;
@@ -333,6 +323,3 @@ hr {
 .pure-button:focus, .pure-button:hover {
     background-color: #ddd;
 }
-
-.ta-c{text-align:center;}
-.ta-r{text-align:right;}
