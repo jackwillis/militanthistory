@@ -123,11 +123,6 @@ body.front-page h1 a {
   100% { background: rgba(0, 0, 0, 0); }
 }
 
-h2,
-h3 {
-  color: #003454;
-}
-
 a:link {
   color: #295e89;
 }
@@ -135,7 +130,8 @@ a:link {
 figcaption,
 small,
 .author-info,
-.caption {
+.caption,
+h2, h3 {
   color: #980043;
 }
 
