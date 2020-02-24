@@ -78,6 +78,8 @@ h3, thead {
 
 .subtitle {
   font-style: italic;
+  font-size: 200%;
+  line-height: 3rem;
 }
 
 /*body.front-page > header {
@@ -180,30 +182,35 @@ a {
   text-decoration-thickness: 0.1em;
 }
 
-abbr,
+p abbr,
 .drop-cap,
 .caps {
   font-family: "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
 
-html.wf-inactive abbr,
-html.wf-inactive .drop-cap,
-html.wf-inactive .caps {
+p abbr,
+.drop-cap,
+.caps {
   letter-spacing: 1pt;
   margin-right: -0.5pt;
-}
-
-html.wf-inactive .drop-cap {
-  font-variant-caps: small-caps;
-}
-
-html.wf-inactive abbr,
-html.wf-inactive .caps {
   font-variant-caps: all-small-caps;
 }
 
-html.wf-active abbr,
-html.wf-active .all-caps {
+.drop-cap {
+  font-variant-caps: small-caps;
+}
+
+body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded .drop-cap,
+body.small-caps-font-loaded .caps,
+body.small-caps-font-loaded .all-caps {
+  font-variant-caps: unset;
+  letter-spacing: unset;
+  margin-right: unset;
+}
+
+body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded .all-caps {
   text-transform: lowercase;
 }
 
