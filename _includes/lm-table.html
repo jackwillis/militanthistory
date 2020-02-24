@@ -1,20 +1,28 @@
-<table class="pure-table pure-table-striped">
+<figure>
+<table class="pure-table pure-table-striped pure-table-horizontal">
   <thead>
     <tr>
       <th>Issue</th>
       <th>Title</th>
       <th>Date</th>
+      <th aria-label="Number of articles transcribed"
+               title="Number of articles transcribed">
+        No.&nbsp;tr.
+      </th>
     </tr>
   </thead>
 
   <tbody>
     {% for issue in site.lm_issues %}
       {% assign proper_date = issue.date | date_to_long_string %}
+      {% assign num_articles = site.lm_articles | where_exp: "a", "a.lm_issue == issue.lm_issue" | size %}
       <tr>
         <td>{{ issue.lm_issue }}</td>
         <td><a href="{{ issue.url }}">{{ issue.subtitle }}</a></td>
         <td>{{ issue.reported_date | default: proper_date | replace: '/', '<wbr>/' }}</td>
+        <td>{{ num_articles }}</td>
       </tr>
     {% endfor %}
   </tbody>
 </table>
+</figure>
