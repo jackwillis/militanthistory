@@ -225,11 +225,7 @@ figure {
 
 figcaption {
   padding: 0 2em;
-  margin: auto;
-}
-
-figcaption p {
-  text-align: center;
+  margin: 0 0 0 auto;
 }
 
 figure img {
