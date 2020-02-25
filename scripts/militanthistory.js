@@ -1,5 +1,7 @@
 // militanthistory.js
 
+// just typography stuff - progressive enhancements
+
 document.addEventListener('DOMContentLoaded', function() {
   var bodyTextFont = new FontFaceObserver('Alegreya Sans');
   var smallCapsFont = new FontFaceObserver('Alegreya Sans SC');
@@ -16,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   ]);
 
   allFonts.then(function() {
-    textBalancer.initialize('h2, h3, h4, h5, h6, .subtitle, figcaption, td');
+    textBalancer.initialize('h2, h3, h4, h5, h6, .subtitle, figcaption');
   });
 });
