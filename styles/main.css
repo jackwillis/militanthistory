@@ -41,10 +41,6 @@ figcaption, small, blockquote, .caption {
   /*font-size: 15px;*/
 }
 
-figcaption, .caption {
-  font-weight: 500;
-}
-
 /*blockquote {
   font-size: 90%;
 }*/
@@ -62,6 +58,10 @@ h1, h2, h3, h4, header p {
   line-height: 1.5rem;
 }
 
+h1, h2, h3, h4, .subtitle {
+  word-spacing: 1pt;
+}
+
 h3, thead {
   font-family: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
@@ -76,14 +76,17 @@ h3, thead {
   line-height: 3rem;
 }
 
-/*body.front-page > header {
-  height: 4.5em;
-}*/
-
-h1 {
+h1, article h2 {
   margin: 0;
   font-size: 200%;
   line-height: 3rem;
+}
+
+.small-header h1 {
+  margin: -3rem 0 0 0;
+  font-size: 100%;
+  line-height: 1.5rem;
+  font-weight: 900;
 }
 
 h2, h3, h4, li {

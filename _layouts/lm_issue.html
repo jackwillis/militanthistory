@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "‘Labor Militant’, no. !!page.slug!!"
+title: "Labor Militant - Issue !!page.slug!!"
 ---
 {% assign previous_number_calc = page.lm_issue | minus: 1 %}
 {% assign previous_number = page.previous_issue | default: previous_number_calc %}
@@ -19,7 +19,7 @@ title: "‘Labor Militant’, no. !!page.slug!!"
 
     {% assign proper_date = page.date | date_to_long_string %}
     <p class="byline">
-      Published <span class="caps">{{ page.reported_date | default: proper_date }}</span>.
+      Published {{ page.reported_date | default: proper_date }}.
     </p>
   </header>
 

@@ -16,7 +16,7 @@ layout: default
         <a href="{{ issue.url }}#articles">no. {{ issue.lm_issue }}</a>{% if page.location %}, {{ page.location }}.{% endif %}
       </p>
 
-      <p>Published <span class="caps">{{ issue.reported_date | default: proper_date }}</span>.</p>
+      <p>Published {{ issue.reported_date | default: proper_date }}.</p>
     </div>
   </header>
 
