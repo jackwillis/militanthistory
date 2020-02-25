@@ -47,12 +47,6 @@ figcaption, .caption {
 
 /*blockquote {
   font-size: 90%;
-}
-
-blockquote.lead {
-  font-size: 100%;
-  line-height: unset;
-  font-weight: normal;
 }*/
 
 header, footer, main {
@@ -100,7 +94,7 @@ h2, h3, h4, li {
 p {
   hyphens: auto;
   hyphenate-limit-last: always;
-  margin: 1.5em 0;
+  margin: 1.5rem 0;
   hanging-punctuation: first;
 }
 
@@ -170,9 +164,14 @@ header p p {
   content: none;
 }
 
-p.lead {
-  font-size: 115%;
-  line-height: 1.7;
+.lead {
+  font-size: 125%;
+  line-height: 3rem;
+}
+
+blockquote.lead {
+  margin: 0;
+  font-style: italic;
 }
 
 a:visited {
@@ -239,13 +238,8 @@ summary {
   margin: 0;
 }
 
-summary h2, summary h3, summary h4 {
-  display: inline-block;
-  margin: 0.25em 0;
-}
-
 figure {
-  margin: 1.5em -0.5em;
+  margin: 1.5rem -0.5em;
 }
 
 figcaption {
@@ -316,8 +310,6 @@ hr {
     font-family: inherit;
     font-size: 100%;
     padding: .75em 1em;
-    color: #444;
-    border: none;
     background-color: #fff0f0;
     text-decoration: none;
     border-radius: 2px;
@@ -333,4 +325,8 @@ figure .pure-table {
   border-left-width: 0;
   border-right-width: 0;
   width: 100%;
+}
+
+.hanging-quote-left {
+  text-indent: -0.25em;
 }

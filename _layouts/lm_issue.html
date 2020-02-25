@@ -15,7 +15,7 @@ title: "‘Labor Militant’, no. !!page.slug!!"
       <cite>Labor Militant</cite>&nbsp;&nbsp;&nbsp;&nbsp;Issue&nbsp;{{ page.slug }}
     </h2>
 
-    {% if page.subtitle %}<p class="subtitle">The “{{ page.subtitle }}” issue</p>{% endif %}
+    {% if page.subtitle %}<p class="subtitle hanging-quote-left">“{{ page.subtitle }}”</p>{% endif %}
 
     {% assign proper_date = page.date | date_to_long_string %}
     <p class="byline">
@@ -35,7 +35,7 @@ title: "‘Labor Militant’, no. !!page.slug!!"
 
   {% if page.pdf or page.djvu or page.txt %}
   <details>
-    <summary><h3>Download full issue</h3></summary>
+    <summary class="pure-button">Download full issue</summary>
     <ul>
     {% if page.pdf %}
       <li><a rel="alternate" type="application/pdf" href="{{ page.pdf | uri_escape }}"><abbr>PDF</abbr> scan</a></li>

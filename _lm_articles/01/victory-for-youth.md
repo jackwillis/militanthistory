@@ -12,7 +12,7 @@ tags: youth ydc labor seattle unemployment vancouver portland internationalism w
   <figcaption><p>Seattle Y.D.C. in action</p></figcaption>
 </figure>
 
-{:.lead}
+{:.lead.hanging-quote-left}
 > "Youth have the worst jobs, the worst unemployment rate and the worst opportunities --
 and because there's nothing to turn to we also have the worst alcohol, drug and suicide problems.
 On top of that we face constant police harassment, anti-youth legislation from the City Council and
@@ -22,8 +22,6 @@ curfew proposals from the State Legislature. That's why we need a campaign to de
 Mary Connors, a Youth Defense Campaign and Labor and Trade Union Group activist, explained to <cite>Labor Militant</cite>.
 At 21, Mary's been in and out of low-paid office and factory jobs.
 Her life and future is no different to the majority of American youth.
-
-* * *
 
 {% include drop-cap.html text="Teenage unemployment officially" %}
 rose to 19% last month, nearly 3 times higher than the adult rate.
