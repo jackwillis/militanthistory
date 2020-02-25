@@ -30,6 +30,7 @@ Apprenticeships or any job training has become history.
 The corporations who dictate the wages and conditions of non-union youth
 expect us to be grateful for the privilege of a job: "there's many more where you came from."
 
+{:.hanging-quote-left}
 "Things are getting worse. One friend told me how he'd worked in construction each summer since 1980.
 He used to get 6 bucks an hour, then five, then four and last year he couldn't find any laboring work over $4 an hour."
 This is the policy of Big Business.

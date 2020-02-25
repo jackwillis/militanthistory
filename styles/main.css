@@ -12,38 +12,12 @@ body {
   margin: 0;
   max-width: 32em;
   background: #fff;
-  box-sizing: border-box;
+  font-variant-numeric: oldstyle-nums;
 }
 
-@media(min-width: 600px) {
-  body {
-/*    font-size: 22px;
-    line-height: 33px;
-    max-width: 40em;*/
-
-    border-width: 0 2px;
-    border-style: solid;
-    border-color: #ddd;
-  }
-
-  html {
-    background-color: #fff0f0;
-  }
+table {
+  font-variant-numeric: lining-nums;
 }
-
-@media(min-width: 1025px) {
-  body {
-    /*font-size: 125%;*/
-  }
-}
-
-figcaption, small, blockquote, .caption {
-  /*font-size: 15px;*/
-}
-
-/*blockquote {
-  font-size: 90%;
-}*/
 
 header, footer, main {
   margin: 3rem 0 1.5rem 0;
@@ -58,7 +32,7 @@ h1, h2, h3, h4, header p {
   line-height: 1.5rem;
 }
 
-h1, h2, h3, h4, .subtitle {
+h1, h2, .subtitle {
   word-spacing: 1pt;
 }
 
@@ -82,6 +56,10 @@ h1, article h2 {
   line-height: 3rem;
 }
 
+h1, article h2 {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .small-header h1 {
   margin: -3rem 0 0 0;
   font-size: 100%;
@@ -89,7 +67,7 @@ h1, article h2 {
   font-weight: 900;
 }
 
-h2, h3, h4, li {
+h2, h3, h4, ul, ol, li, p {
   margin: 1.5rem 0;
   line-height: 1.5rem;
 }
@@ -97,8 +75,6 @@ h2, h3, h4, li {
 p {
   hyphens: auto;
   hyphenate-limit-last: always;
-  margin: 1.5rem 0;
-  hanging-punctuation: first;
 }
 
 header p, footer p {
@@ -129,8 +105,7 @@ a:link {
   color: #295e89;
 }
 
-figcaption,
-small,
+strong,
 .author-info,
 .caption {
   color: #980043;
@@ -152,11 +127,11 @@ header p p {
   display: inline;
   list-style: none;
   padding: 0;
-  line-height: 0.6;
 }
 
 .tags li {
   display: inline-block;
+  margin: 0;
 }
 
 .tags li::after {
@@ -169,6 +144,9 @@ header p p {
 
 .lead {
   font-size: 125%;
+}
+
+.lead, blockquote.lead p {
   line-height: 3rem;
 }
 
@@ -176,6 +154,7 @@ blockquote.lead {
   margin: 0;
   font-style: italic;
 }
+
 
 a:visited {
   color: #000;
@@ -201,7 +180,6 @@ p abbr,
 
 .drop-cap {
   font-variant-caps: small-caps;
-  hanging-punctuation: unset;
 }
 
 body.small-caps-font-loaded p abbr,
@@ -246,8 +224,12 @@ figure {
 }
 
 figcaption {
-  padding: 0 0.5em;
-  margin: 0 0 0 auto;
+  padding: 0 2em;
+  margin: auto;
+}
+
+figcaption p {
+  text-align: center;
 }
 
 figure img {
@@ -332,4 +314,34 @@ figure .pure-table {
 
 .hanging-quote-left {
   text-indent: -0.25em;
+}
+
+@media(min-width: 600px) {
+  body {
+/*    font-size: 22px;
+    line-height: 33px;
+    max-width: 40em;*/
+
+/*    border-width: 0 2px;
+    border-style: solid;
+    border-color: #ddd;*/
+  }
+
+  html {
+    background-color: #fff0f0;
+  }
+}
+
+@media(min-width: 1025px) {
+  body {
+    padding: 0 0.75em;
+  }
+
+  figure {
+    margin: 1.5rem -0.75em;
+  }
+
+  p {
+    text-align: justify;
+  }
 }
