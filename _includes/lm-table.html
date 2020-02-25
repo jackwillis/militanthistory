@@ -24,7 +24,7 @@
       <tr>
         <td>{{ issue.lm_issue }}</td>
         <td><a href="{{ issue.url }}">{{ issue.subtitle }}</a></td>
-        <td>{{ issue.reported_date | default: proper_date | replace: '/', '<wbr>/' }}</td>
+        <td>{{ issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }}</td>
         <td>{{ num_articles }}</td>
       </tr>
     {% endfor %}

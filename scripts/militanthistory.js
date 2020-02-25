@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
   ]);
 
   allFonts.then(function() {
-    textBalancer.initialize('h2, h3, h4, .lead, .subtitle, td');
+    textBalancer.initialize('h2, h3, h4, h5, h6, .subtitle, figcaption, td');
   });
 });

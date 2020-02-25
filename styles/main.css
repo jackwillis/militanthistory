@@ -101,6 +101,7 @@ p {
   hyphens: auto;
   hyphenate-limit-last: always;
   margin: 1.5em 0;
+  hanging-punctuation: first;
 }
 
 header p, footer p {
@@ -198,6 +199,7 @@ p abbr,
 
 .drop-cap {
   font-variant-caps: small-caps;
+  hanging-punctuation: unset;
 }
 
 body.small-caps-font-loaded p abbr,
@@ -243,12 +245,12 @@ summary h2, summary h3, summary h4 {
 }
 
 figure {
-  margin: 2em -0.5em 1.5em -0.5em;
+  margin: 1.5em -0.5em;
 }
 
 figcaption {
   padding: 0 0.5em;
-  text-align: right;
+  margin: 0 0 0 auto;
 }
 
 figure img {
