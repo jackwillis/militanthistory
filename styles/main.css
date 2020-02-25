@@ -316,6 +316,12 @@ figure .pure-table {
   text-indent: -0.25em;
 }
 
+@media(max-width: 600px) {
+  .breadcrumb li {
+    margin: 0.75rem 0;
+  }
+}
+
 @media(min-width: 600px) {
   body {
 /*    font-size: 22px;
