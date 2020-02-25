@@ -315,13 +315,12 @@ hr {
 .pure-button {
     font-family: inherit;
     font-size: 100%;
-    padding: .5em 1em;
+    padding: .75em 1em;
     color: #444;
     border: none;
     background-color: #fff0f0;
     text-decoration: none;
     border-radius: 2px;
-    line-height: 2;
     border: 1px solid #ddd;
 }
 .pure-button:focus, .pure-button:hover {
