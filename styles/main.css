@@ -280,9 +280,8 @@ sub {
   text-decoration: underline dotted #000;
 }
 
-/* https://css-tricks.com/examples/hrs/ */ 
 hr {
-  margin: 2em 0;
+  margin: 1.5rem 0;
   border: 0;
   background-color: #ddd;
   height: 2px;
@@ -302,14 +301,13 @@ hr {
     background-color: #fff0f0;
     text-decoration: none;
     border-radius: 2px;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
+    border: 1px solid #ffdad8;
 }
 .pure-button:focus, .pure-button:hover {
-    background-color: #ddd;
+    background-color: #ffdad8;
 }
 
-.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.75em .5em}.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#f2f2f2}.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px 0;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #ffc7c4}.pure-table caption{color:#000;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #ffc7c4;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.75em .5em}.pure-table thead{background-color:#f2d5d3;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#fff0f0}.pure-table-striped tr:nth-child(2n-1) td{background-color:#fff0f0}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px 0;border-bottom:1px solid #ffc7c4}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
 
 figure .pure-table {
   border-left-width: 0;
@@ -336,6 +334,10 @@ figure .pure-table {
 @media(min-width: 1025px) {
   body {
     padding: 0 0.75em;
+    border-color: #ffc7c4;
+    border-style: solid;
+    border-width: 0 1px;
+    width: 32em;
   }
 
   figure {
