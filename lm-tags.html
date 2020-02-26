@@ -1,11 +1,10 @@
 ---
 layout: default
-permalink: /tags/
-title: "Tags"
-body_class: tags-page
+permalink: /lm/tags/
+title: "Labor Militant - Article Tags"
 ---
 
-<h2><cite>Labor Militant</cite> index</h2>
+<h2><cite>Labor Militant</cite> article tags</h2>
 
 {% for tag in site.data.tags %}
   <h3 id="{{ tag.name }}">{{ tag.title | default: tag.name }}</h3>

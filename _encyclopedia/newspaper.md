@@ -29,6 +29,5 @@ In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new interna
 ### Notes
 
 [^labor-militant]: <abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/labor-militant/oclc/15266902">0892-4902</a>
-[^militant]: <abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/militant/oclc/19365820">0144-9257</a>
 [^justice]: <abbr>OCLC</abbr> <a rel="external" href="https://www.worldcat.org/title/justice/oclc/811779790">811779790</a>
 [^socialist-alternative]: <abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/socialist-alternative/oclc/905231108">2638-3349</a>

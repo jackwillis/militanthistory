@@ -25,3 +25,5 @@ collections:
   lm_articles:
     output: true
     permalink: /lm/:path/
+  encyclopedia:
+    output: true

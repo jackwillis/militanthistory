@@ -1,7 +1,7 @@
 <nav class="breadcrumb">
   <ul>
   {% if include.previous_issue %}
-    <li data-href="{{ include.previous_issue.url }}">
+    <li>
       <a rel="prev" class="pure-button" href="{{ include.previous_issue.url }}">
         ← Issue&nbsp;{{ include.previous_issue.slug }}
         {% assign proper_date = include.previous_issue.date | date_to_long_string %}
@@ -10,10 +10,10 @@
     </li>
   {% endif %}
 
-    <li data-href="/lm/#available-issues"><a class="pure-button ta-c" href="/lm/#available-issues">↥ Index</a></li>
+    <li><a class="pure-button ta-c" href="/lm/issues/">↥ Index</a></li>
 
   {% if include.next_issue %}
-    <li data-href="{{ include.next_issue.url }}">
+    <li>
       <a rel="next" class="pure-button" href="{{ include.next_issue.url }}">
         Issue&nbsp;{{ include.next_issue.slug }}
         {% assign proper_date = include.next_issue.date | date_to_long_string %}
