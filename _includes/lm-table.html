@@ -20,12 +20,12 @@
   <tbody>
     {% for issue in site.lm_issues %}
       {% assign proper_date = issue.date | date_to_long_string %}
-      {% assign num_articles = site.lm_articles | where_exp: "a", "a.lm_issue == issue.lm_issue" | size %}
+      {% assign num_transcribed = site.lm_articles | where_exp: "a", "a.lm_issue == issue.lm_issue" | size %}
       <tr>
         <td>{{ issue.lm_issue }}</td>
         <td><a href="{{ issue.url }}">{{ issue.subtitle }}</a></td>
         <td>{{ issue.reported_date | default: proper_date | replace: '/', '/<wbr>' }}</td>
-        <td>{{ num_articles }}</td>
+        <td>{{ num_transcribed }}</td>
       </tr>
     {% endfor %}
   </tbody>

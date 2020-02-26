@@ -13,7 +13,7 @@ The results have been felt by Deborah Williams, a black Harlem woman
 and mother of four living in a "hotel" for homeless people
 one block south of 42nd St. which runs through Times Square.
 
-{:.final.hanging-quote-left}
+{:.final}
 {% include drop-cap.html text="“As the walls" slice_at=2 %}
 rotted, rats slithered in through holes.
 I stayed up every night watching them, but they got away anyway.

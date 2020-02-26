@@ -12,7 +12,7 @@ tags: youth ydc labor seattle unemployment vancouver portland internationalism w
   <figcaption><p>Seattle Y.D.C. in action</p></figcaption>
 </figure>
 
-{:.lead.hanging-quote-left}
+{:.lead}
 > "Youth have the worst jobs, the worst unemployment rate and the worst opportunities --
 and because there's nothing to turn to we also have the worst alcohol, drug and suicide problems.
 On top of that we face constant police harassment, anti-youth legislation from the City Council and
@@ -30,7 +30,6 @@ Apprenticeships or any job training has become history.
 The corporations who dictate the wages and conditions of non-union youth
 expect us to be grateful for the privilege of a job: "there's many more where you came from."
 
-{:.hanging-quote-left}
 "Things are getting worse. One friend told me how he'd worked in construction each summer since 1980.
 He used to get 6 bucks an hour, then five, then four and last year he couldn't find any laboring work over $4 an hour."
 This is the policy of Big Business.

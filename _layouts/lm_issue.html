@@ -9,18 +9,22 @@ title: "Labor Militant - Issue !!page.slug!!"
 {% assign next_number = page.next_issue | default: next_number_calc %}
 {% assign next_issue = site.lm_issues | where_exp: "i", "i.lm_issue == next_number" | first %}
 
+{% assign proper_date = page.date | date_to_long_string %}
+{% assign num_transcribed = site.lm_articles | where_exp: "a", "a.lm_issue == page.lm_issue" | size %}
+
+
 <article>
   <header>
     <h2>
-      <cite>Labor Militant</cite>&nbsp;• Issue&nbsp;{{ page.slug }}
+      <cite>Labor Militant</cite> • Issue&nbsp;{{ page.slug }}
     </h2>
 
-    {% if page.subtitle %}<p class="subtitle hanging-quote-left">“{{ page.subtitle }}”</p>{% endif %}
+    {% if page.subtitle %}<p class="subtitle">“{{ page.subtitle }}”</p>{% endif %}
 
-    {% assign proper_date = page.date | date_to_long_string %}
-    <p class="byline">
-      Published {{ page.reported_date | default: proper_date }}.
-    </p>
+    <div class="byline">
+      <p>Published {{ page.reported_date | default: proper_date }}.</p>
+      <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
+    </div>
   </header>
 
   {% include lm-article-nav.html previous_issue=previous_issue next_issue=next_issue %}

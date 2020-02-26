@@ -7,13 +7,15 @@ location: "p. 2"
 tags: fundraising program working-class strategy
 ---
 
+{:.lead}
 <cite>Labor Militant</cite> is
 being produced to provide a conscious socialist alernative in the working class and the youth in the United States.
 American big business is in crisis and is attempting to offload this  crisis onto the backs of American workers,
 and workers and peasants internationally. All it offers is increased poverty, repression, wars,
 and in the longer term of to to three decades, the threat of nuclear annihilation.
 
-The 100-million-strong American working class is the largest working class in the capitalist world.
+{% include drop-cap.html text="The 100-million-strong" %}
+American working class is the largest working class in the capitalist world.
 19 million are organized, making the American trade union movement the largest in the world.
 The working class is the most powerful force in the U.S.
 It, and it alone, has the power to end the dictatorship of the corporations over American society and to end capitalism.
@@ -47,8 +49,6 @@ A socialist United States of America would herald the end of capitalism and land
 It would also end the dictatorship of the Stalinist bureaucracies in Eastern Europe, Russia, China, etc.
 A new world order, a Socialist World Federation based on workers' democracies, would then be possible.
 This would utilize the potential of the productive forces and the human species to end poverty, war, oppression, racism, and division.
-
-* * *
 
 <cite>Labor Militant</cite> is produced by trade union activists and youth throughout the U.S.A.
 

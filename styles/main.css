@@ -165,12 +165,16 @@ a {
 }
 
 p abbr,
+li abbr,
+td abbr,
 .drop-cap,
 .caps {
   font-family: "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
 
 p abbr,
+li abbr,
+td abbr,
 .drop-cap,
 .caps {
   letter-spacing: 1pt;
@@ -183,6 +187,8 @@ p abbr,
 }
 
 body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded li abbr,
+body.small-caps-font-loaded td abbr,
 body.small-caps-font-loaded .drop-cap,
 body.small-caps-font-loaded .caps,
 body.small-caps-font-loaded .all-caps {
@@ -192,6 +198,8 @@ body.small-caps-font-loaded .all-caps {
 }
 
 body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded li abbr,
+body.small-caps-font-loaded td abbr,
 body.small-caps-font-loaded .all-caps {
   text-transform: lowercase;
 }
@@ -212,7 +220,7 @@ body.small-caps-font-loaded .all-caps {
 }
 
 .breadcrumb li {
-  margin-right: 0.5em;
+  margin: 0.75rem 0.25em;
 }
 
 summary {
@@ -225,7 +233,7 @@ figure {
 
 figcaption {
   padding: 0 2em;
-  margin: 0 0 0 auto;
+  margin: -0.75em 0 -0.75em auto;
 }
 
 figure img {
@@ -295,6 +303,7 @@ hr {
     text-decoration: none;
     border-radius: 2px;
     border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 .pure-button:focus, .pure-button:hover {
     background-color: #ddd;
@@ -306,16 +315,6 @@ figure .pure-table {
   border-left-width: 0;
   border-right-width: 0;
   width: 100%;
-}
-
-.hanging-quote-left {
-  text-indent: -0.25em;
-}
-
-@media(max-width: 600px) {
-  .breadcrumb li {
-    margin: 0.75rem 0;
-  }
 }
 
 @media(min-width: 600px) {
