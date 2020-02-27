@@ -248,20 +248,16 @@ ul, ol {
   padding-left: 1em;
 }
 
-a[rel=external]::after, a.footnote {
-  text-decoration: none;
-}
-
-a[rel=external] {
+a[href*="//"] {
   padding-right: 16px;
-}
-
-a[rel=external] {
   background-image: url(/images/external-link.svg);
   background-repeat: no-repeat;
   background-position: center right;
 }
 
+a.footnote {
+  text-decoration: none;
+}
 a.footnote::before {
   content: "[";
 }
