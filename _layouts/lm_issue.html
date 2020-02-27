@@ -16,13 +16,15 @@ title: "Labor Militant - Issue !!page.slug!!"
 <article>
   <header>
     <h2>
-      <cite>Labor Militant</cite> • Issue&nbsp;{{ page.slug }}
+      <cite>Labor Militant</cite>
+      <div class="subtitle">
+        Issue&nbsp;{{ page.slug }} ({{ page.reported_date | default: proper_date | replace: '/', '/<wbr>' }})
+      </div>
     </h2>
 
-    {% if page.subtitle %}<p class="subtitle">“{{ page.subtitle }}”</p>{% endif %}
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
 
     <div class="byline">
-      <p>Published {{ page.reported_date | default: proper_date }}.</p>
       <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
     </div>
   </header>

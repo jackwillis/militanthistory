@@ -8,6 +8,9 @@ html {
 
 body {
   font-family: "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+}
+
+body {
   padding: 0 0.5em;
   margin: 0;
   max-width: 32em;
@@ -45,9 +48,14 @@ h3, thead {
 }
 
 .subtitle {
-  font-style: italic;
-  font-size: 200%;
+  font-weight: normal;
   line-height: 3rem;
+}
+
+p.subtitle {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: left;
 }
 
 h1, article h2 {
