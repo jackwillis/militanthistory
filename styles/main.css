@@ -250,6 +250,7 @@ ul, ol {
 
 a[href*="//"] {
   padding-right: 16px;
+  margin-right: 2px;
   background-image: url(/images/external-link.svg);
   background-repeat: no-repeat;
   background-position: center right;

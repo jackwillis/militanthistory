@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Labor Militant issues"
+title: "Labor Militant - Issues"
 permalink: /lm/issues/
 ---
 
-## <cite>Labor Militant</cite> issues
+## [<cite>Labor Militant</cite>](/lm/newspaper/) / Issues
 
 {:.hatnote}
-See also [Labor Militant (newspaper)](/lm/newspaper/)
+See also the [tag index](/lm/tags/).
 
 {% include lm-table.html %}
 

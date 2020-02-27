@@ -19,12 +19,13 @@ Issues were twelve pages long in the 11″×17″ format of British tabloids.
 
 ### Legacy
 
-In 1997, LM renamed its newspaper <b><cite>Justice</cite></b>.[^justice]
+In 1997, LM renamed its newspaper <cite>Justice</cite>.[^justice]
 In 1999, LM changed its name to
-<b><a rel="external" href="https://www.socialistalternative.org">Socialist Alternative</a></b> (<b>SA</b>).
-SA published <cite>Justice</cite> until 2013, when it renamed the newspaper <b><cite>Socialist Alternative</cite></b>.[^socialist-alternative]
-In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new international association called the
-<a rel="external" href="https://internationalsocialist.net/">International Socialist Alternative</a>
+[Socialist Alternative](https://socialistalternative.org) (SA).
+SA published <cite>Justice</cite> until 2013, when it renamed the newspaper
+<cite>Socialist Alternative</cite>.[^socialist-alternative]
+
+In 2020, SA and a majority of the <abbr>CWI</abbr> sections formed a new international association called the [International Socialist Alternative](https://internationalsocialist.net/)
 (<abbr>ISA</abbr>).
 
 ### Notes
