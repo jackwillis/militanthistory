@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "License"
-permalink: /license/
+title: "Copyleft"
+permalink: /copyleft/
 ---
 
-## License
+## Copyleft
 
 ### Content
 
 The content on this website is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](
 https://creativecommons.org/licenses/by-sa/4.0/).
-You are free to share and adapt the content for any purpose, even commercial,
-with attribution and under the same license.
+You are free to copy, share and adapt the content for any purpose, even commercial,
+while giving attribution and sharing alike.
 
 ### Code
 
 The code running this site is also free and open source,
-under the [<abbr>GNU</abbr> Affero General Public License, Version 3](
+under the [<abbr>GNU</abbr> Affero General Public License, v3.0 or later](
 https://www.gnu.org/licenses/agpl-3.0.en.html).
 The code is available on GitHub, who also host this site.
 It uses or includes components from the following:

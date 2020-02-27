@@ -6,6 +6,9 @@ permalink: /lm/issues/
 
 ## <cite>Labor Militant</cite> issues
 
+{:.hatnote}
+See also [Labor Militant (newspaper)](/lm/newspaper/)
+
 {% include lm-table.html %}
 
 ### Archive history

@@ -6,6 +6,7 @@ permalink: /lm/group/
 
 ## Labor Militant (group)
 
+{:.hatnote}
 This article is about the group.
 For other uses, see [Labor Militant (disambiguation)](/lm/)
 

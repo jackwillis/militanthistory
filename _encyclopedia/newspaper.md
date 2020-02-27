@@ -6,6 +6,7 @@ permalink: /lm/newspaper/
 
 ## <cite>Labor Militant</cite> (newspaper)
 
+{:.hatnote}
 This article is about the newspaper.
 Read [available issues](/lm/issues/) or see [Labor Militant (disambiguation)](/lm/)
 

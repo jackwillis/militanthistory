@@ -1,8 +1,22 @@
-// militanthistory.js
+// militanthistory.js -- typography enhancements for Militant History
+// Copyright (C) 2020 Jack Willis
 
-// just typography stuff - progressive enhancements
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 document.addEventListener('DOMContentLoaded', function() {
+  // TODO: check individual weights, styles
+  // This is more to just check if fonts load in general without granularity
   var bodyTextFont = new FontFaceObserver('Alegreya Sans');
   var smallCapsFont = new FontFaceObserver('Alegreya Sans SC');
   var displayFont = new FontFaceObserver('Titillium Web');
@@ -11,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('small-caps-font-loaded');
   });
 
-  var allFonts = Promise.race([
+  var allFonts = Promise.all([
     bodyTextFont.load(),
     smallCapsFont.load(),
     displayFont.load()

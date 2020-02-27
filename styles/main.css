@@ -252,10 +252,14 @@ a[rel=external]::after, a.footnote {
   text-decoration: none;
 }
 
-a[rel=external]::after {
-  content: "[↗]";
-  font-size: 50%;
-  display: inline-block;
+a[rel=external] {
+  padding-right: 16px;
+}
+
+a[rel=external] {
+  background-image: url(/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 a.footnote::before {
@@ -265,7 +269,7 @@ a.footnote::after {
   content: "]";
 }
 
-sup, sub, a[rel=external]::after {
+sup, sub {
   vertical-align: baseline;
   position: relative;
   top: -0.375em;
@@ -315,6 +319,12 @@ figure .pure-table {
   width: 100%;
 }
 
+.hatnote {
+  background-color: #fff0f0;
+  padding: 0.75rem 0.5em;
+  margin: 0 -0.5rem;
+}
+
 @media(min-width: 600px) {
   body {
 /*    font-size: 22px;
@@ -333,15 +343,20 @@ figure .pure-table {
 
 @media(min-width: 1025px) {
   body {
-    padding: 0 0.75em;
     border-color: #ffc7c4;
     border-style: solid;
-    border-width: 0 1px;
+    border-width: 0 1px 1px 1px;
     width: 32em;
   }
 
-  figure {
-    margin: 1.5rem -0.75em;
+  figure, .hatnote {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+
+  .hatnote, body {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   p {
