@@ -23,8 +23,6 @@ Mary Connors, a Youth Defense Campaign and Labor and Trade Union Group activist,
 At 21, Mary's been in and out of low-paid office and factory jobs.
 Her life and future is no different to the majority of American youth.
 
-* * *
-
 {% include drop-cap.html text="Teenage unemployment officially" %}
 rose to 19% last month, nearly 3 times higher than the adult rate.
 More than 55% of those youths who find work are made to suffer minimum wage.

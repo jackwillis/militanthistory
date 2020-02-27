@@ -1,61 +1,26 @@
-body {
-  font: 18px/27px "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
-  padding: 2em 0.5em;
-  margin: 0;
-  max-width: 32em;
-  background: #fff;
-}
-
-@media(min-width: 600px) {
-  body {
-    font-size: 22px;
-    line-height: 33px;
-    max-width: 40em;
-
-    border-width: 0 2px;
-    border-style: solid;
-    border-color: #ddd;
-  }
-
-  html {
-    background-color: #fff0f0;
-  }
-}
-
-@media(min-width: 1025px) {
-  body {
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 32em;
-  }
-}
-
-figcaption, small, blockquote, .caption {
-  font-size: 15px;
-  line-height: 21px;
-}
-
-figcaption, .caption {
-  font-weight: 500;
-}
-
-blockquote {
-  font-size: 90%;
-}
-
-blockquote.lead {
-  font-size: 100%;
-  line-height: unset;
-  font-weight: normal;
-}
-
 html {
   display: flex;
   justify-content: space-around;
+
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
-main header, footer, main {
-  margin: 2em 0 1em 0;
+body {
+  font-family: "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  padding: 0 0.5em;
+  margin: 0;
+  max-width: 32em;
+  background: #fff;
+  font-variant-numeric: oldstyle-nums;
+}
+
+table {
+  font-variant-numeric: lining-nums;
+}
+
+header, footer, main {
+  margin: 3rem 0 1.5rem 0;
 }
 
 footer {
@@ -63,43 +28,48 @@ footer {
 }
 
 h1, h2, h3, h4, header p {
-  line-height: 1.2;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
-h3 {
+h1, h2, .subtitle {
+  word-spacing: 1pt;
+}
+
+h3, thead {
   font-family: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
-}
-
-h1, h2 {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  font-weight: normal;
 }
 
 .author-info {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 100%;
-  margin-top: -1.5em;
-  margin-bottom: 4em;
-}
-
 .subtitle {
   font-style: italic;
-}
-
-body.front-page h1 {
-  margin: 1em 0;
   font-size: 200%;
+  line-height: 3rem;
 }
 
-h2, h3 {
-  margin: 1.5em 0 0.5em 0;
+h1, article h2 {
+  margin: 0;
+  font-size: 200%;
+  line-height: 3rem;
 }
 
-h4 {
-  margin: 0.5em 0 0.25em 0;
+h1, article h2 {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.small-header h1 {
+  margin: -3rem 0 0 0;
+  font-size: 100%;
+  line-height: 1.5rem;
+  font-weight: 900;
+}
+
+h2, h3, h4, ul, ol, li, p {
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
 }
 
 p {
@@ -109,10 +79,6 @@ p {
 
 header p, footer p {
   hyphens: none;
-}
-
-li {
-  margin: 0.5em 0 0.25em 0;
 }
 
 em em, cite cite {
@@ -139,8 +105,7 @@ a:link {
   color: #295e89;
 }
 
-figcaption,
-small,
+strong,
 .author-info,
 .caption {
   color: #980043;
@@ -155,18 +120,18 @@ h2, h3 {
 }
 
 header p p {
-  margin: 0.25em 0;
+  margin: 0.375em 0;
 }
 
 .tags ul {
   display: inline;
   list-style: none;
   padding: 0;
-  line-height: 0.6;
 }
 
 .tags li {
   display: inline-block;
+  margin: 0;
 }
 
 .tags li::after {
@@ -177,10 +142,19 @@ header p p {
   content: none;
 }
 
-p.lead {
-  font-size: 115%;
-  line-height: 1.7;
+.lead {
+  font-size: 125%;
 }
+
+.lead, blockquote.lead p {
+  line-height: 3rem;
+}
+
+blockquote.lead {
+  margin: 0;
+  font-style: italic;
+}
+
 
 a:visited {
   color: #000;
@@ -190,30 +164,43 @@ a {
   text-decoration-thickness: 0.1em;
 }
 
-abbr,
+p abbr,
+li abbr,
+td abbr,
 .drop-cap,
 .caps {
   font-family: "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
 }
 
-html.wf-inactive abbr,
-html.wf-inactive .drop-cap,
-html.wf-inactive .caps {
+p abbr,
+li abbr,
+td abbr,
+.drop-cap,
+.caps {
   letter-spacing: 1pt;
   margin-right: -0.5pt;
-}
-
-html.wf-inactive .drop-cap {
-  font-variant-caps: small-caps;
-}
-
-html.wf-inactive abbr,
-html.wf-inactive .caps {
   font-variant-caps: all-small-caps;
 }
 
-html.wf-active abbr,
-html.wf-active .all-caps {
+.drop-cap {
+  font-variant-caps: small-caps;
+}
+
+body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded li abbr,
+body.small-caps-font-loaded td abbr,
+body.small-caps-font-loaded .drop-cap,
+body.small-caps-font-loaded .caps,
+body.small-caps-font-loaded .all-caps {
+  font-variant-caps: unset;
+  letter-spacing: unset;
+  margin-right: unset;
+}
+
+body.small-caps-font-loaded p abbr,
+body.small-caps-font-loaded li abbr,
+body.small-caps-font-loaded td abbr,
+body.small-caps-font-loaded .all-caps {
   text-transform: lowercase;
 }
 
@@ -233,25 +220,20 @@ html.wf-active .all-caps {
 }
 
 .breadcrumb li {
-  margin-right: 0.5em;
+  margin: 0.75rem 0.25em;
 }
 
 summary {
   margin: 0;
 }
 
-summary h2, summary h3, summary h4 {
-  display: inline-block;
-  margin: 0.25em 0;
-}
-
 figure {
-  margin: 2em -0.5em 1.5em -0.5em;
+  margin: 1.5rem -0.5em;
 }
 
 figcaption {
-  padding: 0 0.5em;
-  text-align: right;
+  padding: 0 2em;
+  margin: -0.75em 0 -0.75em auto;
 }
 
 figure img {
@@ -266,16 +248,17 @@ ul, ol {
   padding-left: 1em;
 }
 
-a[rel=external]::after, a.footnote {
+a[href*="//"] {
+  padding-right: 16px;
+  margin-right: 2px;
+  background-image: url(/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+a.footnote {
   text-decoration: none;
 }
-
-a[rel=external]::after {
-  content: "[↗]";
-  font-size: 50%;
-  display: inline-block;
-}
-
 a.footnote::before {
   content: "[";
 }
@@ -283,19 +266,23 @@ a.footnote::after {
   content: "]";
 }
 
-sup, sub, a[rel=external]::after {
+sup, sub {
   vertical-align: baseline;
   position: relative;
-  top: -0.4em;
+  top: -0.375em;
+  line-height: 0;
 }
 
 sub { 
-  top: 0.4em; 
+  top: 0.375em; 
 }
 
-/* https://css-tricks.com/examples/hrs/ */ 
+[title] {
+  text-decoration: underline dotted #000;
+}
+
 hr {
-  margin: 2em 0;
+  margin: 1.5rem 0;
   border: 0;
   background-color: #ddd;
   height: 2px;
@@ -311,17 +298,65 @@ hr {
 .pure-button {
     font-family: inherit;
     font-size: 100%;
-    padding: .5em 1em;
-    color: #444;
-    border: none;
+    padding: .75em 1em;
     background-color: #fff0f0;
     text-decoration: none;
     border-radius: 2px;
-    line-height: 2;
-    border: 1px solid #ddd;
+    border: 1px solid #ffdad8;
 }
 .pure-button:focus, .pure-button:hover {
-    background-color: #ddd;
+    background-color: #ffdad8;
 }
 
-.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em}.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#f2f2f2}.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px 0;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #ffc7c4}.pure-table caption{color:#000;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #ffc7c4;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.75em .5em}.pure-table thead{background-color:#f2d5d3;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#fff0f0}.pure-table-striped tr:nth-child(2n-1) td{background-color:#fff0f0}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px 0;border-bottom:1px solid #ffc7c4}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+
+figure .pure-table {
+  border-left-width: 0;
+  border-right-width: 0;
+  width: 100%;
+}
+
+.hatnote {
+  background-color: #fff0f0;
+  padding: 0.75rem 0.5em;
+  margin: 0 -0.5rem;
+}
+
+@media(min-width: 600px) {
+  body {
+/*    font-size: 22px;
+    line-height: 33px;
+    max-width: 40em;*/
+
+/*    border-width: 0 2px;
+    border-style: solid;
+    border-color: #ddd;*/
+  }
+
+  html {
+    background-color: #fff0f0;
+  }
+}
+
+@media(min-width: 1025px) {
+  body {
+    border-color: #ffc7c4;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    width: 32em;
+  }
+
+  figure, .hatnote {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+
+  .hatnote, body {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  p {
+    text-align: justify;
+  }
+}

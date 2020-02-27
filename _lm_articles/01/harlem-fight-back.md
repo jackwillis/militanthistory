@@ -7,7 +7,7 @@ tags: harlem gentrification housing eviction public-housing interview harlem-rec
 ---
 
 {:.lead}
-There are 171,000 families on the Public Housing list in New York City.
+There are 171,000 families on the public housing list in New York City.
 230,000 families live doubled-up.
 60,000 people and 25,000 elderly and poor New Yorkers are
 considered to be on the brink of homelessness.

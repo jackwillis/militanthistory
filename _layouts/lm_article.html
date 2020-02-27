@@ -12,11 +12,11 @@ layout: default
       {% if page.author %}<p>By <span class="caps">{{ page.author }}</span>.</p>{% endif %}
 
       <p>
-        In <a href="/lm/#available-issues"><cite>Labor Militant</cite></a>,
+        In <a href="/lm/issues/"><cite>Labor Militant</cite></a>,
         <a href="{{ issue.url }}#articles">no. {{ issue.lm_issue }}</a>{% if page.location %}, {{ page.location }}.{% endif %}
       </p>
 
-      <p>Published <span class="caps">{{ issue.reported_date | default: proper_date }}</span>.</p>
+      <p>Published {{ issue.reported_date | default: proper_date }}.</p>
     </div>
   </header>
 
@@ -35,14 +35,10 @@ layout: default
   </nav>
   {% endif %}
 
-  <nav class="breadcrumb breadcrumb-article">
+  <nav class="breadcrumb">
     <ul>
-      <li data-href="/lm/#available-issues">
-        <a class="pure-button" href="/lm/#available-issues">↥↥ <cite>Labor Militant</cite></a>
-      </li>
-      <li data-href="{{ issue.url }}#articles">
-        <a class="pure-button" href="{{ issue.url }}#articles">↥ Issue&nbsp;{{ issue.lm_issue }}</a>
-      </li>
+      <li><a class="pure-button" href="/lm/issues/">↥↥ <cite>Labor Militant</cite></a></li>
+      <li><a class="pure-button" href="{{ issue.url }}#articles">↥ Issue&nbsp;{{ issue.lm_issue }}</a></li>
     </ul>
   </nav>
 </article>

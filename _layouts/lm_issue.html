@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "‘Labor Militant’, no. !!page.slug!!"
+title: "Labor Militant - Issue !!page.slug!!"
 ---
 {% assign previous_number_calc = page.lm_issue | minus: 1 %}
 {% assign previous_number = page.previous_issue | default: previous_number_calc %}
@@ -9,18 +9,22 @@ title: "‘Labor Militant’, no. !!page.slug!!"
 {% assign next_number = page.next_issue | default: next_number_calc %}
 {% assign next_issue = site.lm_issues | where_exp: "i", "i.lm_issue == next_number" | first %}
 
+{% assign proper_date = page.date | date_to_long_string %}
+{% assign num_transcribed = site.lm_articles | where_exp: "a", "a.lm_issue == page.lm_issue" | size %}
+
+
 <article>
   <header>
     <h2>
-      <cite>Labor Militant</cite>&nbsp;&nbsp;&nbsp;&nbsp;Issue&nbsp;{{ page.slug }}
+      <cite>Labor Militant</cite> • Issue&nbsp;{{ page.slug }}
     </h2>
 
-    {% if page.subtitle %}<p class="subtitle">The “{{ page.subtitle }}” issue</p>{% endif %}
+    {% if page.subtitle %}<p class="subtitle">“{{ page.subtitle }}”</p>{% endif %}
 
-    {% assign proper_date = page.date | date_to_long_string %}
-    <p class="byline">
-      Published <span class="caps">{{ page.reported_date | default: proper_date }}</span>.
-    </p>
+    <div class="byline">
+      <p>Published {{ page.reported_date | default: proper_date }}.</p>
+      <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
+    </div>
   </header>
 
   {% include lm-article-nav.html previous_issue=previous_issue next_issue=next_issue %}
@@ -35,7 +39,7 @@ title: "‘Labor Militant’, no. !!page.slug!!"
 
   {% if page.pdf or page.djvu or page.txt %}
   <details>
-    <summary><h3>Download full issue</h3></summary>
+    <summary class="pure-button">Download full issue</summary>
     <ul>
     {% if page.pdf %}
       <li><a rel="alternate" type="application/pdf" href="{{ page.pdf | uri_escape }}"><abbr>PDF</abbr> scan</a></li>
