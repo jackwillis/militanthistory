@@ -11,6 +11,7 @@ body {
 }
 
 body {
+  width: 100%;
   padding: 0 0.5em;
   margin: 0;
   max-width: 32em;
@@ -26,8 +27,20 @@ header, footer, main {
   margin: 3rem 0 1.5rem 0;
 }
 
-footer {
-  font-style: italic;
+footer p, footer ul, footer li {
+  display: inline;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li::after {
+  content: " | ";
+}
+
+footer li:last-child::after {
+  content: none;
 }
 
 h1, h2, h3, h4, header p {
@@ -80,13 +93,14 @@ h2, h3, h4, ul, ol, li, p {
   line-height: 1.5rem;
 }
 
-p {
+main p {
   hyphens: auto;
   hyphenate-limit-last: always;
 }
 
-header p, footer p {
+main header p {
   hyphens: none;
+  text-align: left;
 }
 
 em em, cite cite {
@@ -123,7 +137,7 @@ h2, h3 {
   color: #3a1422;
 }
 
-.byline, .tags {
+footer, .byline, .tags {
   color: #555555;
 }
 
@@ -352,7 +366,6 @@ figure .pure-table {
     border-color: #ffc7c4;
     border-style: solid;
     border-width: 0 1px 1px 1px;
-    width: 32em;
   }
 
   figure, .hatnote {
@@ -365,7 +378,7 @@ figure .pure-table {
     padding-right: 0.75rem;
   }
 
-  p {
+  main p {
     text-align: justify;
   }
 }
