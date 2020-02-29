@@ -1,12 +1,11 @@
 ---
-layout: encyclopedia
+layout: encyclopedia/article
 title: "Labor Militant (group)"
-permalink: /lm/group/
 ---
 
 {:.hatnote}
 This article is about the group.
-For other uses, see [Labor Militant (disambiguation)](/lm/)
+For the newspaper, see [Labor Militant (newspaper)](/enc/newspaper/).
 
 <b>Labor Militant</b> (<b>LM</b>) was a US socialist group founded in 1986.
 In 1999, LM changed its name to [Socialist Alternative](https://socialistalternative.org).

@@ -21,9 +21,9 @@ and letters to the editor.
 
 Its publisher, the political organization also called <b>Labor Militant</b>,
 became [Socialist Alternative](https://www.socialistalternative.org) in 1999.
-Learn more about [the group](/lm/group/)
-or [the newspaper](/lm/newspaper/);
+Learn more about [the group](/enc/group/)
+or [the newspaper](/enc/newspaper/);
 browse the [tag index](/lm/tags/)
-or read [entire issues](/lm/issues/):
+or read [entire issues](/lm/):
 
 {% include lm-table.html %}

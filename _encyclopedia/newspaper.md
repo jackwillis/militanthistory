@@ -1,13 +1,13 @@
 ---
-layout: encyclopedia
+layout: encyclopedia/article
 title: "Labor Militant (newspaper)"
 html_title: "<cite>Labor Militant</cite> (newspaper)"
-permalink: /lm/newspaper/
 ---
 
 {:.hatnote}
 This article is about the newspaper.
-Read [available issues](/lm/issues/) or see [Labor Militant (disambiguation)](/lm/)
+Read [available issues](/lm/) or browse [articles by tag](/lm/tags/).
+For the group, see [Labor Militant (group)](/enc/group/).
 
 <b><cite>Labor Militant</cite></b>[^labor-militant]
 was a semi-monthly newspaper which ran from 1986 to 1997.
@@ -15,6 +15,10 @@ Its regular features included editorials, US, international, and labor news,
 interviews, historical perspectives, activist reports, book reviews,
 letters to the editor, congratulations, and condolences.
 Issues were twelve pages long in the 11″×17″ format of British tabloids.
+
+<cite>Labor Militant</cite> no. 1 was published from Oakland, CA 94610;
+nos. 2--39 unknown; nos. 40--45 from Chicago, IL 60639;
+and nos. 46--51 from Long Island City, NY 11105.
 
 ### Legacy
 

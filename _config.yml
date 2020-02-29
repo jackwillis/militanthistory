@@ -27,3 +27,4 @@ collections:
     permalink: /lm/:path/
   encyclopedia:
     output: true
+    permalink: /enc/:slug/

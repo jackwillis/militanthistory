@@ -1,10 +1,14 @@
 ---
 layout: default
 permalink: /lm/tags/
-title: "Labor Militant - Article Tags"
+title: "Labor Militant - Articles by Tag"
 ---
 
-<h2><a href="/lm/newspaper"><cite>Labor Militant</cite></a> / Article tags</h2>
+<h2><a href="/enc/newspaper"><cite>Labor Militant</cite></a> / Articles by tag</h2>
+
+<p class="hatnote">
+  See also <a href="/lm/">available issues</a>.
+</p>
 
 {% for tag in site.data.tags %}
   <h3 id="{{ tag.name }}">{{ tag.title | default: tag.name }}</h3>

@@ -12,7 +12,7 @@ layout: default
       {% if page.author %}<p>By <span class="caps">{{ page.author }}</span>.</p>{% endif %}
 
       <p>
-        In <a href="/lm/issues/"><cite>Labor Militant</cite></a>,
+        In <a href="/lm/"><cite>Labor Militant</cite></a>,
         <a href="{{ issue.url }}#articles">no. {{ issue.lm_issue }}</a>{% if page.location %}, {{ page.location }}.{% endif %}
       </p>
 
@@ -29,7 +29,7 @@ layout: default
       {% assign sorted_tags = page.tags | sort %}
       {% for tag_name in sorted_tags %}
         {% assign tag = site.data.tags | where: 'name', tag_name | first %}
-        <li><a href="/tags/#{{ tag.name }}">{{ tag.title | default: tag.name }}</a></li>
+        <li><a href="/lm/tags/#{{ tag.name }}">{{ tag.title | default: tag.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>
@@ -37,7 +37,7 @@ layout: default
 
   <nav class="breadcrumb">
     <ul>
-      <li><a class="pure-button" href="/lm/issues/">↥↥ <cite>Labor Militant</cite></a></li>
+      <li><a class="pure-button" href="/lm/">↥↥ <cite>Labor Militant</cite></a></li>
       <li><a class="pure-button" href="{{ issue.url }}#articles">↥ Issue&nbsp;{{ issue.lm_issue }}</a></li>
     </ul>
   </nav>

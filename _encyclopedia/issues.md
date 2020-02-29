@@ -1,12 +1,13 @@
 ---
-layout: encyclopedia
+layout: default
 title: "Labor Militant - Issues"
-html_title: '<a href="/lm/newspaper/"><cite>Labor Militant</cite></a> / Issues'
-permalink: /lm/issues/
+permalink: /lm/
 ---
 
+## [<cite>Labor Militant</cite>](/enc/newspaper/) / Issues
+
 {:.hatnote}
-See also the [tag index](/lm/tags/).
+See also [articles by tag](/lm/tags/).
 
 {% include lm-table.html %}
 
@@ -19,7 +20,3 @@ The original newspapers were received by <abbr>WHS</abbr> in two batches.
 The first batch, received in 1995, contains nos. 1 (April/May/June 1986) through 39 (November 1994); missing February 1991.
 The second batch, containing nos. 40 (January 1995) through 51 (July 1997), was scanned on August 21, 2001.
 <abbr>WHS</abbr> does not record who donates newspapers.
-
-<cite>Labor Militant</cite> no. 1 was published from Oakland, CA 94610;
-nos. 2--39 unknown; nos. 40--45 from Chicago, IL 60639;
-and nos. 46--51 from Long Island City, NY 11105.

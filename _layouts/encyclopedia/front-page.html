@@ -4,14 +4,13 @@
 
   <body>
     <header class="small-header">
-      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <h1><a href="/">{{ site.title }}</a></h1>
     </header>
 
     <main>
       <article class="encyclopedia-article">
         <header>
           <h2>{{ page.html_title | default: page.title }}</h2>
-          <p>Militant History Encyclopedia</p>
         </header>
 
         {{ content }}
