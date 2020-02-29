@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: encyclopedia
 title: "Labor Militant (group)"
 permalink: /lm/group/
 ---
-
-## Labor Militant (group)
 
 {:.hatnote}
 This article is about the group.

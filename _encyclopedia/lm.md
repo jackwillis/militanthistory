@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: encyclopedia
 title: "Labor Militant (disambiguation)"
 permalink: /lm/
 ---
-
-## Labor Militant (disambiguation)
 
 <b>Labor Militant</b> refers to the US socialist group as well as its newspaper.
 

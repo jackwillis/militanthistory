@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: encyclopedia
 title: "Labor Militant (newspaper)"
+html_title: "<cite>Labor Militant</cite> (newspaper)"
 permalink: /lm/newspaper/
 ---
-
-## <cite>Labor Militant</cite> (newspaper)
 
 {:.hatnote}
 This article is about the newspaper.

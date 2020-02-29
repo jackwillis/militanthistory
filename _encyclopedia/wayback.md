@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: encyclopedia
 title: "Labor Militant - ’90s Website Archives"
+html_title: '<a href="/lm/group/">Labor Militant</a> / ’90s website archives'
 permalink: /lm/wayback/
 ---
-
-## [Labor Militant](/lm/group/) / '90s website archives
 
 <b>Labor Militant's first website</b>
 was through a Philadelphia internet service provider called Netaxs.

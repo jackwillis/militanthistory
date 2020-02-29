@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: encyclopedia
 title: "Labor Militant - Issues"
+html_title: '<a href="/lm/newspaper/"><cite>Labor Militant</cite></a> / Issues'
 permalink: /lm/issues/
 ---
-
-## [<cite>Labor Militant</cite>](/lm/newspaper/) / Issues
 
 {:.hatnote}
 See also the [tag index](/lm/tags/).
