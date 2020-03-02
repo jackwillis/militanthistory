@@ -1,3 +1,7 @@
+---
+---
+@import "fonts.scss";
+
 html {
   display: flex;
   justify-content: space-around;
@@ -7,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  font-family: $body-font-stack;
 }
 
 body {
@@ -53,7 +57,7 @@ h1, h2, .subtitle {
 }
 
 h3, thead {
-  font-family: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  font-family: $subheading-font-stack;
 }
 
 .author-info {
@@ -78,7 +82,7 @@ h1, article h2 {
 }
 
 h1, article h2 {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: $heading-font-stack;
 }
 
 .small-header h1 {
@@ -191,7 +195,7 @@ li abbr,
 td abbr,
 .drop-cap,
 .caps {
-  font-family: "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu, "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+  font-family: $small-caps-stack;
 }
 
 p abbr,
