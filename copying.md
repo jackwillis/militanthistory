@@ -17,8 +17,8 @@ while giving attribution and sharing alike.
 ### Code
 
 This website's code is free, released under the
-[<abbr>GNU</abbr> Affero General Public License, v3.0 or later](
-https://www.gnu.org/licenses/agpl-3.0.en.html).
+[<abbr>GNU</abbr> General Public License, v3.0 or later](
+https://www.gnu.org/licenses/gpl-3.0.en.html).
 The code is available on GitHub.
 It uses or includes components from the following:
 
