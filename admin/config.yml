@@ -1,3 +1,11 @@
 backend:
   name: bitbucket
   repo: jacksoncwillis/militanthistory
+collections:
+  - name: 'lm_articles'
+    label: 'Labor Militant Articles'
+    folder: '_lm_articles/'
+    fields:
+      - { name: title }
+      - { name: lm_issue }
+      - { name: author }
