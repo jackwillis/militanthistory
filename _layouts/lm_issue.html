@@ -23,10 +23,6 @@ title: "Labor Militant - Issue !!page.slug!!"
     </h2>
 
     {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
-
-    <div class="byline">
-      <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
-    </div>
   </header>
 
   {% include lm-article-nav.html previous_issue=previous_issue next_issue=next_issue %}
@@ -55,6 +51,8 @@ title: "Labor Militant - Issue !!page.slug!!"
     </ul>
   </details>
   {% endif %}
+
+  <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
 
   {{ content }}
 

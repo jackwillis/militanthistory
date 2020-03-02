@@ -8,6 +8,8 @@ exclude:
   - LICENSE-agpl-3.0.md
   - LICENSE-cc-by-sa-4.0.md
   - LICENSE-fdl-1.3.md
+sass:
+  style: compressed
 
 collections:
   posts:

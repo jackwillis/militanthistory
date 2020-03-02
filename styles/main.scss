@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: $body-font-stack;
+  font-family: $body-text-stack;
 }
 
 body {
@@ -52,8 +52,9 @@ h1, h2, h3, h4, header p {
   line-height: 1.5rem;
 }
 
-h1, h2, .subtitle {
+h2, .subtitle {
   word-spacing: 1pt;
+  letter-spacing: 0.25pt;
 }
 
 h3, thead {
@@ -67,6 +68,7 @@ h3, thead {
 .subtitle {
   font-weight: normal;
   line-height: 3rem;
+  display: inline;
 }
 
 p.subtitle {
