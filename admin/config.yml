@@ -1,5 +1,5 @@
 backend:
-  name: bitbucket
+  name: git-gateway
   repo: jacksoncwillis/militanthistory
 media_folder: 'uploads/'
 collections:
