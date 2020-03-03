@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jacksoncwillis/militanthistory
+  repo: jackwillis/militanthistory
 media_folder: 'uploads/'
 collections:
   - name: 'lm_articles'
