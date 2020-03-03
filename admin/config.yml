@@ -1,11 +1,13 @@
 backend:
   name: github
   repo: jackwillis/militanthistory
+publish_mode: editorial_workflow
 media_folder: 'uploads/'
 collections:
   - name: 'lm_articles'
     label: 'Labor Militant Articles'
     folder: '_lm_articles/'
+    path: '{{lm_issue}}/{{slug}}'
     fields:
       - { name: title }
       - { name: lm_issue }
