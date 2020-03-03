@@ -10,3 +10,9 @@ collections:
       - { name: title }
       - { name: lm_issue }
       - { name: author }
+  - name: 'lm_issues'
+    label: 'Labor Militant Issues'
+    folder: '_lm_articles/'
+    fields:
+      - { name: subtitle }
+      - { name: lm_issue }
