@@ -12,7 +12,7 @@ collections:
       - { name: author }
   - name: 'lm_issues'
     label: 'Labor Militant Issues'
-    folder: '_lm_articles/'
+    folder: '_lm_issues/'
     fields:
       - { name: subtitle }
       - { name: lm_issue }
