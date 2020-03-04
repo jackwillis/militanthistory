@@ -14,6 +14,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'),
        url('../fonts/alegreya-sans-sc-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-sc-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-sc-italic - latin */
@@ -24,6 +25,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans SC Italic'), local('AlegreyaSansSC-Italic'),
        url('../fonts/alegreya-sans-sc-v9-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-sc-v9-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-sc-700 - latin */
@@ -34,6 +36,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans SC Bold'), local('AlegreyaSansSC-Bold'),
        url('../fonts/alegreya-sans-sc-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-sc-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-sc-700italic - latin */
@@ -44,6 +47,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans SC Bold Italic'), local('AlegreyaSansSC-BoldItalic'),
        url('../fonts/alegreya-sans-sc-v9-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-sc-v9-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-regular - latin */
@@ -54,6 +58,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'),
        url('../fonts/alegreya-sans-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-italic - latin */
@@ -64,6 +69,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans Italic'), local('AlegreyaSans-Italic'),
        url('../fonts/alegreya-sans-v10-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-v10-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-700 - latin */
@@ -74,6 +80,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'),
        url('../fonts/alegreya-sans-v10-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-v10-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* alegreya-sans-700italic - latin */
@@ -84,6 +91,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Alegreya Sans Bold Italic'), local('AlegreyaSans-BoldItalic'),
        url('../fonts/alegreya-sans-v10-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/alegreya-sans-v10-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* titillium-web-700 - latin */
@@ -94,6 +102,7 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'),
        url('../fonts/titillium-web-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/titillium-web-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
 
 /* titillium-web-700italic - latin */
@@ -104,4 +113,5 @@ $subheading-font-stack: "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift, "L
   src: local('Titillium Web Bold Italic'), local('TitilliumWeb-BoldItalic'),
        url('../fonts/titillium-web-v8-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/titillium-web-v8-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
 }
