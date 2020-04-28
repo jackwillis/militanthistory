@@ -2,6 +2,7 @@
 layout: default
 title: "Copying"
 permalink: /copying/
+last_modified: 2020-04-27
 ---
 
 ## Copying

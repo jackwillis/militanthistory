@@ -1,29 +1,72 @@
 ---
 layout: null
 sitemap:
-  exclude: 'yes'
+  exclude: true
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+<!-- Pages -->
+
 {% for page in site.pages %}
-{% assign extension = page.path | split: "." | last %}
-{% unless page.published == false
-  or extension == "scss"
-  or extension == "map"
-  or extension == "xml" %}
+{% unless page.published == false or page.sitemap.exclude %}
 
   <url>
     <loc>{{ site.url }}{{ page.url }}</loc>
-    {% if page.date %}
-      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% if page.last_modified %}
+      <lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+{% endunless %}
+{% endfor %}
+
+<!-- 'Labor Militant' issues -->
+
+{% for issue in site.lm_issues %}
+
+  <url>
+    <loc>{{ site.url }}{{ issue.url }}</loc>
+    {% if issue.last_modified %}
+      <lastmod>{{ issue.last_modified | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+{% endfor %}
+
+<!-- 'Labor Militant' articles -->
+
+{% for article in site.lm_articles %}
+
+  <url>
+    <loc>{{ site.url }}{{ article.url }}</loc>
+    {% if article.last_modified %}
+      <lastmod>{{ article.last_modified | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+{% endfor %}
+
+<!-- 'Militant History Encyclopedia' articles -->
+
+{% for article in site.encyclopedia %}
+
+  <url>
+    <loc>{{ site.url }}{{ article.url }}</loc>
+    {% if article.last_modified %}
+      <lastmod>{{ article.last_modified | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-{% endunless %}
 {% endfor %}
 
 </urlset>

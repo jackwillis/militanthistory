@@ -1,5 +1,6 @@
 ---
 layout: front-page
+last_modified: 2020-04-27
 ---
 
 <b>Militant History</b> will print historical documents --
