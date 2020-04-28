@@ -352,26 +352,15 @@ figure .pure-table {
 }
 
 @media(min-width: 600px) {
-  body {
-/*    font-size: 22px;
-    line-height: 33px;
-    max-width: 40em;*/
-
-/*    border-width: 0 2px;
-    border-style: solid;
-    border-color: #ddd;*/
-  }
-
   html {
-    background-color: #fff0f0;
+    background-color: #D78685;
   }
 }
 
 @media(min-width: 1025px) {
   body {
-    border-color: #ffc7c4;
-    border-style: solid;
-    border-width: 0 1px 1px 1px;
+    border: 2px solid black;
+    border-width: 0 2px;
   }
 
   figure, .hatnote {

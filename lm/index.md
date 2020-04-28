@@ -4,10 +4,11 @@ title: "Labor Militant - Available Issues"
 permalink: /lm/
 ---
 
-## [<cite>Labor Militant</cite>](/enc/newspaper/) / Available issues
+## <cite>Labor Militant</cite> (1986--1997)<br>Available issues
 
 {:.hatnote}
-See also [articles by tag](/lm/tags/).
+See also [<cite>Labor Militant</cite> articles by tag](/lm/tags/)
+and [<cite>Labor Militant</cite> (newspaper)](/enc/lm/newspaper/).
 
 {% include lm-table.html %}
 
