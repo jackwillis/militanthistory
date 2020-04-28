@@ -11,7 +11,8 @@ sitemap:
 {% assign extension = page.path | split: "." | last %}
 {% unless page.published == false
   or extension == "scss"
-  or extension == "map" %}
+  or extension == "map"
+  or extension == "xml" %}
 
   <url>
     <loc>{{ site.url }}{{ page.url }}</loc>
