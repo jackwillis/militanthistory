@@ -1,0 +1,15 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Page Redirection</title>
+    <meta http-equiv="refresh" content="0;url={{ page.redirect }}"/>
+    <link rel="canonical" href="{{ page.redirect }}"/>
+    <script>window.location.href = "{{ page.redirect }}";</script>
+  </head>
+  <body>
+    <p>
+      If you are not redirected automatically,
+      follow <a href='{{ page.redirect }}'>this link</a>.
+    </p>
+  </body>
+</html>

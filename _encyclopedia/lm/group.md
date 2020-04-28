@@ -1,11 +1,12 @@
 ---
 layout: encyclopedia/article
 title: "Labor Militant (group)"
+permalink: /enc/lm/group/
 ---
 
 {:.hatnote}
 This article is about the group.
-For the newspaper, see [<cite>Labor Militant</cite> (newspaper)](/enc/newspaper/).
+For the newspaper, see [<cite>Labor Militant</cite> (newspaper)](/enc/lm/newspaper/).
 
 <b>Labor Militant</b> (<b>LM</b>) was a US socialist group founded in 1986.
 In 1999, LM changed its name to [Socialist Alternative](https://socialistalternative.org).
@@ -16,12 +17,12 @@ The <abbr>CWI</abbr> is based in England;
 during the 1980s its British supporters were members of the Labour Party
 known as the Militant tendency due to the newspaper that they published, called <cite>Militant</cite>.[^militant]
 
-LM published the newspaper [<cite>Labor Militant</cite>](/enc/newspaper/).
+LM published the newspaper [<cite>Labor Militant</cite>](/enc/lm/newspaper/).
 
 LM was involved in the creation of the defunct
 <a rel="external" href="https://en.wikipedia.org/wiki/Labor_Party_(United_States,_1996)">US Labor Party (1996)</a>.
 
-Check out snapshots of LM’s [late ’90s website](/enc/wayback/), archived on the Wayback Machine.
+Check out snapshots of LM’s [late ’90s website](/enc/lm/wayback/), archived on the Wayback Machine.
 
 ### Notes
 

@@ -2,12 +2,13 @@
 layout: encyclopedia/article
 title: "Labor Militant (newspaper)"
 html_title: "<cite>Labor Militant</cite> (newspaper)"
+permalink: /enc/lm/newspaper/
 ---
 
 {:.hatnote}
 This article is about the newspaper.
 Read [available issues](/lm/) or browse [articles by tag](/lm/tags/).
-For the group, see [Labor Militant (group)](/enc/group/).
+For the group, see [Labor Militant (group)](/enc/lm/group/).
 
 <b><cite>Labor Militant</cite></b>[^labor-militant]
 was a semi-monthly newspaper which ran from 1986 to 1997.
