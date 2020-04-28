@@ -1,12 +1,27 @@
 backend:
-  name: bitbucket
-  repo: jacksoncwillis/militanthistory
+  name: github
+  repo: jackwillis/militanthistory
+publish_mode: editorial_workflow
 media_folder: 'uploads/'
+
 collections:
   - name: 'lm_articles'
     label: 'Labor Militant Articles'
     folder: '_lm_articles/'
+    path: '{{lm_issue}}/{{slug}}'
+    create: true
     fields:
-      - { name: title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'lm_article' }
+      - { label: 'Title (plain text - required)', name: 'title', widget: 'string' }
+      - { label: 'Title (HTML - optional)', name: 'html_title', widget: 'string' }
+      - { label: 'Labor Militant issue no. (ex. 1, 2, .. 51)', name: lm_issue, widget: 'string' }
+      - { label: 'Location within issue (ex. p. 1, pp. 3--4)', name: 'location', widget: 'string' }
+      - { label: 'Author', name: author, widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'lm_issues'
+    label: 'Labor Militant Issues'
+    folder: '_lm_issues/'
+    fields:
+      - { name: subtitle }
       - { name: lm_issue }
-      - { name: author }
