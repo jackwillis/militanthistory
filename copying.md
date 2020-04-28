@@ -19,7 +19,7 @@ while giving attribution and sharing alike.
 This website's code is free, released under the
 [<abbr>GNU</abbr> General Public License, v3.0 or later](
 https://www.gnu.org/licenses/gpl-3.0.en.html).
-The code is available on GitHub.
+The code is available [on GitHub](https://github.com/jackwillis/militanthistory).
 It uses or includes components from the following:
 
 {:.pure-table}

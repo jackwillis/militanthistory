@@ -6,4 +6,6 @@ permalink: /contact/
 
 ## Contact
 
-Email us at [webmaster@militanthistory.org](mailto:webmaster@militanthistory.org).
+Email Jack Willis <[webmaster@militanthistory.org](mailto:webmaster@militanthistory.org)>
+for questions, corrections, or improvements.
+Bug reports may be [filed on GitHub](https://github.com/jackwillis/militanthistory/issues).
