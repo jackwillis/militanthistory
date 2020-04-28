@@ -365,6 +365,12 @@ figure .pure-table {
     border-width: 0 2px;
   }
 
+  body.front-page h1 {
+    background-image: url(../images/banner.png);
+    color: rgba(0,0,0,0);
+    letter-spacing: 4px;
+  }
+
   figure, .hatnote {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
