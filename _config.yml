@@ -3,7 +3,7 @@ email: ""
 description: >-
   Reproducing the history of the Committee for a Workers’ International.
 baseurl: ""
-url: ""
+url: "https://www.militanthistory.org"
 exclude:
   - LICENSE-gpl-3.0.md
   - LICENSE-cc-by-sa-4.0.md

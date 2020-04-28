@@ -1,0 +1,28 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+{% for page in site.pages %}
+{% assign extension = page.path | split: "." | last %}
+{% unless page.published == false
+  or extension == "scss"
+  or extension == "map" %}
+
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    {% if page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+{% endunless %}
+{% endfor %}
+
+</urlset>
