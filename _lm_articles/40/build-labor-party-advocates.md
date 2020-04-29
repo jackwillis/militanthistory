@@ -72,7 +72,7 @@ in late 1995. At this convention, several issues will have to be
 discussed and debated out in order for a Labor Party to be
 established and in order for it to solve the problems of U.S.
 working people. Up to now, <abbr>LPA</abbr> has accepted that union
-Officials can both support <abbr>LPA</abbr> and support the Democrats.
+officials can both support <abbr>LPA</abbr> and support the Democrats.
 Historically, a wing of the labor leadership in the past has
 supported the idea of a Labor Party in words while in action
 they supported the Democrats. Their verbal support for a
