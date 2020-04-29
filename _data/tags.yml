@@ -8,12 +8,16 @@
 - name: apartheid
 - name: asia
   title: Asia
+- name: bay-area
+  title: "Bay Area (SF, CA)"
 - name: business-unionism
   title: "business unionism"
 - name: black-americans
   title: "black Americans"
 - name: black-liberation
   title: "black liberation"
+- name: boston
+  title: "Boston, MA"
 - name: british-columbia
   title: "British Columbia"
 - name: canada
@@ -32,7 +36,10 @@
 - name: civil-rights-movement
   title: "Civil Rights Movement"
 - name: concessions
+- name: convention
 - name: crisis
+- name: democratic-party
+  title: "Democratic Party"
 - name: economics
 - name: elections
 - name: eviction
@@ -73,6 +80,8 @@
 - name: labor
 - name: labor-party
   title: "labor party"
+- name: labor-party-advocates
+  title: "Labor Party Advocates"
 - name: latin-america
   title: "Latin America"
 - name: latinos
@@ -80,6 +89,10 @@
   title: "Liberal Party (Canada)"
 - name: libya
   title: "Libya"
+- name: los-angeles
+  title: "Los Angeles"
+- name: massachussetts
+  title: Massachussetts
 - name: may-day
   title: "May Day"
 - name: migra
@@ -94,11 +107,16 @@
   title: "New York City"
 - name: nicaragua
   title: "Nicaragua"
+- name: ocaw
+  title: "<abbr>OCAW</abbr>"
+  description: "Oil, Chemical, and Atomic Workers"
+- name: ohio
+  title: "Ohio"
 - name: ontario
   title: "Ontario"
 - name: police
 - name: portland
-  title: "Portland"
+  title: "Portland, OR"
 - name: post-war-boom
   title: "post-war boom"
 - name: poverty
@@ -138,10 +156,15 @@
 - name: strike
 - name: strikebreaking
 - name: tactics
+- name: toledo
+  title: "Toledo, OH"
 - name: twa
   title: "<abbr>TWA</abbr>"
   description: >
     Trans World Airlines
+- name: ue
+  title: "UE"
+  description: "United Electrical Workers"
 - name: ufcw
   title: "<abbr>UFCW</abbr>"
   description: >
