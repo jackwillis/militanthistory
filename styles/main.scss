@@ -353,24 +353,32 @@ figure .pure-table {
   text-align: left;
 }
 
+body.front-page header img {
+  display: none;
+}
+
 @media(min-width: 600px) {
   html {
     background-color: #D78685;
   }
-}
 
-@media(min-width: 1025px) {
   body {
     border: 2px solid black;
     border-width: 0 2px;
   }
 
-  body.front-page h1 {
-    background-image: url(../images/banner.png);
-    color: rgba(0,0,0,0);
-    letter-spacing: 4px;
-  }
+  body.front-page header {
+    h1 {
+      display: none;
+    }
 
+    img {
+      display: block;
+    }
+  }
+}
+
+@media(min-width: 1025px) {
   figure, .hatnote {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
