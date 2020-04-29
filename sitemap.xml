@@ -18,7 +18,6 @@ sitemap:
       <lastmod>{{ page.last_modified | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
 {% endunless %}
@@ -34,9 +33,32 @@ sitemap:
       <lastmod>{{ issue.last_modified | date_to_xmlschema }}</lastmod>
     {% endif %}
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
+{% if issue.pdf %}
+
+  <url>
+    <loc>{{ site.url }}{{ issue.pdf }}</loc>
+    <changefreq>never</changefreq>
+  </url>
+
+{% endif %}
+{% if issue.djvu %}
+
+  <url>
+    <loc>{{ site.url }}{{ issue.djvu }}</loc>
+    <changefreq>never</changefreq>
+  </url>
+
+{% endif %}
+{% if issue.txt %}
+
+  <url>
+    <loc>{{ site.url }}{{ issue.txt }}</loc>
+    <changefreq>never</changefreq>
+  </url>
+
+{% endif %}
 {% endfor %}
 
 <!-- 'Labor Militant' articles -->
