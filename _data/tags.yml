@@ -5,6 +5,7 @@
   title: "<abbr>AFL–CIO</abbr>"
 - name: anti-union-laws
   title: "anti-union laws"
+- name: amnesty
 - name: apartheid
 - name: asia
   title: Asia
@@ -95,6 +96,9 @@
   title: Massachussetts
 - name: may-day
   title: "May Day"
+- name: mdi
+  title: "<abbr>MDI</abbr>"
+  description: "Movimiento por los Derechos de los Inmigrantes (Immigrant Rights Movement)"
 - name: migra
   title: "la Migra"
 - name: nationalization
@@ -114,6 +118,8 @@
   title: "Ohio"
 - name: ontario
   title: "Ontario"
+- name: papers-for-all
+  title: "Papers for All"
 - name: police
 - name: portland
   title: "Portland, OR"
@@ -133,6 +139,7 @@
 - name: quebec
   title: "Quebec"
 - name: racism
+- name: rally
 - name: reagan
   title: "Reagan, Ronald"
 - name: revolution

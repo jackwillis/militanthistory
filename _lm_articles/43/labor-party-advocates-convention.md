@@ -4,7 +4,8 @@ title: "Labor Party Advocates convention"
 author: "Richard Kraft"
 lm_issue: 43
 location: "p. 3"
-tags: labor labor-party labor-party-advocates convention strategy
+tags: labor labor-party labor-party-advocates convention strategy campaign
+last_modified: 2020-04-29
 ---
 
 
