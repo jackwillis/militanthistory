@@ -10,6 +10,7 @@ exclude:
 sass:
   style: compressed
 
+collections_dir: collections
 collections:
   posts:
     output: true
