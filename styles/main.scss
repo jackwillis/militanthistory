@@ -236,11 +236,13 @@ body.small-caps-font-loaded .all-caps {
 }
 
 .drop-cap__initial {
-  display:block;
+  display: block;
   float: left;
   text-transform: initial;
-  margin: 0.25em 0.125em;
+  margin: 0.25em;
+  margin-left: 0.125em;
   font-size: 300%;
+  font-family: $heading-font-stack;
 }
 
 .breadcrumb ul {
