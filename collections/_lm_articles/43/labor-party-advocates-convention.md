@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Labor Party Advocates convention"
 author: "Richard Kraft"
 lm_issue: 43

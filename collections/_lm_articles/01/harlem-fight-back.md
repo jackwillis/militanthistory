@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Harlem fight-back"
 lm_issue: 1
 location: "p. 4"

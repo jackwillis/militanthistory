@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Reagan and the family"
 lm_issue: 1
 location: "p. 4"

@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Latinos en U.S.A."
 lm_issue: 1
 location: "p. 9"

@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Victory for youth"
 author: "a Youth Defense Campaign member"
 lm_issue: 1

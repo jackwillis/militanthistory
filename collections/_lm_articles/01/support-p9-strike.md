@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Support P-9 strike"
 author: "Bruce Hamilton"
 lm_issue: 1

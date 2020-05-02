@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Union wages 30% above non-union"
 author: "a member of <abbr>AFSCME</abbr> Local 444"
 lm_issue: 1

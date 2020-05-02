@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Build Labor Party Advocates!"
 author: "Fran Karas"
 lm_issue: 40

@@ -1,5 +1,5 @@
 ---
-layout: encyclopedia/front-page
+layout: encyclopedia/index
 title: "Militant History Encyclopedia"
 permalink: /enc/
 ---

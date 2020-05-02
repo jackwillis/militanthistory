@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Canadian labor must fight for socialism"
 author: "a Canadian correspondent"
 lm_issue: 1

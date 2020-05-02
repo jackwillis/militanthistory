@@ -10,7 +10,7 @@ permalink: /lm/
 See also [<cite>Labor Militant</cite> articles by tag](/lm/tags/)
 and [<cite>Labor Militant</cite> (newspaper)](/enc/lm/newspaper/).
 
-{% include lm-table.html %}
+{% include lm/table.html %}
 
 ### Archive history
 

@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Successful meeting of the Papers for All campaign in Boston"
 author: "Tom Potter & Jeff Booth"
 lm_issue: 51

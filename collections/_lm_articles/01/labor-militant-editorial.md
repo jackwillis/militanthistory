@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "‘Labor Militant’ editorial"
 html_title: "<cite>Labor Militant</cite> editorial"
 lm_issue: 1

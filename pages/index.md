@@ -1,5 +1,5 @@
 ---
-layout: front-page
+layout: index
 last_modified: 2020-04-27
 permalink: /
 ---
@@ -28,4 +28,4 @@ or [the newspaper](/enc/lm/newspaper/);
 browse the [tag index](/lm/tags/)
 or read [entire issues](/lm/):
 
-{% include lm-table.html %}
+{% include lm/table.html %}

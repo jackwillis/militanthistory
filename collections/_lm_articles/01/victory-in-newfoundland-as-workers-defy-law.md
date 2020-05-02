@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Victory in Newfoundland as workers defy law"
 lm_issue: 1
 location: "p. 5"

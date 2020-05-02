@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Labor must fight racism"
 author: "Marcy Barnett"
 lm_issue: 1

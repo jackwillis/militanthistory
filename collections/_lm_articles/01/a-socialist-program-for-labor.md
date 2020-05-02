@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "A socialist program for labor"
 author: "Tom Williams"
 lm_issue: 1

@@ -25,7 +25,7 @@ title: "Labor Militant - Issue !!page.slug!!"
     {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
   </header>
 
-  {% include lm-article-nav.html previous_issue=previous_issue next_issue=next_issue %}
+  {% include lm/article-nav.html previous_issue=previous_issue next_issue=next_issue %}
 
   {% if page.cover %}
     <figure>
@@ -56,5 +56,5 @@ title: "Labor Militant - Issue !!page.slug!!"
 
   {{ content }}
 
-  {% include lm-article-nav.html previous_issue=previous_issue next_issue=next_issue %}
+  {% include lm/article-nav.html previous_issue=previous_issue next_issue=next_issue %}
 </article>

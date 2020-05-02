@@ -1,5 +1,5 @@
 ---
-layout: lm_article
+layout: lm/article
 title: "Labor must oppose Reagan’s foreign policy"
 author: "Robert O’Neill"
 lm_issue: 1
