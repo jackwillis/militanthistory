@@ -106,9 +106,8 @@ main p {
   hyphenate-limit-last: always;
 }
 
-main header p {
+header p, figcaption p {
   hyphens: none;
-  text-align: left;
 }
 
 em em, cite cite {
@@ -135,11 +134,13 @@ a:link {
   color: #295e89;
 }
 
+/*
 strong,
 .author-info,
 .caption {
   color: #980043;
 }
+*/
 
 h2, h3 {
   color: #3a1422;
@@ -247,6 +248,7 @@ body.small-caps-font-loaded .all-caps {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  line-height: 3rem;
 }
 
 .breadcrumb li {
@@ -267,11 +269,9 @@ figcaption {
 }
 
 figure img {
-  margin: 1em 0 0.5em 0;
   max-width: 100%;
   height: auto;
   display: block;
-  margin: auto;
 }
 
 ul, ol {
@@ -333,6 +333,7 @@ hr {
     text-decoration: none;
     border-radius: 2px;
     border: 1px solid #ffdad8;
+    line-height: 3rem;
 }
 .pure-button:focus, .pure-button:hover {
     background-color: #ffdad8;
@@ -353,39 +354,36 @@ figure .pure-table {
   text-align: left;
 }
 
-body.front-page header img {
+html.front-page header img {
   display: none;
 }
 
 @media(min-width: 600px) {
-  html {
-    background-color: #D78685;
-  }
-
   body {
-    border: 2px solid black;
-    border-width: 0 2px;
+    border-left: 1px solid #555555;
   }
 
-  body.front-page header {
-    h1 {
-      display: none;
+  html.front-page {
+    background-color: #D78685;
+
+    body {
+      border: 2px solid black;
+      border-width: 0 2px;
+      padding: 0 0.75em;
     }
 
-    img {
-      display: block;
+    header {
+      h1 {
+        display: none;
+      }
+
+      img {
+        display: block;
+      }
     }
   }
-}
 
-@media(min-width: 1025px) {
-  figure, .hatnote {
-    margin-left: -0.75rem;
-    margin-right: -0.75rem;
-  }
-
-  .hatnote, body {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+  .pure-button {
+    line-height: inherit;
   }
 }
