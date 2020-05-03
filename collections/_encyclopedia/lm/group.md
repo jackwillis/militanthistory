@@ -22,12 +22,7 @@ The <abbr>CWI</abbr> is based in England;
 during the 1980s its British supporters were members of the Labour Party
 known as the Militant tendency due to the newspaper that they published, called <cite>Militant</cite>.[^militant]
 
-<div typeof="Newspaper">
-  LM published the newspaper
-  [<cite property="name">Labor Militant</cite>](/enc/lm/newspaper/).
-  <meta property="mainEntityOfPage" content="{{ site.url }}/enc/lm/newspaper">
-  <div property="publisher" content="{{ site.url }}{{ page.url }}#labor-militant">
-</div>
+LM published the newspaper [<cite>Labor Militant</cite>](/enc/lm/newspaper/).
 
 LM was involved in the creation of the defunct
 [US Labor Party (1996)](https://en.wikipedia.org/wiki/Labor_Party_(United_States,_1996)).
