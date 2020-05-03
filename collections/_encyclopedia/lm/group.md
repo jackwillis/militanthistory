@@ -3,7 +3,7 @@ layout: encyclopedia/article
 title: "Labor Militant (group)"
 ---
 
-<div id="labor-militant" typeof="Organization">
+<div id="labor-militant" typeof="Organization" property="mainEntity">
 
 {:.hatnote}
 This article is about the group.
@@ -22,15 +22,29 @@ The <abbr>CWI</abbr> is based in England;
 during the 1980s its British supporters were members of the Labour Party
 known as the Militant tendency due to the newspaper that they published, called <cite>Militant</cite>.[^militant]
 
-LM published the newspaper [<cite>Labor Militant</cite>](/enc/lm/newspaper/).
+<div typeof="Newspaper">
+  LM published the newspaper
+  [<cite property="name">Labor Militant</cite>](/enc/lm/newspaper/).
+  <meta property="mainEntityOfPage" content="{{ site.url }}/enc/lm/newspaper">
+  <div property="publisher" content="{{ site.url }}{{ page.url }}#labor-militant">
+</div>
 
 LM was involved in the creation of the defunct
 [US Labor Party (1996)](https://en.wikipedia.org/wiki/Labor_Party_(United_States,_1996)).
 
 Check out snapshots of LM’s [late ’90s website](/enc/lm/wayback/), archived on the Wayback Machine.
 
+### Authority control
+
+<abbr>LCCN</abbr>
+: Labor Militant (Organization)
+: [ns2011000213](https://lccn.loc.gov/ns2011000213){: property="sameAs"}
+
+Wikipedia@en
+: [Socialist Alternative (United States) § History](https://en.wikipedia.org/wiki/Socialist_Alternative_(United_States)#History){: property="sameAs"}
+
 ### Notes
 
-[^militant]: <abbr>ISSN</abbr> <a rel="external" href="https://www.worldcat.org/title/militant/oclc/19365820">0144-9257</a>
+[^militant]: <abbr>ISSN</abbr> [0144-9257](https://www.worldcat.org/title/militant/oclc/19365820)
 
 </div>
