@@ -1,26 +1,18 @@
 title: Militant History
-email: ""
-description: >-
-  Reproducing the history of the Committee for a Workers’ International.
-baseurl: ""
 url: "https://www.militanthistory.org"
 exclude:
   - LICENSE-gpl-3.0.md
   - LICENSE-cc-by-sa-4.0.md
 sass:
   style: compressed
+kramdown:
+  parse_block_html: true
 
 collections_dir: collections
 collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:day/:slug/
-  books:
-    output: true
-    permalink: /books/:slug/
-  chapters:
-    output: true
-    permalink: /books/:path/
   lm_issues:
     output: true
     permalink: /lm/:slug/
@@ -29,4 +21,4 @@ collections:
     permalink: /lm/:path/
   encyclopedia:
     output: true
-    permalink: /enc/:slug/
+    permalink: /enc/:path/
