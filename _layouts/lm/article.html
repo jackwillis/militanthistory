@@ -2,17 +2,17 @@
 layout: default
 ---
 
+{% assign issue = site.lm_issues | where_exp: "i", "i.lm_issue == page.lm_issue" | first %}
+{% assign proper_date = issue.date | date_to_long_string %}
+
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="article:published_time" content="{{ issue.date }}">
-<meta property="article:author" content="{{ page.author }}">
+{% if page.author %}<meta property="article:author" content="{{ page.author }}">{% endif %}
 <meta property="twitter:site" content="@MilitantHistory">
 <meta property="twitter:card" content="summary">
-
-{% assign issue = site.lm_issues | where_exp: "i", "i.lm_issue == page.lm_issue" | first %}
-{% assign proper_date = issue.date | date_to_long_string %}
 
 <article{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
   <header>
