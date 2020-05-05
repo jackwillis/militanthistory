@@ -5,11 +5,13 @@ author: "John Reimann"
 lm_issue: 1
 location: "p. 1"
 tags: may-day working-class revolution nationalization labor-party poverty work-week
----
 
-<figure>
-  <img alt="Cartoon: Reagan vs. American labor" src="cartoon.jpg" width="580" height="211">
-</figure>
+lead_image:
+  alt: "Cartoon: Reagan vs. American labor"
+  path: cartoon.jpg
+  width: 580
+  height: 211
+---
 
 {:.lead}
 Exactly one hundred years ago, the U.S. working class took up one of the most ferocious battles of its entire history --

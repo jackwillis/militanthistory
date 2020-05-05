@@ -5,12 +5,15 @@ author: "Tom Williams"
 lm_issue: 1
 location: "pp. 2–3"
 tags: labor concessions economics crisis 1930s nationalization labor-party cio hormel unemployment wages twa iffa program history foreign-policy jobs public-works work-week strategy strike
----
 
-<figure>
-  <img alt="Strikers" src="iue-ge-strike.jpg" width="827" height="552">
-  <figcaption><p>8,500 <abbr>IUE</abbr> members struck GE for three weeks and defeated attempts to bust the union.</p></figcaption>
-</figure>
+lead_image:
+  alt: Strikers
+  caption: >
+    8,500 <abbr>IUE</abbr> members struck GE for three weeks and defeated attempts to bust the union.
+  path: iue-ge-strike.jpg
+  width: 827
+  height: 552
+---
 
 {:.lead}
 The demands by employers for concessions are facing increasing opposition.

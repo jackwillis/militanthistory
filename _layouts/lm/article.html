@@ -9,10 +9,24 @@ layout: default
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:description" content="{{ content | markdownify | strip_html | truncate: 420 }}">
+
 <meta property="article:published_time" content="{{ issue.date }}">
-{% if page.author %}<meta property="article:author" content="{{ page.author }}">{% endif %}
+{% if page.author %}
+  <meta property="article:author" content="{{ page.author }}">
+{% endif %}
+
 <meta property="twitter:site" content="@MilitantHistory">
-<meta property="twitter:card" content="summary">
+
+{% if page.lead_image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.lead_image.path }}">
+  <meta property="og:image:alt" content="{{ page.lead_image.alt }}">
+  <meta property="og:image:width" content="{{ page.lead_image.width }}">
+  <meta property="og:image:height" content="{{ page.lead_image.height }}">
+  <meta property="twitter:card" content="summary_large_image">
+{% else %}
+  <meta property="twitter:card" content="summary">
+{% endif %}
 
 <article{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
   <header>
@@ -28,6 +42,20 @@ layout: default
       <p>Published {{ issue.reported_date | default: proper_date }}.</p>
     </div>
   </header>
+
+  {% if page.lead_image %}
+    <figure>
+      <img
+        alt="{{ page.lead_image.alt }}"
+        src="{{ page.lead_image.path }}"
+        width="{{ page.lead_image.width }}"
+        height="{{ page.lead_image.height }}">
+
+      {% if page.lead_image.caption %}
+        <figcaption>{{ page.lead_image.caption | markdownify }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
 
   {{ content }}
 
