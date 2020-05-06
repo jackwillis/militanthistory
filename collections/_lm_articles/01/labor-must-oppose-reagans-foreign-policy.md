@@ -5,12 +5,14 @@ author: "Robert O’Neill"
 lm_issue: 1
 location: "pp. 2–3"
 tags: labor reagan foreign-policy internationalism war revolution vietnam-war vietnam sandinistas nicaragua gorbachev soviet-union libya gaddafi southwest-asia asia southeast-asia latin-america central-america imperialism
----
 
-<figure>
-  <img alt="Contras holding rifles" src="contras.jpg" width="523" height="345">
-  <figcaption><p>Reagan's Contras: As they fail U.S. troops will be pushed forward.</p></figcaption>
-</figure>
+lead_image:
+  alt: "Contras holding rifles"
+  path: "contras.jpg"
+  width: 523
+  height: 345
+  caption: "Reagan's Contras: As they fail U.S. troops will be pushed forward."
+---
 
 {:.lead}
 The Reagan Administration attacks wages,

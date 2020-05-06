@@ -5,12 +5,14 @@ author: "Marcy Barnett"
 lm_issue: 1
 location: "p. 4"
 tags: labor racism black-americans poverty program internationalism cio reagan work-week black-liberation unemployment affirmative-action civil-rights-movement history jobs public-works union-democracy strategy
----
 
-<figure>
-  <img alt="Black and white workers on a picket line" src="workers-unity.jpg" width="576" height="399">
-  <figcaption><p>Workers’ unity on the picket line in Boston</p></figcaption>
-</figure>
+lead_image:
+  alt: "Black and white workers on a picket line"
+  path: "workers-unity.jpg"
+  width: 576
+  height: 399
+  caption: "Workers’ unity on the picket line in Boston."
+---
 
 {:.lead}
 There are 26 million

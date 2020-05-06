@@ -4,13 +4,14 @@ title: "Victory in Newfoundland as workers defy law"
 lm_issue: 1
 location: "p. 5"
 tags: newfoundland labor strike general-strike canada british-columbia progressive-conservative-party internationalism police ndp protest social-credit-party anti-union-laws
----
 
-<figure>
-  <img alt="Man raising fist before banner and crowd at labor rally"
-  src="canadian-auto-workers.jpg" width="576" height="590">
-  <figcaption><p>Canadian auto workers show their militancy and appeal for support from U.S. workers.</p></figcaption>
-</figure>
+lead_image:
+  alt: "Man raising fist before banner and crowd at labor rally."
+  path: "canadian-auto-workers.jpg"
+  width: 576
+  height: 590
+  caption: "Canadian auto workers show their militancy and appeal for support from U.S. workers."
+---
 
 {:.lead}
 In November 1983, the workers of British Columbia in western Canada drove back the attacks of

@@ -5,12 +5,14 @@ author: "Bruce Hamilton"
 lm_issue: 1
 location: "p. 12"
 tags: labor strike ufcw afl-cio nationalization hormel concessions union-democracy tactics unorganized wages protest business-unionism police strikebreaking
----
 
-<figure>
-  <img alt="P-9 strikers" src="hormel-workers-face-the-national-guard.jpg" width="576" height="590">
-  <figcaption><p>Hormel workers face the National Guard.</p></figcaption>
-</figure>
+lead_image:
+  alt: "P-9 strikers"
+  path: "hormel-workers-face-the-national-guard.jpg"
+  width: 576
+  height: 590
+  caption: "Hormel workers face the National Guard."
+---
 
 {:.lead}
 Meatpackers at the George Hormel Company plant in Austin, Minnesota have been on strike since August 17, 1985. Their struggle against the most profitable U.S. pork processor, and against the policies of their union’s national leadership, continues in spite of a number of serious setbacks.

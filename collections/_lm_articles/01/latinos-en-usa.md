@@ -4,13 +4,17 @@ title: "Latinos en U.S.A."
 lm_issue: 1
 location: "p. 9"
 lang: es
-tags: public-health labor immigration latinos latin-america central-america internationalism california workers-rights farming foreign-policy crisis spanish migra poverty strategy 
----
+tags: public-health labor immigration latinos latin-america central-america internationalism california workers-rights farming foreign-policy crisis spanish migra poverty strategy
 
-<figure>
-  <img alt="Delano grape strikers" src="grape-strikers.jpg" width="576" height="343">
-  <figcaption><p>El <abbr>UAW</abbr> y el sindicato de farm-workers tienen que unirse para luchar los salarios débiles pagando a los trabajadores latinos.</p></figcaption>
-</figure>
+lead_image:
+  alt: "Delano grape strikers"
+  path: "grape-strikers.jpg"
+  width: 576
+  height: 343
+  caption: >
+    El <abbr>UAW</abbr> y el sindicato de farm-workers tienen que
+    unirse para luchar los salarios débiles pagando a los trabajadores latinos.
+---
 
 {:.lead}
 En el valle del Río Grande, por ejemplo,

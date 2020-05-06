@@ -5,12 +5,14 @@ author: "a Youth Defense Campaign member"
 lm_issue: 1
 location: "pp. 1, 11"
 tags: youth ydc labor seattle unemployment vancouver portland internationalism wages police riot campaign protest poverty
----
 
-<figure>
-  <img alt="YDC meeting 1 of 3" src="ydc-in-action-1.jpg" width="683" height="378">
-  <figcaption><p>Seattle Y.D.C. in action</p></figcaption>
-</figure>
+lead_image:
+  alt: "YDC meeting 1 of 3"
+  path: "ydc-in-action-1.jpg"
+  width: 683
+  height: 378
+  caption: "Seattle Y.D.C. in action."
+---
 
 {:.lead}
 > "Youth have the worst jobs, the worst unemployment rate and the worst opportunities --
