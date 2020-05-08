@@ -282,6 +282,15 @@ figure img {
   display: block;
 }
 
+img.screenshot {
+  border: 2px solid #555555;
+  border-width: 2px 1px;
+}
+
+figure + figure {
+  margin-top: 3rem;
+}
+
 ul, ol {
   padding-left: 1em;
 }

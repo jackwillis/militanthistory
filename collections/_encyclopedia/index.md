@@ -4,5 +4,6 @@ title: "Militant History Encyclopedia"
 permalink: /enc/
 ---
 
-* <b>[Labor Militant](/enc/lm/group/)</b>, the group (1986--1999)
-* <b>[<cite>Labor Militant</cite>](/enc/lm/newspaper/)</b>, the newspaper (1986--1997)
+* Labor Militant, <b>[the group](/enc/lm/group/)</b> (1986--1999)
+  * their <b>[old website](/enc/lm/wayback/)
+* <cite>Labor Militant</cite>, <b>[the newspaper](/enc/lm/newspaper/)</b> (1986--1997)
