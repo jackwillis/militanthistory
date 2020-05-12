@@ -29,7 +29,7 @@ title: "Labor Militant - Issue !!page.slug!!"
 
   {% if page.cover %}
     <figure>
-      <img alt="Cover" src="{{ page.cover | uri_escape }}"
+      <img class="screenshot" alt="Cover" src="{{ page.cover | uri_escape }}"
       {% if page.cover_width %} width="{{ page.cover_width }}" {% endif %}
       {% if page.cover_height %} height="{{ page.cover_height }}" {% endif %}>
     </figure>
