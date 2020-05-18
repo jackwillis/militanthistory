@@ -5,16 +5,15 @@ author: "Tom Potter & Jeff Booth"
 lm_issue: 51
 location: "p. 5"
 tags: immigration campaign strategy amnesty mdi papers-for-all boston rally
-last_modified: 2020-04-30
----
+last_modified: 2020-05-17
 
-<figure>
-  <img alt="Immigrant rights rally; men holding sign: Padres contra brutalidad policia"
-  src="padres-contra-brutalidad-policia.jpg" width="693" height="348">
-  <figcaption>
-  	<p>Immigrant workers face low wages, police brutality, and savage exploitation.</p>
-  </figcaption>
-</figure>
+lead_image:
+  alt: "Immigrant rights rally; men holding sign: Padres contra brutalidad policia"
+  path: "padres-contra-brutalidad-policia.jpg"
+  width: 693
+  height: 348
+  caption: "Immigrant workers face low wages, police brutality, and savage exploitation."
+---
 
 {:.lead}
 The Boston Branch of Labor Militant
