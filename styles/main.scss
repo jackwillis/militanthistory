@@ -2,7 +2,9 @@
 sitemap:
   exclude: true
 ---
+
 @import "fonts.scss";
+@import "colors.scss";
 
 html {
   display: flex;
@@ -14,6 +16,7 @@ html {
 
 body {
   font-family: $body-text-stack;
+  font-variant-numeric: oldstyle-nums;
 }
 
 body {
@@ -21,11 +24,9 @@ body {
   padding: 0 0.5em;
   margin: 0;
   max-width: 32em;
-  background: #fff;
-  font-variant-numeric: oldstyle-nums;
 }
 
-table {
+table, h1, h2, h3 {
   font-variant-numeric: lining-nums;
 }
 
@@ -114,40 +115,13 @@ em em, cite cite {
   font-style: normal;
 }
 
-h1,
-h1 a,
-h1 a:link,
-h1 a:visited {
-  color: #af1b1a;
-}
-
 *:target {
   animation: highlight 5s ease;  
 }
 
 @keyframes highlight {
-  0% { background: #ffb6c1; }
+  0% { background: $highlight-color; }
   100% { background: rgba(0, 0, 0, 0); }
-}
-
-a:link {
-  color: #295e89;
-}
-
-/*
-strong,
-.author-info,
-.caption {
-  color: #980043;
-}
-*/
-
-h2, h3 {
-  color: #3a1422;
-}
-
-footer, .byline, .tags {
-  color: #555555;
 }
 
 header p p {
@@ -184,11 +158,6 @@ header p p {
 blockquote.lead {
   margin: 0;
   font-style: italic;
-}
-
-
-a:visited {
-  color: #000;
 }
 
 a {
@@ -283,7 +252,7 @@ figure img {
 }
 
 img.screenshot {
-  border: 2px solid #555555;
+  border: 2px solid $weak-color;
   box-sizing: border-box;
   border-width: 2px 1px;
   margin: auto;
@@ -327,13 +296,13 @@ sub {
 }
 
 [title] {
-  text-decoration: underline dotted #000;
+  text-decoration: underline dotted $text-color;
 }
 
 hr {
   margin: 1.5rem 0;
   border: 0;
-  background-color: #ddd;
+  background-color: $weak-color;
   height: 2px;
 }
 
@@ -367,7 +336,7 @@ figure .pure-table {
 }
 
 .hatnote {
-  background-color: #fff0f0;
+  background-color: $highlight-color;
   padding: 0.75rem 0.5em;
   margin: 0 -0.5rem;
   text-align: left;
@@ -401,7 +370,7 @@ html.front-page header img {
         display: block;
       }
     }
-  }
+  } 
 
   .pure-button {
     line-height: inherit;
