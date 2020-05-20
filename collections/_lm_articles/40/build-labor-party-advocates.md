@@ -16,8 +16,8 @@ have endorsed Labor Party Advocates (<abbr>LPA</abbr>).
 <abbr>LPA</abbr> chapters and recruitment committees have recently gotten off the
 ground in Boston, Los Angeles and other cities.
 
-{% include drop-cap.html text="Last December," %}
-350 labor party supporters -- members of
+{% include drop-cap.html text="Last December, 350" %}
+labor party supporters -- members of
 60 unions and several community groups -- attended a Midwest conference
 in Toledo, Ohio. Lisa Hane, <abbr>LPA</abbr> member
 from Chicago, told the conference that if the movement is

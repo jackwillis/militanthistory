@@ -1,25 +1,3 @@
-$font-size: 100%;
-$line-height: 1.5rem;
-
-/* * */
-
-html {
-  font-size: $font-size;
-  line-height: $line-height;
-
-  display: flex;
-  justify-content: space-around;
-}
-
-body {
-  width: 100%;
-  padding: 0 0.5em;
-  margin: 0;
-  max-width: 32em;
-}
-
-/* * */
-
 h1, article h2 {
   margin: 0;
   font-size: 200%;
@@ -105,4 +83,16 @@ summary {
 
 ul, ol {
   padding-left: 1em;
+}
+
+/* * */
+
+@media (min-width: $large-breakpoint) {
+  article header p {
+    display: inline;
+  }
+
+  figure {
+    margin: $line-height 0;
+  }
 }

@@ -1,0 +1,42 @@
+$font-size: 100%;
+$line-height: 1.5rem;
+
+$large-breakpoint: 600px;
+
+$preferred-width: 32em;
+
+html {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+body {
+  padding: 0 0.5em;
+  margin: 0 auto;
+}
+
+
+@supports (display: grid) {
+  html {
+    display: grid;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+
+
+@media (min-width: $large-breakpoint) {
+  html {
+    grid-template-columns: 1fr $preferred-width 4fr;
+  }
+
+  body {
+    grid-column: 2;
+  }
+
+  article header p {
+    display: inline;
+  }
+}
