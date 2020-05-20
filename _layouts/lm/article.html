@@ -32,7 +32,7 @@ layout: default
   <header>
     <h2>{{ page.html_title | default: page.title }}</h2>
     <div class="byline">
-      {% if page.author %}<p>By <span class="caps">{{ page.author }}</span>.</p>{% endif %}
+      {% if page.author %}<p>By {{ page.author }}.</p>{% endif %}
 
       <p>
         In <a href="/lm/"><cite>Labor Militant</cite></a>,

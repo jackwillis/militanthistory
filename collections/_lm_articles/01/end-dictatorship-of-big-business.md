@@ -5,6 +5,7 @@ author: "John Reimann"
 lm_issue: 1
 location: "p. 1"
 tags: may-day working-class revolution nationalization labor-party poverty work-week
+last_modified: 2020-05-17
 
 lead_image:
   alt: "Cartoon: Reagan vs. American labor"
@@ -15,7 +16,7 @@ lead_image:
 
 {:.lead}
 Exactly one hundred years ago, the U.S. working class took up one of the most ferocious battles of its entire history --
-the battle for the eight-hour day. May 1, now celebrated by workers round the world,
+the battle for the eight-hour day. May 1, now celebrated by workers ’round the world,
 was marked in 1886 by general strikes in almost every major city of the U.S.
 as tens of thousands of workers struck for a shorter work week with no less pay.
 

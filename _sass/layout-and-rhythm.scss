@@ -1,0 +1,108 @@
+$font-size: 100%;
+$line-height: 1.5rem;
+
+/* * */
+
+html {
+  font-size: $font-size;
+  line-height: $line-height;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  width: 100%;
+  padding: 0 0.5em;
+  margin: 0;
+  max-width: 32em;
+}
+
+/* * */
+
+h1, article h2 {
+  margin: 0;
+  font-size: 200%;
+  line-height: ($line-height * 2);
+}
+
+.small-header h1 {
+  margin: -($line-height * 2) 0 0 0;
+  font-size: 100%;
+  line-height: $line-height;
+  font-weight: 900;
+}
+
+h2, h3, h4, ul, ol, li, p {
+  margin: $line-height 0;
+  line-height: $line-height;
+}
+
+header, footer, main {
+  margin: ($line-height * 2) 0 $line-height 0;
+}
+
+header p {
+  margin: 0;
+}
+
+hr {
+  margin: $line-height 0;
+  border: 0;
+  background-color: $weak-color;
+  height: 2px;
+}
+
+figure {
+  margin: $line-height -0.5em;
+}
+
+figure + figure {
+  margin-top: ($line-height * 2);
+}
+
+figcaption {
+  padding: 0 2em;
+  margin: -($line-height / 2) 0 -($line-height / 2) auto;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer p, footer ul, footer li {
+  display: inline;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li::after {
+  content: " | ";
+}
+
+footer li:last-child::after {
+  content: none;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -($line-height / 4);
+  line-height: 0;
+}
+
+sub { 
+  top: ($line-height / 4); 
+}
+
+summary {
+  margin: 0;
+}
+
+ul, ol {
+  padding-left: 1em;
+}

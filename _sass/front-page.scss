@@ -1,0 +1,23 @@
+html.front-page {
+  header img { display: none; }
+
+  @media (min-width: $large-breakpoint) {
+    background-color: #D78685;
+
+    body {
+      border: 2px solid black;
+      border-width: 0 2px;
+      padding: 0 0.75em;
+    }
+    
+    figure {
+      margin-left: -0.75em;
+      margin-right: -0.75em;
+    }
+
+    header {
+      h1 { display: none; }
+      img { display: block; }
+    }
+  }
+}

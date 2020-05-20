@@ -1,0 +1,105 @@
+/* Fonts */
+
+$body-text-stack:
+  "Alegreya Sans", Candara, Ubuntu, "Lucida Sans",
+  "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+
+$small-caps-stack:
+  "Alegreya Sans SC", "Alegreya Sans", Candara, Ubuntu,
+  "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+
+$heading-font-stack:
+  Constantia, "Lucida Bright", Lucidabright, "Lucida Serif",
+  Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+$subheading-font-stack:
+  "Titillium Web", "PT Sans", Ubuntu, DIN, Bahnschrift,
+  "Lucida Sans", "Lucida Grande", Tahoma, "Droid Sans", sans-serif;
+
+body {
+  font-family: $body-text-stack;
+}
+
+h1, article h2 {
+  font-family: $heading-font-stack;
+}
+
+h3, thead {
+  font-family: $subheading-font-stack;
+}
+
+/* Mixins */
+
+@mixin spacious-text {
+  word-spacing: 1pt;
+  letter-spacing: 0.25pt;
+}
+
+/* Native elements */
+
+body {
+  font-variant-numeric: oldstyle-nums;
+}
+
+h1, h2, h3, table {
+  font-variant-numeric: lining-nums;
+}
+
+h2 {
+  @include spacious-text;
+}
+
+main p {
+  hyphens: auto;
+  hyphenate-limit-last: always;
+}
+
+header p, figcaption p {
+  hyphens: none;
+}
+
+em em, cite cite {
+  font-style: normal;
+}
+
+/* Small caps */
+
+.all-caps {
+  font-variant-caps: unset;
+  text-transform: uppercase;
+}
+
+.drop-cap {
+  font-variant-caps: small-caps;
+
+  &__initial {
+    display: block;
+    float: left;
+    text-transform: initial;
+    margin: 0.25em;
+    margin-left: 0.125em;
+    font-size: 300%;
+    font-family: $heading-font-stack;
+    font-variant-caps: normal;
+  }
+}
+
+p abbr,
+ul abbr,
+ol abbr,
+dl abbr,
+td abbr,
+.all-caps,
+.drop-cap, {
+  font-family: $small-caps-stack;
+  letter-spacing: 1pt;
+  margin-right: -0.5pt;
+  font-variant-caps: all-small-caps;
+
+  body.small-caps-font-loaded & {
+    font-variant-caps: unset;
+    letter-spacing: 0.5pt;
+    margin-right: unset;
+    text-transform: lowercase;
+  }
+}

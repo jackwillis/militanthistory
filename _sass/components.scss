@@ -1,0 +1,212 @@
+/* External (non-relative) links[↗] */
+
+a[href*="//"] {
+  padding-right: 16px;
+  margin-right: 2px;
+  background-image: url(/images/external-link.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+/* Make footnote links[1][2][3] look like Wikipedia[2][4] */
+
+a.footnote {
+  text-decoration: none;
+}
+
+a.footnote::before {
+  content: "[";
+}
+
+a.footnote::after {
+  content: "]";
+}
+
+.author-info {
+  font-weight: bold;
+}
+
+/* Navigation breadcrumbs: [^ Home] [< Previous] [Next >] */
+
+.breadcrumb ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: ($line-height * 2);
+}
+
+.breadcrumb li {
+  margin: $line-height 0.25em;
+}
+
+/* Last word in final paragraph gets a closing symbol like in magazines
+ * (often a box/fleuron/hedera -- in this case a red "M")
+ */
+
+.final::after {
+  margin-left: 0.25em;
+  content: url(/images/m-icon.png);
+  white-space: nowrap;
+}
+
+/* Short notes placed at the very top of an article.
+ * Like on Wikipedia: "For other uses, see Monolith (disambiguation)."
+ * <https://en.wikipedia.org/wiki/Wikipedia:Hatnote>
+ */
+
+.hatnote {
+  background-color: $highlight-color;
+  padding: ($line-height / 2) 0.5em;
+  margin: 0 -0.5rem;
+  text-align: left;
+}
+
+/* Screenshot and newspaper scan thumbnails need a border to contrast with the
+ * white background. Otherwise the page looks too messy.
+ */
+
+img.screenshot {
+  border: 2px solid $weak-color;
+  box-sizing: border-box;
+  border-width: 2px 1px;
+  margin: auto;
+}
+
+.lead {
+  font-size: 125%;
+}
+
+.lead, blockquote.lead p {
+  line-height: ($line-height * 2);
+}
+
+blockquote.lead {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Button and table styles adapted from Pure CSS <https://purecss.io> */
+
+.pure-button {
+  font-family: inherit;
+  font-size: 100%;
+  padding: ($line-height / 2) 1em;
+  background-color: #fff0f0;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid #ffdad8;
+
+  line-height: ($line-height * 2);
+  @media (min-width: $large-breakpoint) {
+    line-height: inherit;
+  }
+}
+
+.pure-button:focus, .pure-button:hover {
+  background-color: #ffdad8;
+}
+
+.pure-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #ffc7c4;
+}
+
+.pure-table caption {
+  color: $text-color;
+  text-align:center
+}
+
+.pure-table td, .pure-table th{
+  border-left: 1px solid #ffc7c4;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .75em .5em
+}
+
+.pure-table thead {
+  background-color: #f2d5d3;
+  color: #000;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.pure-table td {
+  background-color: transparent;
+}
+
+.pure-table-striped tr:nth-child(2n-1) td {
+  background-color: #fff0f0;
+}
+
+.pure-table-bordered td {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.pure-table-bordered tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+.pure-table-horizontal td, .pure-table-horizontal th {
+  border-width: 0 0 1px 0;
+  border-bottom: 1px solid #ffc7c4;
+}
+
+.pure-table-horizontal tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+figure .pure-table {
+  border-left-width: 0;
+  border-right-width: 0;
+  width: 100%;
+}
+
+.subtitle {
+  @include spacious-text;
+  font-weight: normal;
+  line-height: 3rem;
+  display: inline;
+}
+
+p.subtitle {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.tags ul {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+
+.tags li {
+  display: inline-block;
+  margin: 0;
+}
+
+.tags li::after {
+  content: ", ";
+}
+
+.tags li:last-child::after {
+  content: none;
+}
+
+*:target {
+  animation: highlight 5s ease;  
+}
+
+@keyframes highlight {
+  0% { background: $highlight-color; }
+  100% { background: transparent; }
+}
+
+[title] {
+  text-decoration: underline dotted $text-color;
+}
