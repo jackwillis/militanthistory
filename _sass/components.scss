@@ -22,6 +22,10 @@ a.footnote::after {
   content: "]";
 }
 
+article header p {
+  display: inline;
+}
+
 .author-info {
   font-weight: bold;
 }
@@ -84,6 +88,13 @@ img.screenshot {
 blockquote.lead {
   margin: 0;
   font-style: italic;
+}
+
+.figure-left {
+  @media (min-width: $medium-breakpoint) {
+    float: left;
+    margin: -($line-height) 0 0 0;
+  }
 }
 
 /* Button and table styles adapted from Pure CSS <https://purecss.io> */
@@ -205,8 +216,4 @@ p.subtitle {
 @keyframes highlight {
   0% { background: $highlight-color; }
   100% { background: transparent; }
-}
-
-[title] {
-  text-decoration: underline dotted $text-color;
 }

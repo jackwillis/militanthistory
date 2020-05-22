@@ -32,6 +32,10 @@ strong, .author-info, .caption {
   color: $strong-color;
 }
 
-footer, .byline, .tags {
+strong {
+  background-color: $highlight-color;
+}
+
+figcaption, footer, .byline, .tags {
   color: $weak-color;
 }

@@ -49,12 +49,28 @@ h2 {
   @include spacious-text;
 }
 
+/* <https://medium.com/clear-left-thinking/all-you-need-to-know-about-hyphenation-in-css-2baee2d89179>
+ * <https://caniuse.com/#search=hyphenate>
+ * <https://developer.mozilla.org/en-US/docs/Web/CSS/Microsoft_Extensions> */
 main p {
   hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+
+  hyphenate-limit-chars: 6 3 3;
+  -ms-hyphenate-limit-chars: 6 3 3;
+
+  hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+
   hyphenate-limit-last: always;
+  -ms-hyphenate-limit-last: always;
+
+  hyphenate-limit-zone: 8%;
+  -ms-hyphenate-limit-zone: 8%;
 }
 
-header p, figcaption p {
+header p, figcaption p, strong {
   hyphens: none;
 }
 
@@ -99,7 +115,6 @@ td abbr,
   body.small-caps-font-loaded & {
     font-variant-caps: unset;
     letter-spacing: 0.5pt;
-    margin-right: unset;
     text-transform: lowercase;
   }
 }
