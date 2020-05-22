@@ -109,7 +109,7 @@ blockquote.lead {
   border: 1px solid #ffdad8;
 
   line-height: ($line-height * 2);
-  @media (min-width: $large-breakpoint) {
+  @media (min-width: $medium-breakpoint) {
     line-height: inherit;
   }
 }

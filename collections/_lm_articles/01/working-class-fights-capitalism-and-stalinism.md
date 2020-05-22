@@ -4,7 +4,7 @@ title: "Working class fights capitalism and Stalinism"
 author: "Victor Bloch"
 lm_issue: 1
 location: "pp. 6–7"
-tags: labor
+tags: aquino-corazon asia austerity bureaucratic-caste capitalism-or-barbarism communist-parties crisis deformed-workers-state dictators duvalier-jean-claude eastern-bloc economics europe france general-strike guerillas haiti hunger internationalism labor labor-party landlordism left-governments marcos-ferdinand mitterand peasantry philippines poland political-revolution program reagan recession revolution socialist-parties solidarnosc south-africa spain stalinism strategy strike uk-miners-strike unemployment wages world-perspectives work-week workers-democracy working-class
 
 lead_image:
   alt: "Miners' families marching down street with signs: Victory to the miners; Coal not dole!"
@@ -37,7 +37,7 @@ This developing revolution
 has resulted in the ending of nine
 dictatorships in the continent
 over the past seven years. Regimes
-which appeared unshakeable
+which appeared unshakable
 have had to give way to the
 power of the mass movements. In
 Bolivia alone there were twelve
@@ -299,7 +299,7 @@ to the leadership of the
 struggle.** The strike movement
 was combined with riots and demonstrations
 in the towns and the increased activity of
-guerilla movement of the New People's Army
+guerrilla movement of the New People's Army
 in the provinces. The unemployed, the downtrodden
 inhabitants of the huge slums
 and other oppressed sections of
@@ -333,12 +333,12 @@ On the other hand, the masses of the workers and the unemployed have felt their 
 The recent events are the beginning of a new revolutionary wave in the Philippines and the entire region.
 **The processes taking place in the Philippines constitute a confirmation of the basic ideas of Marxism
 that the working class is the decisive force in the revolution even in the colonial world,
-refuting the arguments that guerilla movements or benevolent liberals are the key to removing dictators.**
+refuting the arguments that guerrilla movements or benevolent liberals are the key to removing dictators.**
 
 In Haiti, the hated <span lang="fr">Duvalier</span> regime collapsed after a series of mass demonstrations of the youth,
 workers, and the unemployed, and a general strike.
 Once again, due to the lack of a clear socialist leadership in the labor movement,
-the opportunity was lost and a new unstable regime made up of <span lang="fr">Duvalier</span>'s aides filled the vaccuum.
+the opportunity was lost and a new unstable regime made up of <span lang="fr">Duvalier</span>'s aides filled the vacuum.
 The collapse of the dictators in both Haiti and the Philippines marks the beginning of
 a new revolutionary wave that will end either with the overthrow of capitalism and landlordism,
 or the return -- over a period of five to ten years -- of a new, even more vicious repressive regime.
@@ -430,10 +430,10 @@ genuine workers' democracy could
 have been established in Poland.
 The bureaucratic regime was
 suspended in mid-air when the
-massive general strikes occured.
+massive general strikes occurred.
 The "Communist" party was
 totally isolated in the face of
-mass oppositon and it could only
+mass opposition and it could only
 rely on the security forces to
 deal with the situation.
 
@@ -548,14 +548,100 @@ the economy.
 
 However, the vast majority of the economy
 remained in the hands of the private sector.
-Under the pressure of big business both in France and abroad,
-who withdrew investment and speculated against the franc,
-the Mitterand government
+Under the pressure of big business both in France and abroad --
+who withdrew investment and speculated against the franc --
+the <span lang="fr">Mitterand</span> government
+was pushed from their reforms to counter-reforms,
+forcing the crisis onto the backs of the workers and the youth.
+In the second year of his government, <span lang="fr">Mitterand</span>
+proceeded with counter-reforms, a wage freeze, monetary devaluations,
+and other measures similar to those of Reagan and Thatcher.
+Unemployment rose from 7% to 11%.
 
 After a period of massive
 strikes and demoralization, the
 right wing returned with a
-shaky majority in parliamentin
+shaky majority in parliament in
 the March 1986 election.
 However, even after all those
-develoments, the Socialist Party
+developments, the Socialist Party
+remained the largest political party
+in the assembly with 30% of the vote.
+Many workers continued to back the <span lang="fr">Mitterand</span>
+government, alarmed by the threat posed by the right.
+The new events will open a series of discussions among the activists
+in the Socialist and Communist parties in France.
+What the example of France clearly demonstrates is a new period of
+social and political upheavals for the entire European continent
+and the advanced capitalist world as a whole.
+
+### North America
+
+The unfolding crisis will see similar developments in North America and Japan.
+The workers' parties, the <abbr title="New Democratic Party">NDP</abbr> in Canada
+and the Socialist and Communist parties in Japan,
+will also be pushed toward overall majorities in the coming five to ten years.
+Australia and New Zealand have at present Labor governments.
+
+In the <abbr>USA</abbr> there will at some stage be a new movement to build and transform the unions,
+and out of this will come the development of a Labor Party.
+The new Labor Party will gain massive support and win a majority
+as the crisis in the US and internationally pushes the working class into action.
+
+The building of mass workers' parties and the election of workers' parties to government
+represents major steps forward. **However, it is also necessary for such governments
+to carry through programs which can solve the problems.**
+In the new period of economic crisis it is impossible to win a struggle for permanent reforms
+or even a defensive struggle for the rights of the working class without carrying through
+the socialist transformation of society.
+
+In the Stalinist countries it is
+impossible to win democratic
+rights and solve the economic
+problems except by overthrowing
+the Stalinist bureaucracies and
+replacing them with workers'
+democracies.
+
+### Protracted struggle
+
+The lesson of events
+worldwide is that the working
+class is now much stronger than
+before. East and West, in the
+metropolitan countries and in
+the underdeveloped
+countries it
+is moving into struggle and giving
+leadership to all the oppressed
+sections of society. However,
+its leadership is incapable of
+bringing it to victory either over capitalism
+and landlordism in the West or Stalinism in the East.
+As a result, the struggle takes big leaps forward and then suffers
+defeats only to once again move on to the offensive.
+The struggle is protracted and drawn out.
+
+{:.final}
+What is necessary is the
+establishment of genuine Marxist
+leaderships at the head of the
+working class internationally.
+This would make possible the
+establishment of genuine
+workers' democracies. **One such
+victory in a major industrial
+country either in the East or
+in the West would transform
+the political situation
+worldwide.** The way would then be
+opened to the ending of
+Stalinism, capitalism and
+landlordism, and to the
+establishment of a world socialist
+federation. This would end
+exploitation and oppression, and
+would lay the basis for a world
+free of want and need allowing
+the fullest possible human
+development.

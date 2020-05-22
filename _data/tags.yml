@@ -3,14 +3,21 @@
   title: "affirmative action"
 - name: afl-cio
   title: "<abbr>AFL–CIO</abbr>"
+- name: africa
+  title: Africa
 - name: anti-union-laws
   title: "anti-union laws"
 - name: amnesty
 - name: apartheid
+- name: aquino-corazon
+  title: "Aquino, Corazon"
 - name: asia
   title: Asia
+- name: austerity
 - name: bay-area
   title: "Bay Area (SF, CA)"
+- name: bureaucratic-caste
+  title: "bureaucratic caste"
 - name: business-unionism
   title: "business unionism"
 - name: black-americans
@@ -23,31 +30,46 @@
   title: "British Columbia"
 - name: canada
   title: "Canada"
+- name: california
+  title: "California"
+- name: campaign
+- name: central-america
+  title: "Central America"
+- name: capitalism-or-barbarism
+  title: "capitalism or barbarism"
 - name: children
 - name: cio
   title: "<abbr>CIO</abbr>"
   description: >
     <a rel="external" href="https://en.wikipedia.org/wiki/Congress_of_Industrial_Organizations">Congress of Industrial Organizations</a>
     (1935–1955; merged with <abbr>AFL</abbr> into <abbr>AFL–CIO</abbr>)
-- name: california
-  title: "California"
-- name: campaign
-- name: central-america
-  title: "Central America"
 - name: civil-rights-movement
   title: "Civil Rights Movement"
 - name: concessions
 - name: convention
+- name: communist-parties
+  title: "Communist parties"
 - name: crisis
+- name: deformed-workers-state
+  title: "deformed workers' state"
 - name: democratic-party
   title: "Democratic Party"
+- name: dictators
+- name: duvalier-jean-claude
+  title: "Duvalier, Jean-Claude"
+- name: eastern-bloc
+  title: "Eastern bloc"
 - name: economics
 - name: elections
+- name: europe
+  title: "Europe"
 - name: eviction
 - name: family
 - name: farming
 - name: foreign-policy
   title: "foreign policy"
+- name: france
+  title: "France"
 - name: free-trade
   title: "free trade"
 - name: fundraising
@@ -58,6 +80,9 @@
 - name: gentrification
 - name: gorbachev
   title: "Gorbachev, Mikhail"
+- name: guerillas
+- name: haiti
+  title: "Haiti"
 - name: harlem
   title: "Harlem"
 - name: harlem-reclamation-project
@@ -67,6 +92,7 @@
 - name: hormel
   title: "Hormel P-9 strike"
 - name: housing
+- name: hunger
 - name: iffa
   title: "<abbr>IFFA</abbr>"
   description: >
@@ -83,15 +109,20 @@
   title: "labor party"
 - name: labor-party-advocates
   title: "Labor Party Advocates"
+- name: landlordism
 - name: latin-america
   title: "Latin America"
 - name: latinos
+- name: left-governments
+  title: "left governments"
 - name: liberal-party-canada
   title: "Liberal Party (Canada)"
 - name: libya
   title: "Libya"
 - name: los-angeles
   title: "Los Angeles"
+- name: marcos-ferdinand
+  title: "Marcos, Ferdinand"
 - name: massachussetts
   title: Massachussetts
 - name: may-day
@@ -101,6 +132,8 @@
   description: "Movimiento por los Derechos de los Inmigrantes (Immigrant Rights Movement)"
 - name: migra
   title: "la Migra"
+- name: mitterand
+  title: "Mitterand, François"
 - name: nationalization
 - name: ndp
   title: "<abbr>NDP</abbr>"
@@ -120,7 +153,14 @@
   title: "Ontario"
 - name: papers-for-all
   title: "Papers for All"
+- name: peasantry
+- name: philippines
+  title: Philippines
+- name: poland
+  title: Poland
 - name: police
+- name: political-revolution 
+  title: "political revolution"
 - name: portland
   title: "Portland, OR"
 - name: post-war-boom
@@ -142,23 +182,34 @@
 - name: rally
 - name: reagan
   title: "Reagan, Ronald"
+- name: recession
 - name: revolution
 - name: riot
 - name: sandinistas
   title: "Sandinistas"
 - name: seattle
   title: "Seattle"
+- name: socialist-parties
+  title: "Socialist parties"
+- name: solidarnosc
+  title: "Solidarność"
 - name: spanish
   title: "Spanish"
 - name: social-credit-party
   title: "Social Credit Party"
+- name: south-africa
+  title: "South Africa"
 - name: southeast-asia
   title: "Southeast Asia"
 - name: southwest-asia
   title: "Southwest Asia"
 - name: soviet-union
   title: "Soviet Union"
+- name: spain
+  title: Spain
 - name: speculation
+- name: stalinism
+  title: Stalinism
 - name: strategy
 - name: strike
 - name: strikebreaking
@@ -176,6 +227,8 @@
   title: "<abbr>UFCW</abbr>"
   description: >
     United Food and Commercial Workers
+- name: uk-miners-strike
+  title: "UK miners' strike"
 - name: unemployment
 - name: union-democracy
   title: "union democracy"
@@ -188,8 +241,12 @@
   title: "Vietnam War"
 - name: war
 - name: wages
+- name: world-perspectives
+  title: "world perspectives"
 - name: work-week
   title: "work week"
+- name: workers-democracy
+  title: "workers' democracy"
 - name: workers-rights
   title: "workers’ rights"
 - name: working-class
