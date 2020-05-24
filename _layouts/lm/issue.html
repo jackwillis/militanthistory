@@ -2,6 +2,7 @@
 layout: default
 title: "Labor Militant - Issue !!page.slug!!"
 ---
+
 {% assign previous_number_calc = page.lm_issue | minus: 1 %}
 {% assign previous_number = page.previous_issue | default: previous_number_calc %}
 {% assign previous_issue = site.lm_issues | where_exp: "i", "i.lm_issue == previous_number" | first %}
@@ -11,7 +12,6 @@ title: "Labor Militant - Issue !!page.slug!!"
 
 {% assign proper_date = page.date | date_to_long_string %}
 {% assign num_transcribed = site.lm_articles | where_exp: "a", "a.lm_issue == page.lm_issue" | size %}
-
 
 <article>
   <header>
@@ -26,14 +26,6 @@ title: "Labor Militant - Issue !!page.slug!!"
   </header>
 
   {% include lm/article-nav.html previous_issue=previous_issue next_issue=next_issue %}
-
-  {% if page.cover %}
-    <figure>
-      <img class="screenshot" alt="Cover" src="{{ page.cover | uri_escape }}"
-      {% if page.cover_width %} width="{{ page.cover_width }}" {% endif %}
-      {% if page.cover_height %} height="{{ page.cover_height }}" {% endif %}>
-    </figure>
-  {% endif %}
 
   {% if page.pdf or page.djvu or page.txt %}
   <details>
@@ -52,7 +44,15 @@ title: "Labor Militant - Issue !!page.slug!!"
   </details>
   {% endif %}
 
-  <p>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</p>
+  {% if page.cover %}
+    <figure>
+      <img class="screenshot" alt="Cover" src="{{ page.cover | uri_escape }}"
+      {% if page.cover_width %} width="{{ page.cover_width }}" {% endif %}
+      {% if page.cover_height %} height="{{ page.cover_height }}" {% endif %}>
+    </figure>
+  {% endif %}
+
+  <p><i>{{ num_transcribed }} article{% if num_transcribed != 1 %}s{% endif %} transcribed.</i></p>
 
   {{ content }}
 

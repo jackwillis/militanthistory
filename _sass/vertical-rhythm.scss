@@ -40,8 +40,8 @@ figure + figure {
 }
 
 figcaption {
-  padding: 0 2em;
-  margin: -($line-height / 2) 0 -($line-height / 2) auto;
+  padding: 0;
+  margin: -($line-height / 2) 0;
 }
 
 figure img {
@@ -75,10 +75,6 @@ sup, sub {
 
 sub { 
   top: ($line-height / 4); 
-}
-
-summary {
-  margin: 0;
 }
 
 ul, ol {

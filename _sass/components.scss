@@ -26,6 +26,14 @@ article header p {
   display: inline;
 }
 
+.articles li > a {
+  font-weight: bold;
+
+  &:visited {
+    color: $strong-color;
+  }
+}
+
 .author-info {
   font-weight: bold;
 }
@@ -41,7 +49,7 @@ article header p {
 }
 
 .breadcrumb li {
-  margin: $line-height 0.25em;
+  margin: $line-height 0.5em 0 0;
 }
 
 /* Last word in final paragraph gets a closing symbol like in magazines
@@ -74,7 +82,14 @@ img.screenshot {
   border: 2px solid $weak-color;
   box-sizing: border-box;
   border-width: 2px 1px;
-  margin: auto;
+
+  margin: 0 auto;
+
+  @media(min-width: $medium-breakpoint) {
+    margin: 0 1.5em 0 0;
+    float: left;
+    z-index: 2;
+  }
 }
 
 .lead {
@@ -111,6 +126,12 @@ blockquote.lead {
   line-height: ($line-height * 2);
   @media (min-width: $medium-breakpoint) {
     line-height: inherit;
+  }
+}
+
+@media(max-width: $medium-breakpoint) {
+  summary.pure-button {
+    padding: 0 1em;
   }
 }
 
@@ -188,6 +209,21 @@ p.subtitle {
   font-size: 2rem;
   font-style: italic;
   text-align: left;
+}
+
+summary {
+  margin: 0;
+}
+
+@media(min-width: $medium-breakpoint) {
+  summary {
+    float: left;
+    margin: ($line-height / 2) 0 $line-height 0;
+  }
+
+  details ul, details + * {
+    clear: both;
+  }
 }
 
 .tags ul {

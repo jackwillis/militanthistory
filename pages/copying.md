@@ -29,4 +29,4 @@ It uses or includes components from the following:
 | [Font Face Observer](https://fontfaceobserver.com/) | [<abbr>BSD</abbr> 2-Clause](https://opensource.org/licenses/BSD-2-Clause) |
 | [Jekyll](https://jekyllrb.com/) | [<abbr>MIT</abbr>](https://opensource.org/licenses/MIT) |
 | [Pure <abbr>CSS</abbr>](https://purecss.io/) | [<abbr>BSD</abbr> 3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
-| [text-balancer](https://github.com/nytimes/text-balancer) | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
+| [text-balancer](https://github.com/voxmedia/text-balancer) | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
