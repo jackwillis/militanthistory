@@ -33,6 +33,10 @@ hr {
 
 figure {
   margin: $line-height -0.5em;
+
+  @media(min-width: $medium-breakpoint) {
+    margin: $line-height 0;
+  }
 }
 
 figure + figure {
@@ -41,7 +45,12 @@ figure + figure {
 
 figcaption {
   padding: 0;
-  margin: -($line-height / 2) 0;
+
+  margin: -($line-height / 2) 0.5em;
+
+  @media(min-width: $medium-breakpoint) {
+    margin: -($line-height / 2) 0;
+  }
 }
 
 figure img {

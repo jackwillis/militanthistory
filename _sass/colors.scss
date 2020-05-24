@@ -2,7 +2,7 @@ $background-color: #ffffff;
 $text-color: #000000;
 $brand-color: #af1b1a;
 $heading-color: #3a1422;
-$link-color: #3a1422;
+$link-color: #295e89;
 $strong-color: #980043;
 $weak-color: #555555;
 $highlight-color: #fff0f0;
@@ -25,7 +25,7 @@ a:link {
 }
 
 a:visited {
-  color: $text-color;
+  color: $strong-color;
 }
 
 strong, .author-info, .caption {

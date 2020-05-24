@@ -1,7 +1,7 @@
 ---
 layout: lm/article
 title: "Canadian labor must fight for socialism"
-author: "a Canadian correspondent"
+author: "Canadian correspondent"
 lm_issue: 1
 location: "p. 5"
 tags: canada labor program ndp ontario quebec internationalism crisis economics progressive-conservative-party wages foreign-policy free-trade elections liberal-party-canada strike general-strike

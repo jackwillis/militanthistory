@@ -28,10 +28,6 @@ article header p {
 
 .articles li > a {
   font-weight: bold;
-
-  &:visited {
-    color: $strong-color;
-  }
 }
 
 .author-info {
